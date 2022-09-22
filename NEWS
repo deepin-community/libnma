@@ -1,0 +1,69 @@
+=======================================
+libnma-1.8.38
+Overview of changes since libnma-1.8.36
+=======================================
+
+* libnma-gtk4 is no longer considered EXPERIMENTAL.
+* meson now builds libnma-gtk4 properly.
+* Keyboard accelerator for certificate chooser works again.
+* Fixed libnma-gtk4 version of mobile-wizard.
+
+=======================================
+libnma-1.8.36
+Overview of changes since libnma-1.8.34
+=======================================
+
+* Include OWE wireless security option.
+* Do not allow setting empty 802.1x domain for EAP TLS.
+* The GtkBuilder files for Gtk4 are now included in
+  the release tarball.
+
+=======================================
+libnma-1.8.34
+Overview of changes since libnma-1.8.32
+=======================================
+
+* Add possibility of building libnma-gtk4 library with experimental
+  Gtk4 support.
+
+=======================================
+libnma-1.8.32
+Overview of changes since libnma-1.8.30
+=======================================
+
+* Fix crash in PKCS11 login dialog.
+* Fix clearing password when restoring a valid configuration
+  to be displayed to a user.
+
+=======================================
+libnma-1.8.30
+Overview of changes since libnma-1.8.28
+=======================================
+
+* Properly dispose wireless security objects.
+* Don't clear the key when users set a non-pkcs12 certificate in the
+  certificate chooser UI.
+* Added missing VAPI macro file.
+
+=======================================
+libnma-1.8.28
+Overview of changes since libnma-1.8.26
+=======================================
+
+* Turned the wireless-security library to a public API
+* "org.gnome.nm-applet.gschema.xml" is now part of libnma.
+  Previously, on distributions like Fedora it was packaged
+  as part of nm-connection-editor package. But the schema is
+  used by wireless-security library, gnome-control-center and
+  nm-a/nm-c-e.
+* Clear key/password input fields when selecting a different
+  certificate in NMACertChooser.
+* Generate vapi files.
+
+=======================================================
+libnma-1.8.26
+Overview of changes since network-manager-applet-1.8.24
+=======================================================
+
+* The libnma library is now distributed separatedly from
+  network-manager-applet.
