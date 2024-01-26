@@ -10,8 +10,6 @@
 #include "nm-default.h"
 #include "nma-private.h"
 
-#include <stdlib.h>
-
 #ifdef GDK_WINDOWING_X11
 #if GTK_CHECK_VERSION(4,0,0)
 #include <gdk/x11/gdkx.h>
@@ -158,8 +156,6 @@ assistant_closed (GtkButton *button, gpointer user_data)
 			wiz_method->plan_name = g_strdup (nma_mobile_access_method_get_name (method));
 			wiz_method->username = g_strdup (nma_mobile_access_method_get_username (method));
 			wiz_method->password = g_strdup (nma_mobile_access_method_get_password (method));
-			if (family == NMA_MOBILE_FAMILY_3GPP)
-				wiz_method->gsm_apn = g_strdup (nma_mobile_access_method_get_3gpp_apn (method));
 		} else {
 			if (priv->provider_only_cdma) {
 				GSList *methods;
@@ -175,9 +171,15 @@ assistant_closed (GtkButton *button, gpointer user_data)
 				}
 			} else {
 				family = NMA_MOBILE_FAMILY_3GPP;
-				wiz_method->gsm_apn = g_strdup (gtk_editable_get_text (priv->plan_apn_entry));
 			}
 		}
+	}
+
+	if (family == NMA_MOBILE_FAMILY_3GPP) {
+		if (provider && method)
+			wiz_method->gsm_apn = g_strdup (nma_mobile_access_method_get_3gpp_apn (method));
+		else
+			wiz_method->gsm_apn = g_strdup (gtk_editable_get_text (priv->plan_apn_entry));
 	}
 
 	switch (family) {
@@ -1305,9 +1307,16 @@ forward_func (gint current_page, gpointer user_data)
 {
 	NMAMobileWizard *self = user_data;
 	NMAMobileWizardPrivate *priv = NMA_MOBILE_WIZARD_GET_PRIVATE (self);
+	NMAMobileFamily family = priv->family;
 
-	if (current_page == PROVIDERS_PAGE_IDX) {
-		NMAMobileFamily family = priv->family;
+	switch (current_page) {
+	case INTRO_PAGE_IDX:
+		if (gtk_tree_model_iter_n_children (GTK_TREE_MODEL (priv->country_store), NULL) <= 1) {
+			/* No need to pick a country, if we found none (e.g. iso-codes missing). */
+			return PROVIDERS_PAGE_IDX;
+		}
+		break;
+	case PROVIDERS_PAGE_IDX:
 
 		/* If the provider is unlisted, we can skip ahead of the user's
 		 * access technology is CDMA.
@@ -1342,8 +1351,10 @@ forward_func (gint current_page, gpointer user_data)
 		if (family == NMA_MOBILE_FAMILY_CDMA) {
 			priv->provider_only_cdma = TRUE;
 			return CONFIRM_PAGE_IDX;
-		} else
+		} else {
 			priv->provider_only_cdma = FALSE;
+		}
+		break;
 	}
 
 	return current_page + 1;

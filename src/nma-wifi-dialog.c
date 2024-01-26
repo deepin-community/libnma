@@ -10,8 +10,6 @@
 #include "nma-private.h"
 
 #include <string.h>
-#include <netinet/ether.h>
-
 #include <NetworkManager.h>
 
 #include "nma-wifi-dialog.h"
@@ -826,6 +824,13 @@ out:
 }
 
 static gboolean
+allow_wep (void)
+{
+	/* Note to whoever uses this: this might go away! */
+	return !!getenv ("NM_ALLOW_INSECURE_WEP");
+}
+
+static gboolean
 security_valid (NMUtilsSecurityType sectype,
                 NM80211Mode mode,
                 NMDeviceWifiCapabilities wifi_caps,
@@ -834,6 +839,11 @@ security_valid (NMUtilsSecurityType sectype,
                 NM80211ApSecurityFlags ap_wpa,
                 NM80211ApSecurityFlags ap_rsn)
 {
+	if (   !have_ap && !allow_wep()
+	    && (sectype == NMU_SEC_STATIC_WEP || sectype == NMU_SEC_DYNAMIC_WEP)) {
+		return FALSE;
+	}
+
 	switch (mode) {
 	case NM_802_11_MODE_AP:
 		if (sectype == NMU_SEC_SAE)
@@ -915,7 +925,7 @@ security_combo_init (NMAWifiDialog *self, gboolean secrets_only,
 				wep_type = NM_WEP_KEY_TYPE_KEY;
 		}
 	} else if (mode == NM_802_11_MODE_ADHOC) {
-		default_type = NMU_SEC_STATIC_WEP;
+		default_type = NMU_SEC_WPA2_PSK;
 		wep_type = NM_WEP_KEY_TYPE_PASSPHRASE;
 	}
 

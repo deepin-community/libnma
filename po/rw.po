@@ -1,6 +1,7 @@
-# translation of NetworkManager to Kinyarwanda.
+# translation of libnma to Kinyarwanda.
+# This file is distributed under the same license as the libnma package.
+#
 # Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the NetworkManager package.
 # Steve Murphy <murf@e-tools.com>, 2005
 # Steve performed initial rough translation from compendium built from translations provided by the following translators:
 # Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
@@ -13,9 +14,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: NetworkManager HEAD\n"
+"Project-Id-Version: libnma\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libnma/\n"
-"POT-Creation-Date: 2022-04-07 09:46+0200\n"
+"POT-Creation-Date: 2023-01-09 00:38+0100\n"
 "PO-Revision-Date: 2005-03-31 20:55-0700\n"
 "Last-Translator: Steve Murphy <murf@e-tools.com>\n"
 "Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
@@ -25,78 +26,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: org.gnome.nm-applet.gschema.xml.in:6
-msgid "Disable connected notifications"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:7
-msgid "Set this to true to disable notifications when connecting to a network."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:11
-msgid "Disable disconnected notifications"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:12
-msgid ""
-"Set this to true to disable notifications when disconnecting from a network."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:16
-msgid "Disable VPN notifications"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:17
-msgid ""
-"Set this to true to disable notifications when connecting to or "
-"disconnecting from a VPN."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:21
-msgid "Suppress networks available notifications"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:22
-msgid ""
-"Set this to true to disable notifications when Wi-Fi networks are available."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:26
-msgid "Stamp"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:27
-msgid "Used to determine whether settings should be migrated to a new version."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:31
-msgid "Disable WiFi Create"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:32
-msgid ""
-"Set to true to disable creation of adhoc networks when using the applet."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:36
-msgid "Show the applet in notification area"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:37
-msgid "Set to FALSE to disable displaying the applet in the notification area."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:43 org.gnome.nm-applet.gschema.xml.in:48
+#: org.gnome.nm-applet.eap.gschema.xml.in:6
+#: org.gnome.nm-applet.eap.gschema.xml.in:11
 msgid "Ignore CA certificate"
 msgstr ""
 
-#: org.gnome.nm-applet.gschema.xml.in:44
+#: org.gnome.nm-applet.eap.gschema.xml.in:7
 msgid ""
 "Set this to true to disable warnings about CA certificates in EAP "
 "authentication."
 msgstr ""
 
-#: org.gnome.nm-applet.gschema.xml.in:49
+#: org.gnome.nm-applet.eap.gschema.xml.in:12
 msgid ""
 "Set this to true to disable warnings about CA certificates in phase 2 of EAP "
 "authentication."
@@ -135,11 +76,11 @@ msgid ""
 "type '%s'"
 msgstr ""
 
-#: src/nma-bar-code-widget.c:142
+#: src/nma-bar-code-widget.c:140
 msgid "Network"
 msgstr ""
 
-#: src/nma-bar-code-widget.c:159
+#: src/nma-bar-code-widget.c:157
 msgid "Password"
 msgstr ""
 
@@ -147,73 +88,119 @@ msgstr ""
 msgid "Scan with your phone or <a href=\"nma:print\">Print</a>"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:179
+#: src/nma-cert-chooser.c:513
+msgid "No certificate set"
+msgstr ""
+
+#: src/nma-cert-chooser.c:537
+msgid "No key set"
+msgstr ""
+
+#: src/nma-cert-chooser.c:860
+#, c-format
+msgid "Choose a %s Certificate"
+msgstr ""
+
+#: src/nma-cert-chooser.c:864
+#, c-format
+msgid "%s _certificate"
+msgstr ""
+
+#: src/nma-cert-chooser.c:868
+#, c-format
+msgid "%s certificate _password"
+msgstr ""
+
+#: src/nma-cert-chooser.c:887
+#, c-format
+msgid "Choose a key for %s Certificate"
+msgstr ""
+
+#: src/nma-cert-chooser.c:891
+#, c-format
+msgid "%s private _key"
+msgstr ""
+
+#: src/nma-cert-chooser.c:895
+#, c-format
+msgid "%s key _password"
+msgstr ""
+
+#: src/nma-cert-chooser.c:1125
+msgid "Sho_w passwords"
+msgstr ""
+
+#: src/nma-cert-chooser-button.c:177
 #, c-format
 msgid "Key in %s"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:180
+#: src/nma-cert-chooser-button.c:178
 #, c-format
 msgid "Certificate in %s"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:211 src/nma-cert-chooser-button.c:322
+#: src/nma-cert-chooser-button.c:209 src/nma-cert-chooser-button.c:320
 msgid "Select"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:212 src/nma-cert-chooser-button.c:323
+#: src/nma-cert-chooser-button.c:210 src/nma-cert-chooser-button.c:321
 msgid "Cancel"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:279 src/nma-ws/nma-eap-fast.c:330
+#: src/nma-cert-chooser-button.c:277 src/nma-ws/nma-eap-fast.c:329
 msgid "(None)"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:302 src/nma-pkcs11-cert-chooser-dialog.c:184
+#: src/nma-cert-chooser-button.c:300 src/nma-pkcs11-cert-chooser-dialog.c:189
 msgid "(Unknown)"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:432
+#: src/nma-cert-chooser-button.c:431
 msgid "Select from file…"
 msgstr ""
 
-#: src/nma-mobile-providers.c:787
+#: src/nma-mobile-providers.c:818
 msgid "Default"
 msgstr ""
 
-#: src/nma-mobile-providers.c:976
+#: src/nma-mobile-providers.c:1007
 msgid "My country is not listed"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:142
+#: src/nma-mobile-providers.c:1045
+msgid "Kosovo"
+msgstr ""
+
+#: src/nma-mobile-wizard.c:140
 msgid "GSM"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:145
+#: src/nma-mobile-wizard.c:143
 msgid "CDMA"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:250 src/nma-mobile-wizard.c:282
+#: src/nma-mobile-wizard.c:252 src/nma-mobile-wizard.c:284
 msgid "Unlisted"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:481
+#: src/nma-mobile-wizard.c:483
 msgid "My plan is not listed…"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:652
+#: src/nma-mobile-wizard.c:654
 msgid "Provider"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:1024
+#: src/nma-mobile-wizard.c:1026
 msgid "Installed GSM device"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:1027
+#: src/nma-mobile-wizard.c:1029
 msgid "Installed CDMA device"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:1232
+#: src/nma-mobile-wizard.c:1234
 msgid "Any device"
 msgstr ""
 
@@ -329,24 +316,24 @@ msgstr ""
 msgid "Confirm Mobile Broadband Settings"
 msgstr ""
 
-#: src/nma-pkcs11-cert-chooser-dialog.c:255
+#: src/nma-pkcs11-cert-chooser-dialog.c:260
 msgid "Error logging in: "
 msgstr ""
 
-#: src/nma-pkcs11-cert-chooser-dialog.c:277
+#: src/nma-pkcs11-cert-chooser-dialog.c:282
 #, fuzzy
 msgid "Error opening a session: "
 msgstr "urusobe Ukwihuza"
 
-#: src/nma-pkcs11-cert-chooser-dialog.ui:19
+#: src/nma-pkcs11-cert-chooser-dialog.ui:18
 msgid "_Unlock token"
 msgstr ""
 
-#: src/nma-pkcs11-cert-chooser-dialog.ui:115
+#: src/nma-pkcs11-cert-chooser-dialog.ui:99
 msgid "Name"
 msgstr ""
 
-#: src/nma-pkcs11-cert-chooser-dialog.ui:125
+#: src/nma-pkcs11-cert-chooser-dialog.ui:109
 msgid "Issued By"
 msgstr ""
 
@@ -355,8 +342,8 @@ msgstr ""
 msgid "Enter %s PIN"
 msgstr ""
 
-#: src/nma-pkcs11-token-login-dialog.ui:18 src/nma-vpn-password-dialog.ui:28
-#: src/nma-wifi-dialog.c:1115 src/nma-ws/nma-eap-fast.ui:27
+#: src/nma-pkcs11-token-login-dialog.ui:19 src/nma-vpn-password-dialog.ui:28
+#: src/nma-wifi-dialog.c:1125 src/nma-ws/nma-eap-fast.ui:27
 msgid "_Cancel"
 msgstr ""
 
@@ -368,19 +355,19 @@ msgstr ""
 msgid "_Remember PIN"
 msgstr ""
 
-#: src/nma-ui-utils.c:34
+#: src/nma-ui-utils.c:32
 msgid "Store the password only for this user"
 msgstr ""
 
-#: src/nma-ui-utils.c:35
+#: src/nma-ui-utils.c:33
 msgid "Store the password for all users"
 msgstr ""
 
-#: src/nma-ui-utils.c:36
+#: src/nma-ui-utils.c:34
 msgid "Ask for this password every time"
 msgstr ""
 
-#: src/nma-ui-utils.c:37
+#: src/nma-ui-utils.c:35
 msgid "The password is not required"
 msgstr ""
 
@@ -406,124 +393,124 @@ msgstr ""
 msgid "_Password:"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:116
+#: src/nma-wifi-dialog.c:114
 #, fuzzy
 msgid "Click to connect"
 msgstr "urusobe Ukwihuza"
 
-#: src/nma-wifi-dialog.c:443
+#: src/nma-wifi-dialog.c:441
 msgid "New…"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:927
+#: src/nma-wifi-dialog.c:937
 msgctxt "Wifi/wired security"
 msgid "None"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:943
+#: src/nma-wifi-dialog.c:953
 msgid "WEP 40/128-bit Key (Hex or ASCII)"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:950
+#: src/nma-wifi-dialog.c:960
 msgid "WEP 128-bit Passphrase"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:965 src/nma-ws/nma-ws-802-1x.c:367
+#: src/nma-wifi-dialog.c:975 src/nma-ws/nma-ws-802-1x.c:366
 msgid "LEAP"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:976
+#: src/nma-wifi-dialog.c:986
 msgid "Dynamic WEP (802.1x)"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:988
+#: src/nma-wifi-dialog.c:998
 msgid "WPA & WPA2 Personal"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1004
+#: src/nma-wifi-dialog.c:1014
 msgid "WPA & WPA2 Enterprise"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1015
+#: src/nma-wifi-dialog.c:1025
 msgid "WPA3 Personal"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1026
+#: src/nma-wifi-dialog.c:1036
 msgid "Enhanced Open"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1119
+#: src/nma-wifi-dialog.c:1129
 msgid "C_reate"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1121
+#: src/nma-wifi-dialog.c:1131
 #, fuzzy
 msgid "C_onnect"
 msgstr "Kwihuza"
 
-#: src/nma-wifi-dialog.c:1199
+#: src/nma-wifi-dialog.c:1209
 #, c-format
 msgid ""
 "Passwords or encryption keys are required to access the Wi-Fi network “%s”."
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1201
+#: src/nma-wifi-dialog.c:1211
 msgid "Wi-Fi Network Authentication Required"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1203
+#: src/nma-wifi-dialog.c:1213
 msgid "Authentication required by Wi-Fi network"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1208
+#: src/nma-wifi-dialog.c:1218
 #, fuzzy
 msgid "Create New Wi-Fi Network"
 msgstr "Gishya"
 
-#: src/nma-wifi-dialog.c:1210
+#: src/nma-wifi-dialog.c:1220
 msgid "New Wi-Fi network"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1211
+#: src/nma-wifi-dialog.c:1221
 #, fuzzy
 msgid "Enter a name for the Wi-Fi network you wish to create."
 msgstr "i Na Umutekano Amagenamiterere Bya i urusobe Kuri Kurema"
 
-#: src/nma-wifi-dialog.c:1213
+#: src/nma-wifi-dialog.c:1223
 #, fuzzy
 msgid "Connect to Hidden Wi-Fi Network"
 msgstr "Kuri a urusobe"
 
-#: src/nma-wifi-dialog.c:1215
+#: src/nma-wifi-dialog.c:1225
 msgid "Hidden Wi-Fi network"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1216
+#: src/nma-wifi-dialog.c:1226
 #, fuzzy
 msgid ""
 "Enter the name and security details of the hidden Wi-Fi network you wish to "
 "connect to."
 msgstr "i Na Umutekano Amagenamiterere Bya i urusobe Kuri Kurema"
 
-#: src/nma-ws/nma-eap-fast.c:60
+#: src/nma-ws/nma-eap-fast.c:59
 msgid "missing EAP-FAST PAC file"
 msgstr ""
 
-#: src/nma-ws/nma-eap-fast.c:250 src/nma-ws/nma-eap-peap.c:310
-#: src/nma-ws/nma-eap-ttls.c:363
+#: src/nma-ws/nma-eap-fast.c:249 src/nma-ws/nma-eap-peap.c:309
+#: src/nma-ws/nma-eap-ttls.c:362
 msgid "GTC"
 msgstr ""
 
-#: src/nma-ws/nma-eap-fast.c:266 src/nma-ws/nma-eap-peap.c:278
-#: src/nma-ws/nma-eap-ttls.c:297
+#: src/nma-ws/nma-eap-fast.c:265 src/nma-ws/nma-eap-peap.c:277
+#: src/nma-ws/nma-eap-ttls.c:296
 msgid "MSCHAPv2"
 msgstr ""
 
-#: src/nma-ws/nma-eap-fast.c:449
+#: src/nma-ws/nma-eap-fast.c:448
 msgid "PAC files (*.pac)"
 msgstr ""
 
-#: src/nma-ws/nma-eap-fast.c:453
+#: src/nma-ws/nma-eap-fast.c:452
 msgid "All files"
 msgstr ""
 
@@ -566,11 +553,11 @@ msgstr "Icyerekezo"
 msgid "Allow automatic PAC pro_visioning"
 msgstr ""
 
-#: src/nma-ws/nma-eap-leap.c:55
+#: src/nma-ws/nma-eap-leap.c:52
 msgid "missing EAP-LEAP username"
 msgstr ""
 
-#: src/nma-ws/nma-eap-leap.c:64
+#: src/nma-ws/nma-eap-leap.c:61
 msgid "missing EAP-LEAP password"
 msgstr ""
 
@@ -591,8 +578,8 @@ msgstr ""
 msgid "Sho_w password"
 msgstr ""
 
-#: src/nma-ws/nma-eap-peap.c:294 src/nma-ws/nma-eap-ttls.c:347
-#: src/nma-ws/nma-ws-802-1x.c:343
+#: src/nma-ws/nma-eap-peap.c:293 src/nma-ws/nma-eap-ttls.c:346
+#: src/nma-ws/nma-ws-802-1x.c:342
 msgid "MD5"
 msgstr ""
 
@@ -627,15 +614,15 @@ msgstr ""
 msgid "_Domain"
 msgstr ""
 
-#: src/nma-ws/nma-eap-simple.c:79
+#: src/nma-ws/nma-eap-simple.c:78
 msgid "missing EAP username"
 msgstr ""
 
-#: src/nma-ws/nma-eap-simple.c:95
+#: src/nma-ws/nma-eap-simple.c:94
 msgid "missing EAP password"
 msgstr ""
 
-#: src/nma-ws/nma-eap-simple.c:109
+#: src/nma-ws/nma-eap-simple.c:108
 msgid "missing EAP client Private Key passphrase"
 msgstr ""
 
@@ -647,23 +634,23 @@ msgstr ""
 msgid "Sh_ow passphrase"
 msgstr ""
 
-#: src/nma-ws/nma-eap-tls.c:47
+#: src/nma-ws/nma-eap-tls.c:44
 msgid "missing EAP-TLS identity"
 msgstr ""
 
-#: src/nma-ws/nma-eap-tls.c:237
+#: src/nma-ws/nma-eap-tls.c:234
 msgid "no user certificate selected"
 msgstr ""
 
-#: src/nma-ws/nma-eap-tls.c:242
+#: src/nma-ws/nma-eap-tls.c:239
 msgid "selected user certificate file does not exist"
 msgstr ""
 
-#: src/nma-ws/nma-eap-tls.c:262
+#: src/nma-ws/nma-eap-tls.c:259
 msgid "no key selected"
 msgstr ""
 
-#: src/nma-ws/nma-eap-tls.c:267
+#: src/nma-ws/nma-eap-tls.c:264
 msgid "selected key file does not exist"
 msgstr ""
 
@@ -671,59 +658,59 @@ msgstr ""
 msgid "I_dentity"
 msgstr ""
 
-#: src/nma-ws/nma-eap-ttls.c:265
+#: src/nma-ws/nma-eap-ttls.c:264
 msgid "PAP"
 msgstr ""
 
-#: src/nma-ws/nma-eap-ttls.c:281
+#: src/nma-ws/nma-eap-ttls.c:280
 msgid "MSCHAP"
 msgstr ""
 
-#: src/nma-ws/nma-eap-ttls.c:314
+#: src/nma-ws/nma-eap-ttls.c:313
 msgid "MSCHAPv2 (no EAP)"
 msgstr ""
 
-#: src/nma-ws/nma-eap-ttls.c:331
+#: src/nma-ws/nma-eap-ttls.c:330
 msgid "CHAP"
 msgstr ""
 
-#: src/nma-ws/nma-eap.c:40
+#: src/nma-ws/nma-eap.c:34
 msgid "undefined error in 802.1X security (wpa-eap)"
 msgstr ""
 
-#: src/nma-ws/nma-eap.c:348
+#: src/nma-ws/nma-eap.c:342
 msgid "no CA certificate selected"
 msgstr ""
 
-#: src/nma-ws/nma-eap.c:353
+#: src/nma-ws/nma-eap.c:347
 msgid "selected CA certificate file does not exist"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:355
+#: src/nma-ws/nma-ws-802-1x.c:354
 msgid "TLS"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:379
+#: src/nma-ws/nma-ws-802-1x.c:378
 msgid "PWD"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:390
+#: src/nma-ws/nma-ws-802-1x.c:389
 msgid "FAST"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:401
+#: src/nma-ws/nma-ws-802-1x.c:400
 msgid "Tunneled TLS"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:412
+#: src/nma-ws/nma-ws-802-1x.c:411
 msgid "Protected EAP (PEAP)"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:427
+#: src/nma-ws/nma-ws-802-1x.c:426
 msgid "Unknown"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:441
+#: src/nma-ws/nma-ws-802-1x.c:440
 msgid "Externally configured"
 msgstr ""
 
@@ -732,15 +719,15 @@ msgstr ""
 msgid "Au_thentication"
 msgstr "Icyerekezo"
 
-#: src/nma-ws/nma-ws-leap.c:71
+#: src/nma-ws/nma-ws-leap.c:70
 msgid "missing leap-username"
 msgstr ""
 
-#: src/nma-ws/nma-ws-leap.c:87
+#: src/nma-ws/nma-ws-leap.c:86
 msgid "missing leap-password"
 msgstr ""
 
-#: src/nma-ws/nma-ws-sae.c:73
+#: src/nma-ws/nma-ws-sae.c:72
 msgid "missing password"
 msgstr ""
 
@@ -753,33 +740,33 @@ msgstr ""
 msgid "_Type"
 msgstr "Ubwoko bw'agakandisho"
 
-#: src/nma-ws/nma-ws-wep-key.c:110
+#: src/nma-ws/nma-ws-wep-key.c:109
 msgid "missing wep-key"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:117
+#: src/nma-ws/nma-ws-wep-key.c:116
 #, c-format
 msgid "invalid wep-key: key with a length of %zu must contain only hex-digits"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:125
+#: src/nma-ws/nma-ws-wep-key.c:124
 #, c-format
 msgid ""
 "invalid wep-key: key with a length of %zu must contain only ascii characters"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:131
+#: src/nma-ws/nma-ws-wep-key.c:130
 #, c-format
 msgid ""
 "invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
 "(ascii) or 10/26 (hex)"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:138
+#: src/nma-ws/nma-ws-wep-key.c:137
 msgid "invalid wep-key: passphrase must be non-empty"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:140
+#: src/nma-ws/nma-ws-wep-key.c:139
 msgid "invalid wep-key: passphrase must be shorter than 64 characters"
 msgstr ""
 
@@ -818,7 +805,7 @@ msgstr ""
 msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
 msgstr ""
 
-#: src/nma-ws/nma-ws.c:42
+#: src/nma-ws/nma-ws.c:40
 msgid "Unknown error validating 802.1X security"
 msgstr ""
 
@@ -853,568 +840,3 @@ msgstr "Kwihuza"
 #: src/wifi.ui:179
 msgid "Wi-Fi _adapter"
 msgstr ""
-
-#, fuzzy
-#~ msgid "Manage your network connections"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Advanced Network Configuration"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "NetworkManager"
-#~ msgstr "ni OYA"
-
-#, fuzzy
-#~ msgid "NetworkManager connection editor"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "The NetworkManager Developers"
-#~ msgstr "ni OYA"
-
-#, fuzzy
-#~ msgid "Connection activation failed"
-#~ msgstr "Na: Bishunzwe: Bikora"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed."
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "disconnected"
-#~ msgstr "Kwihuza"
-
-#, fuzzy
-#~ msgid "Disconnect"
-#~ msgstr "Kwihuza"
-
-#, fuzzy
-#~ msgid "No network devices available"
-#~ msgstr "urusobe Byabonetse"
-
-#, fuzzy
-#~ msgid "_Add a VPN connection…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "NetworkManager is not running…"
-#~ msgstr "ni OYA"
-
-#, fuzzy
-#~ msgid "Edit Connections…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "_About"
-#~ msgstr "Bigyanye"
-
-#, fuzzy
-#~ msgid "Disconnected"
-#~ msgstr "Kwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Preparing network connection “%s”…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Requesting a network address for “%s”…"
-#~ msgstr "Kuri urusobe"
-
-#, fuzzy, c-format
-#~ msgid "Network connection “%s” active"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Starting VPN connection “%s”…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Requesting a VPN address for “%s”…"
-#~ msgstr "Kuri urusobe"
-
-#, fuzzy
-#~ msgid "VPN connection active"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "No network connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "New Mobile Broadband connection…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Connection Established"
-#~ msgstr "Na: Bishunzwe: Bikora"
-
-#, fuzzy, c-format
-#~ msgid "Preparing mobile broadband connection “%s”…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Configuring mobile broadband connection “%s”…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Mobile broadband connection “%s” active"
-#~ msgstr "urusobe Ukwihuza Kuri"
-
-#, fuzzy
-#~ msgid "Ethernet Network"
-#~ msgstr "Kuri"
-
-#, fuzzy, c-format
-#~ msgid "Preparing ethernet network connection “%s”…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Configuring ethernet network connection “%s”…"
-#~ msgstr "urusobe Ukwihuza Kuri"
-
-#, fuzzy, c-format
-#~ msgid "User authentication required for ethernet network connection “%s”…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Requesting an ethernet network address for “%s”…"
-#~ msgstr "Kuri urusobe"
-
-#, fuzzy, c-format
-#~ msgid "Ethernet network connection “%s” active"
-#~ msgstr "urusobe Ukwihuza Kuri"
-
-#, fuzzy
-#~ msgid "_Connect to Hidden Wi-Fi Network…"
-#~ msgstr "Kuri a urusobe"
-
-#, fuzzy
-#~ msgid "Create _New Wi-Fi Network…"
-#~ msgstr "Gishya"
-
-#, fuzzy
-#~ msgid "Failed to add new connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Wi-Fi Network"
-#~ msgid_plural "Wi-Fi Networks"
-#~ msgstr[0] "Kuri"
-#~ msgstr[1] "Kuri"
-
-#, fuzzy
-#~ msgid "More networks"
-#~ msgstr "urusobe"
-
-#, fuzzy, c-format
-#~ msgid "Preparing Wi-Fi network connection “%s”…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Configuring Wi-Fi network connection “%s”…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Requesting a Wi-Fi network address for “%s”…"
-#~ msgstr "Kuri urusobe"
-
-#, fuzzy, c-format
-#~ msgid "Wi-Fi network connection “%s” active: %s (%d%%)"
-#~ msgstr "urusobe Ukwihuza Kuri"
-
-#, fuzzy, c-format
-#~ msgid "Wi-Fi network connection “%s” active"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Failed to activate connection"
-#~ msgstr "urusobe Ukwihuza"
-
-# #-#-#-#-#  sw.pot (PACKAGE VERSION)  #-#-#-#-#
-# sw/source\ui\index\cnttab.src:TP_TOX_SELECT.FT_SORTALG.text
-# #-#-#-#-#  sw.pot (PACKAGE VERSION)  #-#-#-#-#
-# sw/source\ui\misc\srtdlg.src:DLG_SORTING.FT_KEYTYP.text
-#, fuzzy
-#~ msgid "VPN Type"
-#~ msgstr "Ubwoko bw'agakandisho"
-
-#, fuzzy
-#~ msgid ""
-#~ "Notification area applet for managing your network devices and "
-#~ "connections."
-#~ msgstr "Ubuso Apuleti... kugirango urusobe Na Ukwihuza"
-
-#, fuzzy
-#~ msgid "NetworkManager Website"
-#~ msgstr "ni OYA"
-
-#, fuzzy
-#~ msgid ""
-#~ "The NetworkManager Applet could not find some required resources (the .ui "
-#~ "file was not found)."
-#~ msgstr "OYA Gushaka Bya ngombwa i IDOSIYE OYA Byabonetse"
-
-#, fuzzy, c-format
-#~ msgid "Failed to write connection to VPN UI: %s (%d)"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Bonded _connections"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Bridged _connections"
-#~ msgstr "urusobe Ukwihuza"
-
-# basctl/source\basicide\basidesh.src:RID_IMGBTN_REMOVEWATCH.text
-#, fuzzy
-#~ msgid "s"
-#~ msgstr "%s"
-
-#, fuzzy
-#~ msgid "_Metered connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Connected"
-#~ msgstr "Kwihuza"
-
-#, fuzzy
-#~ msgid "Authentication"
-#~ msgstr "Icyerekezo"
-
-#, fuzzy
-#~ msgid "Ethernet port state"
-#~ msgstr "Kuri"
-
-#, fuzzy
-#~ msgid "_Teamed connections"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Could not create new connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "_New Connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Missing connection name"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid ""
-#~ "The connection editor could not find some required resources (the .ui "
-#~ "file was not found)."
-#~ msgstr "OYA Gushaka Bya ngombwa i IDOSIYE OYA Byabonetse"
-
-#, fuzzy
-#~ msgid "Could not create connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Could not edit connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Connection _name"
-#~ msgstr "urusobe Ukwihuza"
-
-# offmgr/source\offapp\intro\intro.hrc:TEXT_DEFAULTABOUT.text
-#, fuzzy
-#~ msgid "_Export…"
-#~ msgstr "Ibyerekeye"
-
-#, fuzzy
-#~ msgid "Connection cannot be deleted"
-#~ msgstr "Na: Bishunzwe: Bikora"
-
-#, fuzzy
-#~ msgid "Select a connection to edit"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Select a connection to delete"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Edit the selected connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Unrecognized connection type"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Don’t know how to import “%s” connections"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Error importing connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Error creating connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Connection type not specified."
-#~ msgstr "Na: Bishunzwe: Bikora"
-
-#, fuzzy, c-format
-#~ msgid "Don’t know how to create “%s” connections"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Error editing connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Network Connections"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Add a new connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Bluetooth connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "_Personal Area Network"
-#~ msgstr "Kuri"
-
-#, fuzzy
-#~ msgid "_Dial-Up Network"
-#~ msgstr "Kuri"
-
-#, fuzzy, c-format
-#~ msgid "Bond connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Bridge connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Ethernet connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "IP tunnel connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "MACSEC connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Team connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "New connection…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "VLAN connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "VPN connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy, c-format
-#~ msgid "Wi-Fi connection %d"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Cannot export VPN connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "Export VPN connection…"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "C_onnection:"
-#~ msgstr "Kwihuza"
-
-#, fuzzy
-#~ msgid "Home network"
-#~ msgstr "Kugena urusobe"
-
-#, fuzzy
-#~ msgid "Roaming network"
-#~ msgstr "Kuri"
-
-#, fuzzy, c-format
-#~ msgid "Mobile broadband connection “%s” active: (%d%%%s%s)"
-#~ msgstr "urusobe Ukwihuza Kuri"
-
-#, fuzzy
-#~ msgid "Connection _priority for auto-activation:"
-#~ msgstr "Na: Bishunzwe: Bikora"
-
-#, fuzzy
-#~ msgid "Cannot import VPN connection"
-#~ msgstr "urusobe Ukwihuza"
-
-#, fuzzy
-#~ msgid "NetworkManager for GNOME"
-#~ msgstr "ni OYA"
-
-#, fuzzy
-#~ msgid "_Disconnect VPN"
-#~ msgstr "Kwihuza"
-
-#, fuzzy
-#~ msgid "_Connect to Hidden Wi-Fi Network..."
-#~ msgstr "Kuri a urusobe"
-
-#, fuzzy
-#~ msgid "Create _New Wi-Fi Network..."
-#~ msgstr "Gishya"
-
-#~ msgid " "
-#~ msgstr " "
-
-#, fuzzy
-#~ msgid "FirewallD is not running."
-#~ msgstr "ni OYA"
-
-#, fuzzy
-#~ msgid "<span weight=\"bold\">Wireless Networks:</span>"
-#~ msgstr "<Uburemere UTSINDAGIYE"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#, fuzzy
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Passphrase Required by Wireless "
-#~ "Network</span>\n"
-#~ "\n"
-#~ "A passphrase or encryption key is required to access the wireless network "
-#~ "'%s'."
-#~ msgstr ""
-#~ "<Uburemere UTSINDAGIYE Ingano Kinini ku A Cyangwa Bishunzwe: Urufunguzo "
-#~ "ni Bya ngombwa Kuri i urusobe"
-
-#, fuzzy
-#~ msgid "You must log in to access the private network %s"
-#~ msgstr "LOG in Kuri i By'umwihariko urusobe"
-
-#, fuzzy
-#~ msgid "Copyright (C) 2004-2005 Red Hat, Inc."
-#~ msgstr "C"
-
-#, fuzzy
-#~ msgid "The network device \"%s (%s)\" does not support wireless scanning."
-#~ msgstr "urusobe APAREYE OYA Gushigikira"
-
-#, fuzzy
-#~ msgid "The network device \"%s (%s)\" does not support link detection."
-#~ msgstr "urusobe APAREYE OYA Gushigikira Ihuza"
-
-#, fuzzy
-#~ msgid "Connected to an Ad-Hoc wireless network"
-#~ msgstr "Kuri urusobe"
-
-#, fuzzy
-#~ msgid "Scanning for wireless networks..."
-#~ msgstr "kugirango"
-
-#, fuzzy
-#~ msgid "Start All Wireless Devices"
-#~ msgstr "Gutangira"
-
-# scp/source\office\profile.lng:STR_VALUE_TEMPLATE_SERVICES_HELP.text
-#~ msgid "Help"
-#~ msgstr "Ifashayobora"
-
-#, fuzzy
-#~ msgid "Create new wireless network"
-#~ msgstr "Gishya urusobe"
-
-#, fuzzy
-#~ msgid ""
-#~ "Enter the ESSID of the wireless network to which you wish to connect."
-#~ msgstr "i Bya i urusobe Kuri Kuri Kwihuza"
-
-#, fuzzy
-#~ msgid ""
-#~ "128-bit passphrase (WEP)\n"
-#~ "Ascii key (WEP)\n"
-#~ "Hex key (WEP)"
-#~ msgstr "Urufunguzo Urufunguzo"
-
-# #-#-#-#-#  sw.pot (PACKAGE VERSION)  #-#-#-#-#
-# sw/source\ui\index\cnttab.src:TP_TOX_SELECT.FT_SORTALG.text
-# #-#-#-#-#  sw.pot (PACKAGE VERSION)  #-#-#-#-#
-# sw/source\ui\misc\srtdlg.src:DLG_SORTING.FT_KEYTYP.text
-#, fuzzy
-#~ msgid "Key type:"
-#~ msgstr "Ubwoko bw'agakandisho"
-
-#, fuzzy
-#~ msgid " (invalid Unicode)"
-#~ msgstr "(Sibyo"
-
-#, fuzzy
-#~ msgid "The orientation of the tray."
-#~ msgstr "Icyerekezo Bya i"
-
-#, fuzzy
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Reduced Network Functionality</"
-#~ "span>\n"
-#~ "\n"
-#~ "%s  It will not be completely functional."
-#~ msgstr "<Uburemere UTSINDAGIYE Ingano Kinini OYA"
-
-#, fuzzy
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Wireless Network Login "
-#~ "Confirmation</span>\n"
-#~ "\n"
-#~ "You have chosen log in to the wireless network '%s'.  If you are sure "
-#~ "this wireless network is secure, click the checkbox below and "
-#~ "NetworkManager will no longer pester you with stupid questions when you "
-#~ "connect to it."
-#~ msgstr ""
-#~ "<Uburemere UTSINDAGIYE Ingano Kinini LOG in Kuri i urusobe iyi urusobe ni "
-#~ "Kanda i munsi Na Oya Na: Ryari: Kwihuza Kuri"
-
-#, fuzzy
-#~ msgid "Always Trust this Wireless Network"
-#~ msgstr "iyi"
-
-#, fuzzy
-#~ msgid ""
-#~ "unable to create netlink socket for monitoring wired ethernet devices - %s"
-#~ msgstr "Kuri Kurema kugirango"
-
-#, fuzzy
-#~ msgid ""
-#~ "unable to bind to netlink socket for monitoring wired ethernet devices - "
-#~ "%s"
-#~ msgstr "Kuri Kuri kugirango"
-
-#, fuzzy
-#~ msgid "received data from wrong type of sender"
-#~ msgstr "BYAKIRIWE Ibyatanzwe Bivuye Ubwoko Bya Uwohereza"
-
-#, fuzzy
-#~ msgid "received data from unexpected sender"
-#~ msgstr "BYAKIRIWE Ibyatanzwe Bivuye Uwohereza"
-
-#, fuzzy
-#~ msgid "too much data was sent over socket and some of it was lost"
-#~ msgstr "Ibyatanzwe Yoherejwe: KURI Na Bya"

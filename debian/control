@@ -4,6 +4,8 @@ Priority: optional
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Uploaders: Michael Biebl <biebl@debian.org>
 Build-Depends: debhelper-compat (= 13),
+               dh-sequence-gir,
+               dh-sequence-gnome,
                meson (>= 0.46.0),
                gettext (>= 0.18),
                mobile-broadband-provider-info,
@@ -15,12 +17,11 @@ Build-Depends: debhelper-compat (= 13),
                libgck-1-dev,
                iso-codes,
                libgirepository1.0-dev,
-               gobject-introspection,
                valac,
                gtk-doc-tools,
                libgtk-3-doc,
                libglib2.0-doc,
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Rules-Requires-Root: no
 Vcs-Git: https://salsa.debian.org/utopia-team/libnma.git
 Vcs-Browser: https://salsa.debian.org/utopia-team/libnma
@@ -54,6 +55,7 @@ Multi-Arch: foreign
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
+Breaks: network-manager-gnome (<< 1.30.0)
 Description: NetworkManager GUI library - translations
  The libnma library provides Gtk+ dialogs and UI utilities for NetworkManager.
  .

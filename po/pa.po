@@ -1,13 +1,11 @@
-# translation of NetworkManager.HEAD.po to Punjabi
-# translation of pa.po to Punjabi
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# translation of libnma to Punjabi
+# This file is distributed under the same license as the libnma package.
 # A S Alam <aalam@users.sf.net>, 2004, 2005, 2009, 2010, 2011, 2012, 2013, 2014, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: NetworkManager.HEAD\n"
+"Project-Id-Version: libnma\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libnma/\n"
-"POT-Creation-Date: 2022-04-07 09:46+0200\n"
+"POT-Creation-Date: 2023-01-09 00:38+0100\n"
 "PO-Revision-Date: 2017-07-23 11:57-0600\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -18,75 +16,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: org.gnome.nm-applet.gschema.xml.in:6
-msgid "Disable connected notifications"
-msgstr "ਕਨੈਕਟ ਹੋਣ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਅਸਮਰੱਥ ਕਰੋ"
-
-#: org.gnome.nm-applet.gschema.xml.in:7
-msgid "Set this to true to disable notifications when connecting to a network."
-msgstr "ਜੇ ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ ਸੈਟ ਕਰੋ।"
-
-#: org.gnome.nm-applet.gschema.xml.in:11
-msgid "Disable disconnected notifications"
-msgstr "ਡਿਸ-ਕਨੈਕਟ ਹੋਣ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਅਸਮਰੱਥ ਕਰੋ"
-
-#: org.gnome.nm-applet.gschema.xml.in:12
-msgid ""
-"Set this to true to disable notifications when disconnecting from a network."
-msgstr "ਜੇ ਨੈੱਟਵਰਕ ਨਾਲ ਡਿਸ-ਕਨੈਕਟ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ ਸੈਟ ਕਰੋ।"
-
-#: org.gnome.nm-applet.gschema.xml.in:16
-msgid "Disable VPN notifications"
-msgstr "VPN ਨੋਟੀਫਿਕੇਸ਼ਨ ਬੰਦ ਕਰੋ"
-
-#: org.gnome.nm-applet.gschema.xml.in:17
-msgid ""
-"Set this to true to disable notifications when connecting to or "
-"disconnecting from a VPN."
-msgstr ""
-"ਜੇ VPN ਨਾਲ ਕਨੈਕਟ ਹੋਣ ਜਾਂ ਡਿਸ-ਕਨੈਕਟ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ "
-"(ture) ਸੈਟ ਕਰੋ।"
-
-#: org.gnome.nm-applet.gschema.xml.in:21
-msgid "Suppress networks available notifications"
-msgstr "ਨੈੱਟਵਰਕ ਉਪਲੱਬਧਤਾ ਸੂਚਨਾ ਨਾ ਦਿਓ"
-
-#: org.gnome.nm-applet.gschema.xml.in:22
-msgid ""
-"Set this to true to disable notifications when Wi-Fi networks are available."
-msgstr "ਜੇ Wi-Fi ਨੈੱਟਵਰਕ ਉਪਲੱਬਧ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ ਸੈਟ ਕਰੋ।"
-
-#: org.gnome.nm-applet.gschema.xml.in:26
-msgid "Stamp"
-msgstr "ਸਟੈਂਪ"
-
-#: org.gnome.nm-applet.gschema.xml.in:27
-msgid "Used to determine whether settings should be migrated to a new version."
-msgstr "ਪਤਾ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਸੈਟਿੰਗ ਨਵੇਂ ਵਰਜਨ ਲਈ ਮਾਈਗਰੇਟ ਕਰਨੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ।"
-
-#: org.gnome.nm-applet.gschema.xml.in:31
-#, fuzzy
-msgid "Disable WiFi Create"
-msgstr "Wi-Fi ਬਣਾਉਣਾ ਅਸਮਰੱਥ ਕਰੋ"
-
-#: org.gnome.nm-applet.gschema.xml.in:32
-msgid ""
-"Set to true to disable creation of adhoc networks when using the applet."
-msgstr "ਜਦੋਂ ਐਪਲਿਟ ਵਰਤਣ ਦੌਰਾਨ ਐਡ-ਹਾਕ ਨੈੱਟਵਰਕ ਬਣਾਉਣ ਨੂੰ ਅਸਮਰੱਥ ਕਰਨ ਲਈ ਸਹੀਂ ਸੈੱਟ ਕਰੋ।"
-
-#: org.gnome.nm-applet.gschema.xml.in:36
-msgid "Show the applet in notification area"
-msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਖੇਤਰ ਐਪਲਿਟ ਵੇਖਾਓ"
-
-#: org.gnome.nm-applet.gschema.xml.in:37
-msgid "Set to FALSE to disable displaying the applet in the notification area."
-msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਖੇਤਰ ਐਪਲਿਟ ਨਾ ਵੇਖਾਉਣ ਲਈ FALSE ਦਿਉ।"
-
-#: org.gnome.nm-applet.gschema.xml.in:43 org.gnome.nm-applet.gschema.xml.in:48
+#: org.gnome.nm-applet.eap.gschema.xml.in:6
+#: org.gnome.nm-applet.eap.gschema.xml.in:11
 msgid "Ignore CA certificate"
 msgstr "CA ਸਰਟੀਫਿਕੇਟ ਅਣਡਿੱਠਾ"
 
-#: org.gnome.nm-applet.gschema.xml.in:44
+#: org.gnome.nm-applet.eap.gschema.xml.in:7
 msgid ""
 "Set this to true to disable warnings about CA certificates in EAP "
 "authentication."
@@ -94,7 +29,7 @@ msgstr ""
 "ਇਸ ਨੂੰ ਸੱਚ (ture) ਕਰੋ, ਜੇ EAP ਪਰਮਾਣਕਿਤਾ ਵਿੱਚ CA ਸਰਟੀਫਿਕੇਟ ਬਾਰੇ ਚੇਤਾਵਨੀਆਂ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ "
 "ਹੋ।"
 
-#: org.gnome.nm-applet.gschema.xml.in:49
+#: org.gnome.nm-applet.eap.gschema.xml.in:12
 msgid ""
 "Set this to true to disable warnings about CA certificates in phase 2 of EAP "
 "authentication."
@@ -135,11 +70,11 @@ msgid ""
 "type '%s'"
 msgstr ""
 
-#: src/nma-bar-code-widget.c:142
+#: src/nma-bar-code-widget.c:140
 msgid "Network"
 msgstr "ਨੈੱਟਵਰਕ"
 
-#: src/nma-bar-code-widget.c:159
+#: src/nma-bar-code-widget.c:157
 #, fuzzy
 msgid "Password"
 msgstr "ਪਾਸਵਰਡ:"
@@ -148,73 +83,119 @@ msgstr "ਪਾਸਵਰਡ:"
 msgid "Scan with your phone or <a href=\"nma:print\">Print</a>"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:179
+#: src/nma-cert-chooser.c:513
+msgid "No certificate set"
+msgstr "ਕੋਈ CA ਸਰਟੀਫਿਕੇਟ ਸੈੱਟ ਨਹੀਂ"
+
+#: src/nma-cert-chooser.c:537
+msgid "No key set"
+msgstr "ਕੋਈ ਕੁੰਜੀ ਸੈੱਟ ਨਹੀਂ ਹੈ"
+
+#: src/nma-cert-chooser.c:860
+#, c-format
+msgid "Choose a %s Certificate"
+msgstr "%s ਸਰਟੀਫਿਕੇਟ ਚੁਣੋ"
+
+#: src/nma-cert-chooser.c:864
+#, fuzzy, c-format
+msgid "%s _certificate"
+msgstr "%s ਸਰਟੀਫਿਕੇਟ(_c):"
+
+#: src/nma-cert-chooser.c:868
+#, fuzzy, c-format
+msgid "%s certificate _password"
+msgstr "%s ਸਰਟੀਫਿਕੇਟ ਪਾਸਵਰਡ(_p):"
+
+#: src/nma-cert-chooser.c:887
+#, c-format
+msgid "Choose a key for %s Certificate"
+msgstr "%s ਸਰਟੀਫਿਕੇਟ ਲਈ ਕੁੰਜੀ ਚੁਣੋ"
+
+#: src/nma-cert-chooser.c:891
+#, fuzzy, c-format
+msgid "%s private _key"
+msgstr "%s ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ(_k):"
+
+#: src/nma-cert-chooser.c:895
+#, fuzzy, c-format
+msgid "%s key _password"
+msgstr "%s ਕੁੰਜੀ ਪਾਸਵਰਡ(_p):"
+
+#: src/nma-cert-chooser.c:1125
+msgid "Sho_w passwords"
+msgstr "ਪਾਸਵਰਡ ਵੇਖੋ(_w)"
+
+#: src/nma-cert-chooser-button.c:177
 #, c-format
 msgid "Key in %s"
 msgstr "%s ਵਿੱਚ ਕੁੰਜੀ"
 
-#: src/nma-cert-chooser-button.c:180
+#: src/nma-cert-chooser-button.c:178
 #, c-format
 msgid "Certificate in %s"
 msgstr "%s ਵਿੱਚ ਸਰਟੀਫਿਕੇਟ"
 
-#: src/nma-cert-chooser-button.c:211 src/nma-cert-chooser-button.c:322
+#: src/nma-cert-chooser-button.c:209 src/nma-cert-chooser-button.c:320
 msgid "Select"
 msgstr "ਚੁਣੋ"
 
-#: src/nma-cert-chooser-button.c:212 src/nma-cert-chooser-button.c:323
+#: src/nma-cert-chooser-button.c:210 src/nma-cert-chooser-button.c:321
 msgid "Cancel"
 msgstr "ਰੱਦ ਕਰੋ"
 
-#: src/nma-cert-chooser-button.c:279 src/nma-ws/nma-eap-fast.c:330
+#: src/nma-cert-chooser-button.c:277 src/nma-ws/nma-eap-fast.c:329
 msgid "(None)"
 msgstr "(ਕੋਈ ਨਹੀਂ)"
 
-#: src/nma-cert-chooser-button.c:302 src/nma-pkcs11-cert-chooser-dialog.c:184
+#: src/nma-cert-chooser-button.c:300 src/nma-pkcs11-cert-chooser-dialog.c:189
 msgid "(Unknown)"
 msgstr "(ਅਣਪਛਾਤਾ)"
 
-#: src/nma-cert-chooser-button.c:432
+#: src/nma-cert-chooser-button.c:431
 msgid "Select from file…"
 msgstr "ਫਾਇਲ ਤੋਂ ਚੁਣੋ…"
 
-#: src/nma-mobile-providers.c:787
+#: src/nma-mobile-providers.c:818
 msgid "Default"
 msgstr "ਡਿਫਾਲਟ"
 
-#: src/nma-mobile-providers.c:976
+#: src/nma-mobile-providers.c:1007
 msgid "My country is not listed"
 msgstr "ਮੇਰਾ ਦੇਸ਼ ਲਿਸਟ ਵਿੱਚ ਨਹੀਂ ਹੈ"
 
-#: src/nma-mobile-wizard.c:142
+#: src/nma-mobile-providers.c:1045
+msgid "Kosovo"
+msgstr ""
+
+#: src/nma-mobile-wizard.c:140
 msgid "GSM"
 msgstr "GSM"
 
-#: src/nma-mobile-wizard.c:145
+#: src/nma-mobile-wizard.c:143
 msgid "CDMA"
 msgstr "CDMA"
 
-#: src/nma-mobile-wizard.c:250 src/nma-mobile-wizard.c:282
+#: src/nma-mobile-wizard.c:252 src/nma-mobile-wizard.c:284
 msgid "Unlisted"
 msgstr "ਬਿਨ-ਲਿਸਟ"
 
-#: src/nma-mobile-wizard.c:481
+#: src/nma-mobile-wizard.c:483
 msgid "My plan is not listed…"
 msgstr "ਮੇਰਾ ਪਲੈਨ ਲਿਸਟ 'ਚ ਨਹੀਂ ਹੈ…"
 
-#: src/nma-mobile-wizard.c:652
+#: src/nma-mobile-wizard.c:654
 msgid "Provider"
 msgstr "ਪਰੋਵਾਇਡਰ"
 
-#: src/nma-mobile-wizard.c:1024
+#: src/nma-mobile-wizard.c:1026
 msgid "Installed GSM device"
 msgstr "ਇੰਸਟਾਲ ਕੀਤਾ GSM ਜੰਤਰ"
 
-#: src/nma-mobile-wizard.c:1027
+#: src/nma-mobile-wizard.c:1029
 msgid "Installed CDMA device"
 msgstr "ਇੰਸਟਾਲ ਕੀਤਾ CDMA ਜੰਤਰ"
 
-#: src/nma-mobile-wizard.c:1232
+#: src/nma-mobile-wizard.c:1234
 msgid "Any device"
 msgstr "ਕੋਈ ਵੀ ਜੰਤਰ"
 
@@ -340,23 +321,23 @@ msgstr ""
 msgid "Confirm Mobile Broadband Settings"
 msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਸੈਟਿੰਗ ਪੁਸ਼ਟੀ"
 
-#: src/nma-pkcs11-cert-chooser-dialog.c:255
+#: src/nma-pkcs11-cert-chooser-dialog.c:260
 msgid "Error logging in: "
 msgstr "ਲਾਗਇਨ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ: "
 
-#: src/nma-pkcs11-cert-chooser-dialog.c:277
+#: src/nma-pkcs11-cert-chooser-dialog.c:282
 msgid "Error opening a session: "
 msgstr "ਸ਼ੈਸ਼ਨ ਖੋਲ੍ਹਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: src/nma-pkcs11-cert-chooser-dialog.ui:19
+#: src/nma-pkcs11-cert-chooser-dialog.ui:18
 msgid "_Unlock token"
 msgstr "ਅਣ-ਲਾਕ ਟੋਕਨ(_U)"
 
-#: src/nma-pkcs11-cert-chooser-dialog.ui:115
+#: src/nma-pkcs11-cert-chooser-dialog.ui:99
 msgid "Name"
 msgstr "ਨਾਂ"
 
-#: src/nma-pkcs11-cert-chooser-dialog.ui:125
+#: src/nma-pkcs11-cert-chooser-dialog.ui:109
 msgid "Issued By"
 msgstr "ਜਾਰੀ ਕੀਤਾ ਵਲੋਂ"
 
@@ -365,8 +346,8 @@ msgstr "ਜਾਰੀ ਕੀਤਾ ਵਲੋਂ"
 msgid "Enter %s PIN"
 msgstr "%s ਪਿੰਨ ਦਿਓ"
 
-#: src/nma-pkcs11-token-login-dialog.ui:18 src/nma-vpn-password-dialog.ui:28
-#: src/nma-wifi-dialog.c:1115 src/nma-ws/nma-eap-fast.ui:27
+#: src/nma-pkcs11-token-login-dialog.ui:19 src/nma-vpn-password-dialog.ui:28
+#: src/nma-wifi-dialog.c:1125 src/nma-ws/nma-eap-fast.ui:27
 msgid "_Cancel"
 msgstr "ਰੱਦ ਕਰੋ(_C)"
 
@@ -378,19 +359,19 @@ msgstr "ਲਾਗਇਨ(_L)"
 msgid "_Remember PIN"
 msgstr "ਪਿੰਨ ਯਾਦ ਰੱਖੋ(_R)"
 
-#: src/nma-ui-utils.c:34
+#: src/nma-ui-utils.c:32
 msgid "Store the password only for this user"
 msgstr "ਸਿਰਫ਼ ਇਹ ਵਰਤੋਂਕਾਰ ਲਈ ਹੀ ਪਾਸਵਰਡ ਸੰਭਾਲੋ"
 
-#: src/nma-ui-utils.c:35
+#: src/nma-ui-utils.c:33
 msgid "Store the password for all users"
 msgstr "ਸਭ ਵਰਤੋਂਕਾਰਾਂ ਲਈ ਹੀ ਪਾਸਵਰਡ ਸੰਭਾਲੋ"
 
-#: src/nma-ui-utils.c:36
+#: src/nma-ui-utils.c:34
 msgid "Ask for this password every time"
 msgstr "ਹਰ ਵਾਰ ਇਹ ਪਾਸਵਰਡ ਲਈ ਪੁੱਛੋ"
 
-#: src/nma-ui-utils.c:37
+#: src/nma-ui-utils.c:35
 msgid "The password is not required"
 msgstr "ਪਾਸਵਰਡ ਨਹੀਂ ਚਾਹੀਦਾ ਹੈ"
 
@@ -414,119 +395,119 @@ msgstr "ਸੈਕੰਡਰੀ ਪਾਸਵਰਡ(_S):"
 msgid "_Password:"
 msgstr "ਪਾਸਵਰਡ(_P):"
 
-#: src/nma-wifi-dialog.c:116
+#: src/nma-wifi-dialog.c:114
 msgid "Click to connect"
 msgstr "ਕਨੈਕਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ"
 
-#: src/nma-wifi-dialog.c:443
+#: src/nma-wifi-dialog.c:441
 msgid "New…"
 msgstr "ਨਵਾਂ…"
 
-#: src/nma-wifi-dialog.c:927
+#: src/nma-wifi-dialog.c:937
 msgctxt "Wifi/wired security"
 msgid "None"
 msgstr "ਕੋਈ ਨਹੀਂ"
 
-#: src/nma-wifi-dialog.c:943
+#: src/nma-wifi-dialog.c:953
 msgid "WEP 40/128-bit Key (Hex or ASCII)"
 msgstr "WEP 40/128-ਬਿੱਟ ਕੁੰਜੀ (Hex ਜਾਂ ASCII)"
 
-#: src/nma-wifi-dialog.c:950
+#: src/nma-wifi-dialog.c:960
 msgid "WEP 128-bit Passphrase"
 msgstr "WEP 128-ਬਿੱਟ ਸ਼ਬਦ"
 
-#: src/nma-wifi-dialog.c:965 src/nma-ws/nma-ws-802-1x.c:367
+#: src/nma-wifi-dialog.c:975 src/nma-ws/nma-ws-802-1x.c:366
 msgid "LEAP"
 msgstr "LEAP"
 
-#: src/nma-wifi-dialog.c:976
+#: src/nma-wifi-dialog.c:986
 msgid "Dynamic WEP (802.1x)"
 msgstr "ਡਾਇਨੈਮਿਕ WEP (802.1x)"
 
-#: src/nma-wifi-dialog.c:988
+#: src/nma-wifi-dialog.c:998
 msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 ਨਿੱਜੀ"
 
-#: src/nma-wifi-dialog.c:1004
+#: src/nma-wifi-dialog.c:1014
 msgid "WPA & WPA2 Enterprise"
 msgstr "WPA & WPA2 ਇੰਟਰਪ੍ਰਾਈਜ"
 
-#: src/nma-wifi-dialog.c:1015
+#: src/nma-wifi-dialog.c:1025
 #, fuzzy
 msgid "WPA3 Personal"
 msgstr "WPA & WPA2 ਨਿੱਜੀ"
 
-#: src/nma-wifi-dialog.c:1026
+#: src/nma-wifi-dialog.c:1036
 msgid "Enhanced Open"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1119
+#: src/nma-wifi-dialog.c:1129
 msgid "C_reate"
 msgstr "ਬਣਾਓ(_r)"
 
-#: src/nma-wifi-dialog.c:1121
+#: src/nma-wifi-dialog.c:1131
 msgid "C_onnect"
 msgstr "ਕਨੈਕਸ਼ਨ(_o)"
 
-#: src/nma-wifi-dialog.c:1199
+#: src/nma-wifi-dialog.c:1209
 #, c-format
 msgid ""
 "Passwords or encryption keys are required to access the Wi-Fi network “%s”."
 msgstr "Wi-Fi ਨੈੱਟਵਰਕ “%s“ ਵਰਤਣ ਲਈ ਪਾਸਵਰਡ ਜਾਂ ਇੰਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀਆਂ ਦੀ ਲੋੜ ਹੈ।"
 
-#: src/nma-wifi-dialog.c:1201
+#: src/nma-wifi-dialog.c:1211
 msgid "Wi-Fi Network Authentication Required"
 msgstr "Wi-Fi ਨੈੱਟਵਰਕ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ"
 
-#: src/nma-wifi-dialog.c:1203
+#: src/nma-wifi-dialog.c:1213
 msgid "Authentication required by Wi-Fi network"
 msgstr "Wi-Fi ਨੈੱਟਵਰਕ ਵਲੋਂ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ ਹੈ"
 
-#: src/nma-wifi-dialog.c:1208
+#: src/nma-wifi-dialog.c:1218
 msgid "Create New Wi-Fi Network"
 msgstr "ਨਵਾਂ Wi-Fi ਨੈੱਟਵਰਕ ਬਣਾਓ"
 
-#: src/nma-wifi-dialog.c:1210
+#: src/nma-wifi-dialog.c:1220
 msgid "New Wi-Fi network"
 msgstr "ਨਵਾਂ Wi-Fi ਨੈੱਟਵਰਕ"
 
-#: src/nma-wifi-dialog.c:1211
+#: src/nma-wifi-dialog.c:1221
 msgid "Enter a name for the Wi-Fi network you wish to create."
 msgstr "Wi-Fi ਨੈੱਟਵਰਕ, ਜੋ ਤੁਸੀਂ ਬਣਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਲਈ ਨਾਂ ਦਿਓ।"
 
-#: src/nma-wifi-dialog.c:1213
+#: src/nma-wifi-dialog.c:1223
 msgid "Connect to Hidden Wi-Fi Network"
 msgstr "ਲੁਕਵੇਂ Wi-Fi ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰੋ"
 
-#: src/nma-wifi-dialog.c:1215
+#: src/nma-wifi-dialog.c:1225
 msgid "Hidden Wi-Fi network"
 msgstr "ਲੁਕਵਾਂ Wi-Fi ਨੈੱਟਵਰਕ"
 
-#: src/nma-wifi-dialog.c:1216
+#: src/nma-wifi-dialog.c:1226
 msgid ""
 "Enter the name and security details of the hidden Wi-Fi network you wish to "
 "connect to."
 msgstr "ਲੁਕਵੇਂ Wi-Fi ਨੈੱਟਵਰਕ, ਜਿਸ ਨਾਲ ਤੁਸੀਂ ਕਨੈਕਟ ਹੋਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਲਈ ਨਾਂ ਅਤੇ ਸੁਰੱਖਿਆ ਵੇਰਵਾ ਦਿਓ।"
 
-#: src/nma-ws/nma-eap-fast.c:60
+#: src/nma-ws/nma-eap-fast.c:59
 msgid "missing EAP-FAST PAC file"
 msgstr "ਗੁੰਮ EAP-FAST PAC ਫਾਇਲ"
 
-#: src/nma-ws/nma-eap-fast.c:250 src/nma-ws/nma-eap-peap.c:310
-#: src/nma-ws/nma-eap-ttls.c:363
+#: src/nma-ws/nma-eap-fast.c:249 src/nma-ws/nma-eap-peap.c:309
+#: src/nma-ws/nma-eap-ttls.c:362
 msgid "GTC"
 msgstr "GTC"
 
-#: src/nma-ws/nma-eap-fast.c:266 src/nma-ws/nma-eap-peap.c:278
-#: src/nma-ws/nma-eap-ttls.c:297
+#: src/nma-ws/nma-eap-fast.c:265 src/nma-ws/nma-eap-peap.c:277
+#: src/nma-ws/nma-eap-ttls.c:296
 msgid "MSCHAPv2"
 msgstr "MSCHAPv2"
 
-#: src/nma-ws/nma-eap-fast.c:449
+#: src/nma-ws/nma-eap-fast.c:448
 msgid "PAC files (*.pac)"
 msgstr "PAC ਫਾਇਲਾਂ (*.pac)"
 
-#: src/nma-ws/nma-eap-fast.c:453
+#: src/nma-ws/nma-eap-fast.c:452
 msgid "All files"
 msgstr "ਸਭ ਫਾਇਲਾਂ"
 
@@ -571,11 +552,11 @@ msgstr "_Inner ਪਰਮਾਣਕਿਤਾ:"
 msgid "Allow automatic PAC pro_visioning"
 msgstr "ਆਟੋਮੈਟਿਕ PAC ਪਰੋਵਿਜ਼ਨਿੰਗ ਮਨਜ਼ੂਰ(_v)"
 
-#: src/nma-ws/nma-eap-leap.c:55
+#: src/nma-ws/nma-eap-leap.c:52
 msgid "missing EAP-LEAP username"
 msgstr "ਗੁੰਮ EAP-LEAP ਵਰਤੋਂਕਾਰ-ਨਾਂ"
 
-#: src/nma-ws/nma-eap-leap.c:64
+#: src/nma-ws/nma-eap-leap.c:61
 msgid "missing EAP-LEAP password"
 msgstr "ਗੁੰਮ EAP-LEAP ਪਾਸਵਰਡ"
 
@@ -598,8 +579,8 @@ msgstr "ਪਾਸਵਰਡ(_P):"
 msgid "Sho_w password"
 msgstr "ਪਾਸਵਰਡ ਵੇਖੋ(_w)"
 
-#: src/nma-ws/nma-eap-peap.c:294 src/nma-ws/nma-eap-ttls.c:347
-#: src/nma-ws/nma-ws-802-1x.c:343
+#: src/nma-ws/nma-eap-peap.c:293 src/nma-ws/nma-eap-ttls.c:346
+#: src/nma-ws/nma-ws-802-1x.c:342
 msgid "MD5"
 msgstr "MD5"
 
@@ -636,15 +617,15 @@ msgstr ""
 msgid "_Domain"
 msgstr "ਡੋਮੇਨ(_D):"
 
-#: src/nma-ws/nma-eap-simple.c:79
+#: src/nma-ws/nma-eap-simple.c:78
 msgid "missing EAP username"
 msgstr "ਗੁੰਮ EAP ਵਰਤੋਂਕਾਰ-ਨਾਂ"
 
-#: src/nma-ws/nma-eap-simple.c:95
+#: src/nma-ws/nma-eap-simple.c:94
 msgid "missing EAP password"
 msgstr "ਗਲਤ EAP ਪਾਸਵਰਡ"
 
-#: src/nma-ws/nma-eap-simple.c:109
+#: src/nma-ws/nma-eap-simple.c:108
 msgid "missing EAP client Private Key passphrase"
 msgstr ""
 
@@ -658,23 +639,23 @@ msgstr "WEP 128-ਬਿੱਟ ਸ਼ਬਦ"
 msgid "Sh_ow passphrase"
 msgstr "ਪਾਸਵਰਡ ਵੇਖੋ(_o)"
 
-#: src/nma-ws/nma-eap-tls.c:47
+#: src/nma-ws/nma-eap-tls.c:44
 msgid "missing EAP-TLS identity"
 msgstr "ਗੁੰਮ EAP-TLS ਪਛਾਣ"
 
-#: src/nma-ws/nma-eap-tls.c:237
+#: src/nma-ws/nma-eap-tls.c:234
 msgid "no user certificate selected"
 msgstr "ਕੋਈ ਵਰਤੋਂਕਾਰ ਸਰਟੀਫਿਕੇਟ ਨਹੀਂ ਚੁਣਿਆ"
 
-#: src/nma-ws/nma-eap-tls.c:242
+#: src/nma-ws/nma-eap-tls.c:239
 msgid "selected user certificate file does not exist"
 msgstr "ਚੁਣੀ ਗਈ ਵਰਤੋਂਕਾਰ ਸਰਟੀਫਿਕੇਟ ਫਾਇਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: src/nma-ws/nma-eap-tls.c:262
+#: src/nma-ws/nma-eap-tls.c:259
 msgid "no key selected"
 msgstr "ਕੋਈ ਕੁੰਜੀ ਨਹੀਂ ਚੁਣੀ"
 
-#: src/nma-ws/nma-eap-tls.c:267
+#: src/nma-ws/nma-eap-tls.c:264
 msgid "selected key file does not exist"
 msgstr "ਚੁਣੀ ਗਈ ਕੁੰਜੀ ਫਾਇਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
@@ -683,59 +664,59 @@ msgstr "ਚੁਣੀ ਗਈ ਕੁੰਜੀ ਫਾਇਲ ਮੌਜੂਦ ਨਹ�
 msgid "I_dentity"
 msgstr "ਪਛਾਣ(_d):"
 
-#: src/nma-ws/nma-eap-ttls.c:265
+#: src/nma-ws/nma-eap-ttls.c:264
 msgid "PAP"
 msgstr "PAP"
 
-#: src/nma-ws/nma-eap-ttls.c:281
+#: src/nma-ws/nma-eap-ttls.c:280
 msgid "MSCHAP"
 msgstr "MSCHAP"
 
-#: src/nma-ws/nma-eap-ttls.c:314
+#: src/nma-ws/nma-eap-ttls.c:313
 msgid "MSCHAPv2 (no EAP)"
 msgstr "MSCHAPv2 (EAP ਨਹੀਂ)"
 
-#: src/nma-ws/nma-eap-ttls.c:331
+#: src/nma-ws/nma-eap-ttls.c:330
 msgid "CHAP"
 msgstr "CHAP"
 
-#: src/nma-ws/nma-eap.c:40
+#: src/nma-ws/nma-eap.c:34
 msgid "undefined error in 802.1X security (wpa-eap)"
 msgstr "802.1x ਸੁਰੱਖਿਆ (wpa-eap) ਵਿੱਚ ਨਾ-ਪਰਿਭਾਸ਼ਿਤ ਗ਼ਲਤੀ"
 
-#: src/nma-ws/nma-eap.c:348
+#: src/nma-ws/nma-eap.c:342
 msgid "no CA certificate selected"
 msgstr "ਕੋਈ CA ਸਰਟੀਫਿਕੇਟ ਨਹੀਂ ਚੁਣਿਆ"
 
-#: src/nma-ws/nma-eap.c:353
+#: src/nma-ws/nma-eap.c:347
 msgid "selected CA certificate file does not exist"
 msgstr "ਚੁਣੀ ਗਈ CA ਸਰਟੀਫਿਕੇਟ ਫਾਇਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: src/nma-ws/nma-ws-802-1x.c:355
+#: src/nma-ws/nma-ws-802-1x.c:354
 msgid "TLS"
 msgstr "TLS"
 
-#: src/nma-ws/nma-ws-802-1x.c:379
+#: src/nma-ws/nma-ws-802-1x.c:378
 msgid "PWD"
 msgstr "PWD"
 
-#: src/nma-ws/nma-ws-802-1x.c:390
+#: src/nma-ws/nma-ws-802-1x.c:389
 msgid "FAST"
 msgstr "FAST"
 
-#: src/nma-ws/nma-ws-802-1x.c:401
+#: src/nma-ws/nma-ws-802-1x.c:400
 msgid "Tunneled TLS"
 msgstr "ਟਨਲ TLS"
 
-#: src/nma-ws/nma-ws-802-1x.c:412
+#: src/nma-ws/nma-ws-802-1x.c:411
 msgid "Protected EAP (PEAP)"
 msgstr "ਸੁਰੱਖਿਅਤ EAP (PEAP)"
 
-#: src/nma-ws/nma-ws-802-1x.c:427
+#: src/nma-ws/nma-ws-802-1x.c:426
 msgid "Unknown"
 msgstr "ਅਣਜਾਣ"
 
-#: src/nma-ws/nma-ws-802-1x.c:441
+#: src/nma-ws/nma-ws-802-1x.c:440
 msgid "Externally configured"
 msgstr ""
 
@@ -744,15 +725,15 @@ msgstr ""
 msgid "Au_thentication"
 msgstr "ਪਰਮਾਣਕਿਤਾ(_t):"
 
-#: src/nma-ws/nma-ws-leap.c:71
+#: src/nma-ws/nma-ws-leap.c:70
 msgid "missing leap-username"
 msgstr "leap-ਵਰਤੋਂਕਾਰ ਗੁੰਮ"
 
-#: src/nma-ws/nma-ws-leap.c:87
+#: src/nma-ws/nma-ws-leap.c:86
 msgid "missing leap-password"
 msgstr "ਗੁੰਮ ਲੀਪ-ਪਾਸਵਰਡ"
 
-#: src/nma-ws/nma-ws-sae.c:73
+#: src/nma-ws/nma-ws-sae.c:72
 #, fuzzy
 msgid "missing password"
 msgstr "ਗਲਤ EAP ਪਾਸਵਰਡ"
@@ -762,22 +743,22 @@ msgstr "ਗਲਤ EAP ਪਾਸਵਰਡ"
 msgid "_Type"
 msgstr "ਟਾਈਪ(_T):"
 
-#: src/nma-ws/nma-ws-wep-key.c:110
+#: src/nma-ws/nma-ws-wep-key.c:109
 msgid "missing wep-key"
 msgstr "wep-key ਗੁੰਮ"
 
-#: src/nma-ws/nma-ws-wep-key.c:117
+#: src/nma-ws/nma-ws-wep-key.c:116
 #, c-format
 msgid "invalid wep-key: key with a length of %zu must contain only hex-digits"
 msgstr "ਅਢੁੱਕਵੀਂ wep-key: %zu ਲੰਬਾਈ ਦੀ ਕੁੰਜੀ ਵਿੱਚ ਕੇਵਲ ਹੈਕਸਾ-ਅੰਕ ਹੀ ਹੋ ਸਕਦੇ ਹਨ"
 
-#: src/nma-ws/nma-ws-wep-key.c:125
+#: src/nma-ws/nma-ws-wep-key.c:124
 #, c-format
 msgid ""
 "invalid wep-key: key with a length of %zu must contain only ascii characters"
 msgstr "ਅਢੁੱਕਵੀਂ wep-key: %zu ਲੰਬਾਈ ਦੀ ਕੁੰਜੀ ਵਿੱਚ ਕੇਵਲ ASCII ਅੱਖਰ ਹੀ ਹੋ ਸਕਦੇ ਹਨ"
 
-#: src/nma-ws/nma-ws-wep-key.c:131
+#: src/nma-ws/nma-ws-wep-key.c:130
 #, c-format
 msgid ""
 "invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
@@ -786,11 +767,11 @@ msgstr ""
 "ਅਢੁੱਕਵੀਂ wep-key: ਗ਼ਲਤ %zu ਕੁੰਜੀ ਲੰਬਾਈ। ਕੁੰਜੀ ਦੀ ਲੰਬਾਈ ਜਾਂ ਤਾਂ 5/13 (ascii) ਜਾਂ 10/26 "
 "(ਹੈਕਸਾ) ਹੋ ਸਕਦੇ ਹਨ"
 
-#: src/nma-ws/nma-ws-wep-key.c:138
+#: src/nma-ws/nma-ws-wep-key.c:137
 msgid "invalid wep-key: passphrase must be non-empty"
 msgstr "ਅਢੁੱਕਵੀਂ wep-key: ਵਾਕ ਖਾਲੀ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
-#: src/nma-ws/nma-ws-wep-key.c:140
+#: src/nma-ws/nma-ws-wep-key.c:139
 msgid "invalid wep-key: passphrase must be shorter than 64 characters"
 msgstr "ਅਢੁੱਕਵੀਂ wep-key: ਵਾਕ 64-ਅੱਖਰਾਂ ਤੋਂ ਛੋਟਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
@@ -833,7 +814,7 @@ msgstr ""
 msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
 msgstr "ਅਢੁੱਕਵੀਂ wpa-psk: 64 ਬਾਈਟਾਂ ਨੂੰ ਹੈਕਸਾ ਨਾਲ ਅਰਥ ਕੱਢੇ ਨਹੀਂ ਜਾ ਸਕਦੇ"
 
-#: src/nma-ws/nma-ws.c:42
+#: src/nma-ws/nma-ws.c:40
 msgid "Unknown error validating 802.1X security"
 msgstr "802.1x ਸੁਰੱਖਿਆ ਦੀ ਪ੍ਰਮਾਣਕਿਤ ਦੌਰਾਨ ਅਣਜਾਣ ਗਲਤੀ"
 
@@ -870,3413 +851,3 @@ msgstr "ਕਨੈਕਸ਼ਨ(_n):"
 #, fuzzy
 msgid "Wi-Fi _adapter"
 msgstr "Wi-Fi ਅਡੈਪਟਰ(_a):"
-
-#~ msgid "No certificate set"
-#~ msgstr "ਕੋਈ CA ਸਰਟੀਫਿਕੇਟ ਸੈੱਟ ਨਹੀਂ"
-
-#~ msgid "No key set"
-#~ msgstr "ਕੋਈ ਕੁੰਜੀ ਸੈੱਟ ਨਹੀਂ ਹੈ"
-
-#, c-format
-#~ msgid "Choose a key for %s Certificate"
-#~ msgstr "%s ਸਰਟੀਫਿਕੇਟ ਲਈ ਕੁੰਜੀ ਚੁਣੋ"
-
-#, fuzzy, c-format
-#~ msgid "%s private _key"
-#~ msgstr "%s ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ(_k):"
-
-#, fuzzy, c-format
-#~ msgid "%s key _password"
-#~ msgstr "%s ਕੁੰਜੀ ਪਾਸਵਰਡ(_p):"
-
-#, c-format
-#~ msgid "Choose %s Certificate"
-#~ msgstr "%s ਸਰਟੀਫਿਕੇਟ ਚੁਣੋ"
-
-#, fuzzy, c-format
-#~ msgid "%s _certificate"
-#~ msgstr "%s ਸਰਟੀਫਿਕੇਟ(_c):"
-
-#, c-format
-#~ msgid "Choose a %s Certificate"
-#~ msgstr "%s ਸਰਟੀਫਿਕੇਟ ਚੁਣੋ"
-
-#, fuzzy, c-format
-#~ msgid "%s certificate _password"
-#~ msgstr "%s ਸਰਟੀਫਿਕੇਟ ਪਾਸਵਰਡ(_p):"
-
-#~ msgid "Sho_w passwords"
-#~ msgstr "ਪਾਸਵਰਡ ਵੇਖੋ(_w)"
-
-#~ msgid "Manage your network connections"
-#~ msgstr "ਆਪਣੇ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨਾਂ ਦਾ ਪਰਬੰਧ ਕਰੋ"
-
-#, fuzzy
-#~ msgid "Advanced Network Configuration"
-#~ msgstr "ਰਾਅ ਸੰਰਚਨਾ"
-
-#~ msgid "Manage and change your network connection settings"
-#~ msgstr "ਆਪਣੀ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਸੈਟਿੰਗ ਦਾ ਪਰਬੰਧ ਕਰੋ ਅਤੇ ਬਦਲੋ"
-
-#~ msgid "NetworkManager"
-#~ msgstr "ਨੈੱਟਵਰਕ-ਮੈਨੇਜਰ"
-
-#~ msgid "NetworkManager connection editor"
-#~ msgstr "ਨੈੱਟਵਰਕ-ਮੈਨੇਜਰ ਕਨੈਕਸ਼ਨ ਐਡੀਟਰ"
-
-#~ msgid ""
-#~ "NetworkManager is a system service for managing and configuring your "
-#~ "network connections and devices."
-#~ msgstr "ਨੈੱਟਵਰਕ-ਮੈਨੇਜਰ ਤੁਹਾਡੇ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਅਤੇ ਜੰਤਰ ਦੇ ਪਰਬੰਧ ਅਤੇ ਸੰਰਚਨਾ ਲਈ ਸਿਸਟਮ ਸੇਵਾ ਹੈ।"
-
-#~ msgid "The NetworkManager Developers"
-#~ msgstr "ਨੈੱਟਵਰਕ-ਮੈਨੇਜਰ ਡਿਵੈਲਪਰ"
-
-#~ msgid "802.1X authentication"
-#~ msgstr "802.1X ਪਰਮਾਣਕਿਤਾ"
-
-#~ msgid "ad-hoc"
-#~ msgstr "ਐਡ-ਹਾਕ"
-
-#~ msgid "secure."
-#~ msgstr "ਸੁਰੱਖਿਅਤ।"
-
-#~ msgid "Failed to add/activate connection"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਜੋੜਨ/ਐਕਟੀਵੇਟ ਕਰਨ ਲਈ ਫੇਲ੍ਹ"
-
-#~ msgid "Unknown error"
-#~ msgstr "ਅਣਜਾਣ ਗਲਤੀ"
-
-#~ msgid "Connection failure"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਫੇਲ੍ਹ"
-
-#~ msgid "Device disconnect failed"
-#~ msgstr "ਜੰਤਰ ਡਿਸ-ਕਨੈਕਟ ਫੇਲ੍ਹ ਹੈ"
-
-#~ msgid "Disconnect failure"
-#~ msgstr "ਡਿਸ-ਕਨੈਕਟ ਫੇਲ੍ਹ ਹੈ"
-
-#~ msgid "Connection activation failed"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਸਰਗਰਮ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੈ"
-
-#~ msgid "Don’t show this message again"
-#~ msgstr "ਇਹ ਸੁਨੇਹਾ ਮੁੜ ਨਾ ਵੇਖਾਓ"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” disconnected because the network connection was "
-#~ "interrupted."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਡਿਸ-ਕਨੈਕਟ ਹੋਇਆ, ਕਿਉਂਕਿ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਰੁਕ ਗਿਆ।"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the network connection was "
-#~ "interrupted."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ, ਕਿਉਂਕਿ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਵਿਚੇ ਰੋਕਿਆ ਗਿਆ।"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service stopped "
-#~ "unexpectedly."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ, ਕਿਉਂਕਿ VPN ਸਰਵਿਸ ਅਚਾਨਕ ਰੁਕ ਗਈ।"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service returned invalid "
-#~ "configuration."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ, ਕਿਉਂਕਿ VPN ਸਰਵਿਸ ਨੇ ਅਢੁੱਕਵੀਂ ਸੰਰਚਨਾ ਦਿੱਤੀ।"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the connection attempt timed out."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ, ਕਿਉਂਕਿ ਕਨੈਕਸ਼ਨ ਕੋਸ਼ਿਸ਼ ਲਈ ਸਮਾਂ ਸਮਾਪਤ ਹੋਇਆ।"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service did not start in "
-#~ "time."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ, ਕਿਉਂਕਿ VPN ਸਰਵਿਸ ਸਮੇਂ ਸਿਰ ਸ਼ੁਰੂ ਨਹੀਂ ਹੋਈ।"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service failed to start."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ, ਕਿਉਂਕਿ VPN ਸਰਵਿਸ ਸ਼ੁਰੂ ਹੋਣ ਲਈ ਫੇਲ੍ਹ ਹੋਈ।"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because there were no valid VPN secrets."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ, ਕਿਉਂਕਿ ਕੋਈ ਢੁੱਕਵੇਂ VPN ਸੀਕਰਟ ਨਹੀਂ ਸਨ"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because of invalid VPN secrets."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ, ਕਿਉਂਕਿ ਅਢੁੱਕਵੇਂ VPN ਸੀਕਰਟ ਸਨ।"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ।"
-
-#, c-format
-#~ msgid ""
-#~ "VPN connection has been successfully established.\n"
-#~ "\n"
-#~ "%s\n"
-#~ msgstr ""
-#~ "VPN ਕਨੈਕਸ਼ਨ ਠੀਕ ਤਰ੍ਹਾਂ ਬਣਾਇਆ ਗਿਆ ਹੈ।\n"
-#~ "\n"
-#~ "%s\n"
-
-#~ msgid "VPN connection has been successfully established.\n"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ ਠੀਕ ਤਰ੍ਹਾਂ ਬਣਾਇਆ ਗਿਆ ਹੈ।\n"
-
-#~ msgid "VPN Login Message"
-#~ msgstr "VPN ਲਾਗਇਨ ਸੁਨੇਹਾ"
-
-#~ msgid "VPN Connection Failed"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ ਫੇਲ੍ਹ ਹੋਇਆ"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service failed to start.\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਫੇਲ੍ਹ ਹੋਇਆ, ਕਿਉਂਕਿ VPN ਸ਼ੁਰੂ ਹੋਣ ਲਈ ਫੇਲ੍ਹ ਹੋਈ।\n"
-#~ "\n"
-#~ "%s"
-
-#, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed to start.\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕਨੈਕਸ਼ਨ “%s“ ਸ਼ੁਰੂ ਹੋਣ ਲਈ ਫੇਲ੍ਹ ਹੈ।\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "device not ready (firmware missing)"
-#~ msgstr "ਜੰਤਰ ਤਿਆਰ ਨਹੀਂ ਹੈ (ਫਿਰਮਵੇਅਰ ਗੁੰਮ ਹੈ)"
-
-#~ msgid "device not ready"
-#~ msgstr "ਜੰਤਰ ਤਿਆਰ ਨਹੀਂ ਹੈ"
-
-#~ msgid "disconnected"
-#~ msgstr "ਡਿਸ-ਕਨੈਕਟ ਹੈ"
-
-#~ msgid "Disconnect"
-#~ msgstr "ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
-
-#~ msgid "device not managed"
-#~ msgstr "ਜੰਤਰ ਪਰਬੰਧ ਅਧੀਨ ਨਹੀਂ ਹੈ"
-
-#~ msgid "No network devices available"
-#~ msgstr "ਕੋਈ ਨੈੱਟਵਰਕ ਜੰਤਰ ਨਹੀਂ ਉਪਲੱਬਧ ਹੈ"
-
-#~ msgid "_VPN Connections"
-#~ msgstr "_VPN ਕਨੈਕਸ਼ਨ"
-
-#~ msgid "_Configure VPN…"
-#~ msgstr "VPN ਸੰਰਚਨਾ(_C)…"
-
-#~ msgid "_Add a VPN connection…"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ ਜੋੜੋ(_A)…"
-
-#~ msgid "NetworkManager is not running…"
-#~ msgstr "ਨੈਟਵਰਕ-ਮੈਨੇਜਰ ਚੱਲ ਨਹੀਂ ਜਾ ਰਿਹਾ ਹੈ…"
-
-#~ msgid "Networking disabled"
-#~ msgstr "ਨੈੱਟਵਰਕਮੈਨੇਜਰ ਅਸਮਰੱਥ ਹੈ"
-
-#~ msgid "Enable _Networking"
-#~ msgstr "ਨੈੱਟਵਰਕਿੰਗ ਚਾਲੂ(_N)"
-
-#~ msgid "Enable _Wi-Fi"
-#~ msgstr "Wi-Fi ਚਾਲੂ(_W)"
-
-#~ msgid "Enable _Mobile Broadband"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਚਾਲੂ(_M)"
-
-#~ msgid "Enable N_otifications"
-#~ msgstr "ਨੋਟੀਫਿਕੇਸ਼ਨ ਦਿਓ(_o)"
-
-#~ msgid "Connection _Information"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਜਾਣਕਾਰੀ(_I)"
-
-#~ msgid "Edit Connections…"
-#~ msgstr "…ਕਨੈਕਸ਼ਨ ਸੋਧੋ"
-
-#~ msgid "_About"
-#~ msgstr "ਇਸ ਬਾਰੇ(_A)"
-
-#, c-format
-#~ msgid "You are now connected to “%s”."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ “%s“ ਨਾਲ ਕਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "Disconnected"
-#~ msgstr "ਡਿਸ-ਕਨੈਕਟ ਹੈ"
-
-#~ msgid "The network connection has been disconnected."
-#~ msgstr "ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਡਿਸ-ਕਨੈਕਟ ਹੈ।"
-
-#, c-format
-#~ msgid "Preparing network connection “%s”…"
-#~ msgstr "ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ “%s“ ਲਈ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…"
-
-#, c-format
-#~ msgid "User authentication required for network connection “%s”…"
-#~ msgstr "ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ “%s“ ਲਈ ਵਰਤੋਂਕਾਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਂਦੀ ਹੈ…"
-
-#, c-format
-#~ msgid "Requesting a network address for “%s”…"
-#~ msgstr "“%s“ ਲਈ ਨੈੱਟਵਰਕ ਐਡਰੈੱਸ ਦੀ ਮੰਗ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…"
-
-#, c-format
-#~ msgid "Network connection “%s” active"
-#~ msgstr "ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ “%s“ ਸਰਗਰਮ ਹੈ"
-
-#, c-format
-#~ msgid "Starting VPN connection “%s”…"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ “%s“ ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…"
-
-#, c-format
-#~ msgid "User authentication required for VPN connection “%s”…"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ “%s“ ਲਈ ਵਰਤੋਂਕਾਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ ਹੈ…"
-
-#, c-format
-#~ msgid "Requesting a VPN address for “%s”…"
-#~ msgstr "“%s“ ਲਈ VPN ਐਡਰੈੱਸ ਦੀ ਮੰਗ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…"
-
-#~ msgid "VPN connection active"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ ਸਰਗਰਮ ਹੈ"
-
-#~ msgid "No network connection"
-#~ msgstr "ਕੋਈ ਨੈਟਵਰਕ ਕਨੈਕਸ਼ਨ ਨਹੀਂ"
-
-#~ msgid "NetworkManager Applet"
-#~ msgstr "ਨੈੱਟਵਰਕਮੈਨੇਜਰ ਐਪਲਿਟ"
-
-#~ msgid "Wrong PUK code; please contact your provider."
-#~ msgstr "ਗਲਤ PUK ਕੋਡ; ਆਪਣੇ ਪਰੋਵਾਇਡਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
-
-#~ msgid "Wrong PIN code; please contact your provider."
-#~ msgstr "ਗਲਤ ਪਿੰਨ ਕੋਡ; ਆਪਣੇ ਪਰੋਵਾਇਡਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਜੀ।"
-
-#~ msgid "Sending unlock code…"
-#~ msgstr "…ਅਣ-ਲਾਕ ਕੋਡ ਭੇਜਿਆ ਜਾ ਰਿਹਾ ਹੈ"
-
-#, c-format
-#~ msgid "Mobile Broadband (%s)"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ (%s)"
-
-#~ msgid "Mobile Broadband"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ"
-
-#~ msgid "Available"
-#~ msgstr "ਉਪਲੱਬਧ"
-
-#~ msgid "New Mobile Broadband connection…"
-#~ msgstr "ਨਵਾਂ ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਕਨੈਕਸ਼ਨ…"
-
-#~ msgid "Connection Established"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਬਣਾਇਆ ਗਿਆ"
-
-#~ msgid "You are now connected to the Mobile Broadband network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "Mobile Broadband network."
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਨੈੱਟਵਰਕ।"
-
-#~ msgid "You are now registered on the home network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ ਘਰ ਨੈੱਟਵਰਕ ਨਾਲ ਰਜਿਸਟਰ ਹੋ ਚੁੱਕੇ ਹੋ।"
-
-#~ msgid "You are now registered on a roaming network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ ਰੋਮਿੰਗ (roaming) ਨੈੱਟਵਰਕ ਨਾਲ ਰਜਿਸਟਰ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "You are now connected to the mobile broadband network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#, c-format
-#~ msgid "Preparing mobile broadband connection “%s”…"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਕਨੈਕਸ਼ਨ ”%s” ਲਈ ਤਿਆਰ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…"
-
-#, c-format
-#~ msgid "Configuring mobile broadband connection “%s”…"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਕਨੈਕਸ਼ਨ ”%s” ਸੰਰਚਨਾ ਜਾਰੀ…"
-
-#, c-format
-#~ msgid "User authentication required for mobile broadband connection “%s”…"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਕਨੈਕਸ਼ਨ “%s“ ਲਈ ਵਰਤੋਂਕਾਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਂਦੀ ਹੈ…"
-
-#, c-format
-#~ msgid "Mobile broadband connection “%s” active"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਕਨੈਕਸ਼ਨ ”%s” ਸਰਗਰਮ ਹੈ"
-
-#~ msgid "Auto Ethernet"
-#~ msgstr "ਆਟੋ ਈਥਰਨੈੱਟ"
-
-#, c-format
-#~ msgid "Ethernet Networks (%s)"
-#~ msgstr "ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ (%s)"
-
-#, c-format
-#~ msgid "Ethernet Network (%s)"
-#~ msgstr "ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ (%s)"
-
-#~ msgid "Ethernet Networks"
-#~ msgstr "ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ"
-
-#~ msgid "Ethernet Network"
-#~ msgstr "ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ"
-
-#~ msgid "You are now connected to the ethernet network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#, c-format
-#~ msgid "Preparing ethernet network connection “%s”…"
-#~ msgstr "ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ “%s“ ਲਈ ਤਿਆਰੀ…"
-
-#, c-format
-#~ msgid "Configuring ethernet network connection “%s”…"
-#~ msgstr "ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ “%s“ ਨਾਲ ਸੰਰਚਨਾ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…"
-
-#, c-format
-#~ msgid "User authentication required for ethernet network connection “%s”…"
-#~ msgstr "ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ”%s” ਲਈ ਵਰਤੋਂਕਾਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਂਦੀ ਹੈ…"
-
-#, c-format
-#~ msgid "Requesting an ethernet network address for “%s”…"
-#~ msgstr "”%s” ਲਈ ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ ਐਡਰੈੱਸ ਦੀ ਮੰਗ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…"
-
-#, c-format
-#~ msgid "Ethernet network connection “%s” active"
-#~ msgstr "ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ”%s” ਸਰਗਰਮ"
-
-#~ msgid "DSL authentication"
-#~ msgstr "DSL ਪਰਮਾਣਕਿਤਾ"
-
-#~ msgid "_Connect to Hidden Wi-Fi Network…"
-#~ msgstr "…ਲੁਕਵੇਂ Wi-Fi ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰੋ(_C)"
-
-#~ msgid "Create _New Wi-Fi Network…"
-#~ msgstr "ਨਵਾਂ Wi-Fi ਨੈੱਟਵਰਕ ਬਣਾਓ…"
-
-#~ msgid "(none)"
-#~ msgstr "(ਕੋਈ ਨਹੀਂ)"
-
-#~ msgid "Failed to add new connection"
-#~ msgstr "ਨਵਾਂ ਕਨੈਕਸ਼ਨ ਜੋੜਨ ਲਈ ਫੇਲ੍ਹ ਹੈ"
-
-#~ msgid "Insufficient privileges."
-#~ msgstr "ਨਾਕਾਫ਼ੀ ਅਧਿਕਾਰ।"
-
-#, c-format
-#~ msgid "Wi-Fi Networks (%s)"
-#~ msgstr "Wi-Fi ਨੈੱਟਵਰਕ (%s)"
-
-#, c-format
-#~ msgid "Wi-Fi Network (%s)"
-#~ msgstr "Wi-Fi ਨੈੱਟਵਰਕ (%s)"
-
-#~ msgid "Wi-Fi Network"
-#~ msgid_plural "Wi-Fi Networks"
-#~ msgstr[0] "Wi-Fi ਨੈੱਟਵਰਕ"
-#~ msgstr[1] "Wi-Fi ਨੈੱਟਵਰਕ"
-
-#~ msgid "Wi-Fi is disabled"
-#~ msgstr "Wi-Fi ਬੰਦ ਹੈ"
-
-#~ msgid "Wi-Fi is disabled by hardware switch"
-#~ msgstr "Wi-Fi ਨੂੰ ਹਾਰਡਵੇਅਰ ਸਵਿੱਚ ਰਾਹੀਂ ਬੰਦ ਕੀਤਾ ਹੈ"
-
-#~ msgid "More networks"
-#~ msgstr "ਹੋਰ ਨੈੱਟਵਰਕ"
-
-#~ msgid "Wi-Fi Networks Available"
-#~ msgstr "Wi-Fi ਨੈੱਟਵਰਕ ਉਪਲੱਬਧ ਹੈ"
-
-#~ msgid "Use the network menu to connect to a Wi-Fi network"
-#~ msgstr "ਨੈੱਟਵਰਕ ਮੇਨੂ ਨੂੰ Wi-Fi ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਲਈ ਵਰਤੋਂ"
-
-#, c-format
-#~ msgid "You are now connected to the Wi-Fi network “%s”."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ Wi-Fi ਨੈੱਟਵਰਕ “%s“ ਨਾਲ ਕਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#, c-format
-#~ msgid "Preparing Wi-Fi network connection “%s”…"
-#~ msgstr "Wi-Fi ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ “%s“ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…"
-
-#, c-format
-#~ msgid "Configuring Wi-Fi network connection “%s”…"
-#~ msgstr "Wi-Fi ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ”%s” ਨਾਲ ਸੰਰਚਨਾ ਜਾਰੀ…"
-
-#, c-format
-#~ msgid "User authentication required for Wi-Fi network “%s”…"
-#~ msgstr "Wi-Fi ਨੈੱਟਵਰਕ “%s“ ਲਈ ਵਰਤੋਂਕਾਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ ਹੈ…"
-
-#, c-format
-#~ msgid "Requesting a Wi-Fi network address for “%s”…"
-#~ msgstr "“%s“ ਲਈ Wi-Fi ਨੈੱਟਵਰਕ ਐਡਰੈੱਸ ਦੀ ਮੰਗ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…"
-
-#, c-format
-#~ msgid "Wi-Fi network connection “%s” active: %s (%d%%)"
-#~ msgstr "Wi-Fi ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ “%s“ ਸਰਗਰਮ: %s (%d%%)"
-
-#, c-format
-#~ msgid "Wi-Fi network connection “%s” active"
-#~ msgstr "Wi-Fi ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ “%s“ ਸਰਗਰਮ"
-
-#~ msgid "Failed to activate connection"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਸਰਗਰਮ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੈ"
-
-#~ msgid "Error displaying connection information:"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਜਾਣਕਾਰੀ ਵੇਖਾਉਣ ਲਈ ਗਲਤੀ:"
-
-#~ msgid "Dynamic WEP"
-#~ msgstr "ਡਾਇਨੇਮਕ WEP"
-
-#~ msgid "WPA/WPA2"
-#~ msgstr "WPA/WPA2"
-
-#~ msgid "More addresses"
-#~ msgstr "ਹੋਰ ਐਡਰੈੱਸ"
-
-#~ msgid "WEP"
-#~ msgstr "WEP"
-
-#~ msgctxt "Wi-Fi/Ethernet security"
-#~ msgid "None"
-#~ msgstr "ਕੋਈ ਨਹੀਂ"
-
-#, c-format
-#~ msgid "%u Mb/s"
-#~ msgstr "%u Mb/s"
-
-#~ msgctxt "Speed"
-#~ msgid "Unknown"
-#~ msgstr "ਅਣਜਾਣ"
-
-#~ msgctxt "Address"
-#~ msgid "Unknown"
-#~ msgstr "ਅਣਜਾਣ"
-
-#~ msgid "IP Address"
-#~ msgstr "IP ਐਡਰੈੱਸ"
-
-#~ msgid "Broadcast Address"
-#~ msgstr "ਬਰਾਡਕਾਸਟ ਐਡਰੈੱਸ"
-
-#~ msgctxt "Subnet Mask"
-#~ msgid "Unknown"
-#~ msgstr "ਅਣਜਾਣ"
-
-#~ msgid "Subnet Mask"
-#~ msgstr "ਸਬਨੈੱਟ ਮਾਸਕ"
-
-#, fuzzy
-#~ msgid "Primary DNS"
-#~ msgstr "ਪ੍ਰਾਇਮਰੀ DNS:"
-
-#, fuzzy
-#~ msgid "Secondary DNS"
-#~ msgstr "ਸੈਕੰਡਰੀ DNS:"
-
-#, fuzzy
-#~ msgid "Tertiary DNS"
-#~ msgstr "ਤ੍ਰਿਨਰੀ DNS:"
-
-#, c-format
-#~ msgid "Ethernet (%s)"
-#~ msgstr "ਈਥਰਨੈੱਟ (%s)"
-
-#, c-format
-#~ msgid "802.11 Wi-Fi (%s)"
-#~ msgstr "802.11 Wi-Fi (%s)"
-
-#, c-format
-#~ msgid "GSM (%s)"
-#~ msgstr "GSM (%s)"
-
-#, c-format
-#~ msgid "CDMA (%s)"
-#~ msgstr "CDMA (%s)"
-
-#~ msgid "General"
-#~ msgstr "ਸਧਾਰਨ"
-
-#~ msgid "Interface"
-#~ msgstr "ਇੰਟਰਫੇਸ"
-
-#~ msgid "Hardware Address"
-#~ msgstr "ਹਾਰਡਵੇਅਰ ਐਡਰੈੱਸ"
-
-#~ msgid "Driver"
-#~ msgstr "ਡਰਾਇਵਰ"
-
-#~ msgid "Speed"
-#~ msgstr "ਸਪੀਡ"
-
-#, fuzzy
-#~ msgid "Security"
-#~ msgstr "ਸੁਰੱਖਿਆ:"
-
-#~ msgid "IPv4"
-#~ msgstr "IPv4"
-
-#~ msgid "Default Route"
-#~ msgstr "ਡਿਫਾਲਟ ਰੂਟ"
-
-#~ msgid "IPv6"
-#~ msgstr "IPv6"
-
-#~ msgid "Hotspot"
-#~ msgstr "ਹਾਟਸਪਾਟ"
-
-#~ msgid "VPN Type"
-#~ msgstr "VPN ਕਿਸਮ"
-
-#~ msgid "VPN Gateway"
-#~ msgstr "VPN ਗੇਟਵੇ"
-
-#~ msgid "VPN Username"
-#~ msgstr "VPN ਵਰਤੋਂਕਾਰ ਨਾਂ"
-
-#~ msgid "VPN Banner"
-#~ msgstr "VPN ਬੈਨਰ"
-
-#~ msgid "Base Connection"
-#~ msgstr "ਬੇਸ ਕਨੈਕਸ਼ਨ"
-
-#~ msgid "No valid active connections found!"
-#~ msgstr "ਕੋਈ ਢੁੱਕਵਾਂ ਐਕਟਿਵ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਲੱਭਿਆ!"
-
-#~ msgid ""
-#~ "Copyright © 2004-2017 Red Hat, Inc.\n"
-#~ "Copyright © 2005-2008 Novell, Inc.\n"
-#~ "and many other community contributors and translators"
-#~ msgstr ""
-#~ "Copyright © 2004-2017 Red Hat, Inc.\n"
-#~ "Copyright © 2005-2008 Novell, Inc.\n"
-#~ "ਅਤੇ ਕਈ ਹੋਰ ਕਮਿਊਨਟ ਦੇ ਯੋਗਦਾਨੀ ਅਤੇ ਉਲੱਥਾਕਾਰ"
-
-#~ msgid ""
-#~ "Notification area applet for managing your network devices and "
-#~ "connections."
-#~ msgstr "ਤੁਹਾਡੇ ਨੈਟਵਰਕ ਜੰਤਰਾਂ ਅਤੇ ਕਨੈਕਸ਼ਨਾਂ ਦੇ ਪਰਬੰਧ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਏਰੀਆ ਐਪਲਿਟ ਹੈ।"
-
-#~ msgid "NetworkManager Website"
-#~ msgstr "ਨੈੱਟਵਰਕਮੈਨੇਜਰ ਵੈੱਬਸਾਈਟ"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ, ੨੦੦੪-੨੦੧੦\n"
-#~ "http://www.satluj.com"
-
-#~ msgid ""
-#~ "The NetworkManager Applet could not find some required resources (the .ui "
-#~ "file was not found)."
-#~ msgstr "ਨੈੱਟਵਰਕ-ਮੈਨੇਜਰ ਐਪਲਿਟ ਲੋੜੀਦੇ ਸਰੋਤ ਨਹੀਂ ਲੱਭਿਆ ਸਕਿਆ (.ui ਫਾਇਲ ਨਹੀਂ ਲੱਭੀ)।"
-
-#~ msgid "Missing resources"
-#~ msgstr "ਗੁੰਮ ਸਰੋਤ"
-
-#~ msgid "Mobile broadband network password"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਨੈੱਟਵਰਕ ਪਾਸਵਰਡ"
-
-#, c-format
-#~ msgid "A password is required to connect to “%s”."
-#~ msgstr "“%s“ ਨਾਲ ਕਨੈਕਟ ਹੋਣ ਲਈ ਪਾਸਵਰਡ ਦੀ ਲੋੜ ਹੈ। "
-
-#~ msgid "Password:"
-#~ msgstr "ਪਾਸਵਰਡ:"
-
-#~ msgid "SIM PIN unlock required"
-#~ msgstr "ਸਿਮ PIN ਅਣ-ਲਾਕ ਲੋੜੀਦਾ ਹੈ"
-
-#~ msgid "SIM PIN Unlock Required"
-#~ msgstr "ਸਿਮ PIN ਅਣ-ਲਾਕ ਲੋੜੀਦਾ ਹੈ"
-
-#, c-format
-#~ msgid ""
-#~ "The mobile broadband device “%s” requires a SIM PIN code before it can be "
-#~ "used."
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਜੰਤਰ “%s“ ਲਈ ਸਿਮ PIN ਕੋਡ ਇਸ ਨੂੰ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਚਾਹੀਦਾ ਹੈ।"
-
-#~ msgid "PIN code:"
-#~ msgstr "PIN ਕੋਡ:"
-
-#~ msgid "Show PIN code"
-#~ msgstr "ਪਿੰਨ ਕੋਡ ਵੇਖੋ"
-
-#~ msgid "SIM PUK unlock required"
-#~ msgstr "ਸਿਮ PUK ਅਣ-ਲਾਕ ਲੋੜੀਦਾ ਹੈ"
-
-#~ msgid "SIM PUK Unlock Required"
-#~ msgstr "ਸਿਮ PUK ਅਣ-ਲਾਕ ਲੋੜੀਦਾ ਹੈ"
-
-#, c-format
-#~ msgid ""
-#~ "The mobile broadband device “%s” requires a SIM PUK code before it can be "
-#~ "used."
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਜੰਤਰ “%s“ ਲਈ ਸਿਮ PUK ਕੋਡ ਇਸ ਨੂੰ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਚਾਹੀਦਾ ਹੈ।"
-
-#~ msgid "PUK code:"
-#~ msgstr "PUK ਕੋਡ:"
-
-#~ msgid "New PIN code:"
-#~ msgstr "ਨਵਾਂ ਪਿੰਨ ਕੋਡ:"
-
-#~ msgid "Re-enter new PIN code:"
-#~ msgstr "ਨਵਾਂ ਪਿੰਨ ਕੋਡ ਫੇਰ ਦਿਓ:"
-
-#~ msgid "Show PIN/PUK codes"
-#~ msgstr "PIN/PUK ਕੋਡ ਵੇਖੋ"
-
-#, fuzzy
-#~ msgid "Connection had no VPN setting"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ"
-
-#, fuzzy, c-format
-#~ msgid "Failed to write connection to VPN UI: %s (%d)"
-#~ msgstr "DUN ਕੁਨੈਕਸ਼ਨ ਬਣਾਉਣ ਲਈ ਫੇਲ੍ਹ ਹੈ: %s"
-
-#~ msgid ""
-#~ "IP addresses identify your computer on the network. Click the “Add” "
-#~ "button to add an IP address."
-#~ msgstr ""
-#~ "IP ਐਡਰੈੱਸ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਨੂੰ ਨੈੱਟਵਰਕ ਉੱਤੇ ਪਛਾਣਦਾ ਹੈ। ਇੱਕ IP ਐਡਰੈੱਸ ਸ਼ਾਮਲ ਕਰਨ ਲਈ “ਸ਼ਾਮਲ“ "
-#~ "ਕਲਿੱਕ ਕਰੋ।"
-
-#~ msgid "_Add"
-#~ msgstr "ਜੋੜੋ(_A)"
-
-#~ msgid "_Delete"
-#~ msgstr "ਹਟਾਓ(_D)"
-
-#~ msgid "Ig_nore automatically obtained routes"
-#~ msgstr "ਆਟੋਮੈਟਿਕ ਲਏ ਰੂਟ ਅਣਡਿੱਠੇ ਕਰੋ(_n)"
-
-#~ msgid "_Use this connection only for resources on its network"
-#~ msgstr "ਕੇਵਲ ਇਹ ਕਨੈਕਸ਼ਨ ਨੂੰ ਇਸ ਦੇ ਨੈੱਟਵਰਕ ਉੱਤੇ ਹੀ ਸਰੋਤਾਂ ਲਈ ਵਰਤੋਂ(_U)"
-
-#~ msgid ""
-#~ "If enabled, this connection will never be used as the default network "
-#~ "connection."
-#~ msgstr ""
-#~ "ਜੇ ਇਹ ਚੋਣ ਕੀਤੀ ਗਈ ਤਾਂ ਇਹ ਕਨੈਕਸ਼ਨ ਨੂੰ ਕਦੇ ਵੀ ਡਿਫਾਲਟ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਵਜੋਂ ਨਹੀਂ ਵਰਤਿਆ ਜਾਵੇਗਾ।"
-
-#~ msgid "C_reate…"
-#~ msgstr "ਬਣਾਓ(_r)…"
-
-#~ msgid "Choose a Connection Type"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਕਿਸਮ ਚੁਣੋ"
-
-#~ msgid ""
-#~ "Select the type of connection you wish to create.\n"
-#~ "\n"
-#~ "If you are creating a VPN, and the VPN connection you wish to create does "
-#~ "not appear in the list, you may not have the correct VPN plugin installed."
-#~ msgstr ""
-#~ "ਕਨੈਕਸ਼ਨ ਦੀ ਕਿਸਮ ਚੁਣੋ, ਜੋ ਕਿ ਤੁਸੀਂ ਬਣਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ।\n"
-#~ "\n"
-#~ "ਜੇ ਤੁਸੀਂ VPN ਕਨੈਕਸ਼ਨ ਬਣਾ ਰਹੇ ਹੋ ਅਤੇ ਉਹ VPN ਕਨੈਕਸ਼ਨ ਕਿਸਮ ਲਿਸਟ ਵਿੱਚ ਨਾ ਹੋਵੇ ਤਾਂ ਸ਼ਾਇਦ ਤੁਹਾਡੇ "
-#~ "ਕੋਲ ਢੁੱਕਵੀਂ VPN ਪਲੱਗਇਨ ਇੰਸਟਾਲ ਨਾ ਹੋਵੇ।"
-
-#, fuzzy
-#~ msgid "_Device"
-#~ msgstr "ਜੰਤਰ(_D):"
-
-#~ msgid "Round-robin"
-#~ msgstr "ਰਾਊਂਡ ਰਾਬਿਨ"
-
-#~ msgid "Active backup"
-#~ msgstr "ਐਕਟਿਵ ਬੈਕਅੱਪ"
-
-#~ msgid "XOR"
-#~ msgstr "XOR"
-
-#~ msgid "Broadcast"
-#~ msgstr "ਬਰਾਡਕਾਸਟ"
-
-#~ msgid "802.3ad"
-#~ msgstr "802.3ad"
-
-#~ msgid "Adaptive transmit load balancing"
-#~ msgstr "ਅਡੈਪਟਿਵ ਟਰਾਂਸਮਿਟ ਲੋਡ ਸੰਤੁਲਨ"
-
-#~ msgid "Adaptive load balancing"
-#~ msgstr "ਅਡੈਪਟਿਵ ਲੋਡ ਸੰਤੁਲਨ"
-
-#~ msgid "MII (recommended)"
-#~ msgstr "MII (ਸਿਫਾਰਸ਼ੀ)"
-
-#~ msgid "ARP"
-#~ msgstr "ARP"
-
-#, fuzzy
-#~ msgid "Bonded _connections"
-#~ msgstr "ਬਾਊਂਡ ਕੀਤੇ ਕਨੈਕਸ਼ਨ(_c):"
-
-#, fuzzy
-#~ msgid "M_ode"
-#~ msgstr "ਮੋਡ(_o):"
-
-#~ msgid "_Edit"
-#~ msgstr "ਸੋਧ(_E)"
-
-#, fuzzy
-#~ msgid "Monitoring _frequency"
-#~ msgstr "ਨਿਗਰਾਨੀ ਫਰੀਕਿਊਂਸੀ(_f):"
-
-#~ msgid "ms"
-#~ msgstr "ms"
-
-#, fuzzy
-#~ msgid "_Interface name"
-#~ msgstr "ਇੰਟਰਫੇਸ ਨਾਂ(_i):"
-
-#, fuzzy
-#~ msgid "_Link Monitoring"
-#~ msgstr "ਲਿੰਕ ਨਿਗਰਾਨੀ(_L):"
-
-#, fuzzy
-#~ msgid "ARP _targets"
-#~ msgstr "ARP ਟਾਰਗੇਟ(_t):"
-
-#~ msgid ""
-#~ "An IP address, or a comma-separated list of IP addresses, to look for "
-#~ "when checking the link status."
-#~ msgstr ""
-#~ "ਜਦੋਂ ਲਿੰਕ ਦੀ ਸਥਿਤੀ ਪਤਾ ਕਰਨੀ ਹੋਵੇ ਤਾਂ ਵੇਖਣ ਲਈ IP ਐਡਰੈਸ ਜਾਂ ਕਾਮਿਆਂ ਨਾਲ ਵੱਖ ਕੀਤੀ IP "
-#~ "ਐਡਰੈਸ ਦੀ ਸੂਚੀ।"
-
-#, fuzzy
-#~ msgid "Link _up delay"
-#~ msgstr "ਲਿੰਕ ਅੱਪ ਦੇਰੀ(_u):"
-
-#, fuzzy
-#~ msgid "Link _down delay"
-#~ msgstr "ਲਿੰਕ ਡਾਊਨਲੋਡ ਦੇਰੀ(_d):"
-
-#, fuzzy
-#~ msgid "_Primary"
-#~ msgstr "ਪ੍ਰਾਇਮਰੀ(_P):"
-
-#~ msgid ""
-#~ "The interface name of the primary device. If set, this device will always "
-#~ "be the active slave when it is available."
-#~ msgstr ""
-#~ "ਪ੍ਰਾਇਮਰੀ ਜੰਤਰ ਦਾ ਇੰਟਰਫੇਸ ਨਾਂ ਦਿਉ। ਜੇ ਸੈੱਟ ਕੀਤਾ ਤਾਂ ਇਹ ਜੰਤਰ ਨੂੰ ਹਮੇਸ਼ਾ ਸਲੇਵ ਵਲੋਂ ਵਰਤਿਆ "
-#~ "ਜਾਵੇਗਾ, ਜਦੋਂ ਇਹ ਉਪਲੱਬਧ ਹੁੰਦਾ ਹੈ।"
-
-#, fuzzy
-#~ msgid "_MTU"
-#~ msgstr "_MTU:"
-
-#~ msgid "bytes"
-#~ msgstr "ਬਾਈਟ"
-
-#, fuzzy
-#~ msgid "Path _cost"
-#~ msgstr "ਪਾਥ ਕੀਮਤ(_c):"
-
-#, fuzzy
-#~ msgid "_Priority"
-#~ msgstr "ਤਰਜੀਹ(_P):"
-
-#, fuzzy
-#~ msgid "_Hairpin mode"
-#~ msgstr "ਹੇਅਰਪਿੰਨ ਮੋਡ(_H):"
-
-#, fuzzy
-#~ msgid "Bridged _connections"
-#~ msgstr "ਬਰਿਜ਼ ਕੀਤੇ ਕਨੈਕਸ਼ਨ(_c):"
-
-#, fuzzy
-#~ msgid "_Forward delay"
-#~ msgstr "ਫਾਰਵਰਡ ਦੇਰੀ(_F):"
-
-#, fuzzy
-#~ msgid "_Hello time"
-#~ msgstr "ਹੈਲੋ ਸਮਾਂ(_H):"
-
-#~ msgid "s"
-#~ msgstr "s"
-
-#~ msgid "Enable I_GMP snooping"
-#~ msgstr "I_GMP ਸਨੂਪਿੰਗ ਸਮਰੱਥ ਕਰੋ"
-
-#~ msgid "Enable _STP (Spanning Tree Protocol)"
-#~ msgstr "_STP (ਸਪੈਨਿੰਗ ਟਰੀ ਪਰੋਟੋਕਾਲ) ਚਾਲੂ"
-
-#, fuzzy
-#~ msgid "_Max age"
-#~ msgstr "ਵੱਧੋ-ਵੱਧ ਉਮਰ(_M):"
-
-#, fuzzy
-#~ msgid "_Aging time"
-#~ msgstr "ਉਮਰ ਸਮਾਂ(_A):"
-
-#~ msgid "automatic"
-#~ msgstr "ਆਟੋਮੈਟਿਕ"
-
-#~ msgid "default"
-#~ msgstr "ਡਿਫਾਲਟ"
-
-#~ msgid "unspecified error"
-#~ msgstr "ਨਾ-ਦੱਸੀ ਗਲਤੀ"
-
-#~ msgid "Permanent"
-#~ msgstr "ਪੱਕਾ"
-
-#~ msgid "Random"
-#~ msgstr "ਰਲਵਾਂ"
-
-#~ msgid "Stable"
-#~ msgstr "ਸਥਿਰ"
-
-#~ msgid ""
-#~ "The MAC address entered here will be used as hardware address for the "
-#~ "network device this connection is activated on. This feature is known as "
-#~ "MAC cloning or spoofing. Example: 00:11:22:33:44:55"
-#~ msgstr ""
-#~ "ਇੱਥੇ ਦਿੱਤਾ ਮੈਕ (MAC) ਐਡਰੈੱਸ ਨੈੱਟਵਰਕ ਜੰਤਰ ਲਈ ਹਾਰਡਵੇਅਰ ਐਡਰੈੱਸ ਵਜੋਂ ਵਰਤਿਆ ਜਾਵੇਗਾ, ਜਿਸ ਲਈ ਇਸ "
-#~ "ਕਨੈਕਸ਼ਨ ਸਰਗਰਮ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਹ ਫੀਚਰ ਨੂੰ ਮੈਕ ਕਲੋਨਿੰਗ ਜਾਂ ਸਪੂਫਿੰਗ ਕਹਿੰਦੇ ਹਨ। ਜਿਵੇਂ: "
-#~ "00:11:22:33:44:55"
-
-#~ msgid "MAC address"
-#~ msgstr "MAC ਐਡਰੈਸ"
-
-#~ msgid "HW address"
-#~ msgstr "HW ਐਡਰੈਸ"
-
-#, c-format
-#~ msgid "invalid %s (%s)"
-#~ msgstr "ਨਾ-ਢੁੱਕਵਾਂ %s (%s)"
-
-#, c-format
-#~ msgid "invalid interface-name (%s): "
-#~ msgstr "ਗਲਤ ਇੰਟਰਫੇਸ-ਨਾਂ (%s): "
-
-#~ msgid "invalid hardware address"
-#~ msgstr "ਗਲਤ ਹਾਰਡਵੇਅਰ ਐਡਰੈੱਸ"
-
-#, c-format
-#~ msgid "invalid %s (%s): "
-#~ msgstr "ਨਾ-ਢੁੱਕਵਾਂ %s (%s): "
-
-#~ msgid "device"
-#~ msgstr "ਜੰਤਰ"
-
-#, c-format
-#~ msgid "invalid %s (%s) "
-#~ msgstr "ਨਾ-ਢੁੱਕਵਾਂ %s (%s)"
-
-#~ msgid "_Use Data Center Bridging (DCB) for this connection"
-#~ msgstr "ਇਸ ਕਨੈਕਸ਼ਨ ਲਈ ਡਾਟਾ ਸੈਂਟਰ ਬਰਿੱਜ਼ਿੰਗ (DCB) ਵਰਤੋਂ(_U)"
-
-#~ msgid "FCoE"
-#~ msgstr "FCoE"
-
-#~ msgid "iSCSI"
-#~ msgstr "iSCSI"
-
-#~ msgid "FIP"
-#~ msgstr "FIP"
-
-#~ msgid "Flow Control"
-#~ msgstr "ਫਲੋ ਕੰਟਰੋਲ"
-
-#~ msgid "Feature"
-#~ msgstr "ਫੀਚਰ"
-
-#~ msgid "Enable"
-#~ msgstr "ਯੋਗ"
-
-#~ msgid "Advertise"
-#~ msgstr "ਇਸ਼ਤਿਹਾਰ"
-
-#~ msgid "Willing"
-#~ msgstr "ਵਿਲਿੰਗ"
-
-#~ msgid "Priority"
-#~ msgstr "ਤਰਜੀਹ"
-
-#~ msgid "Options…"
-#~ msgstr "…ਚੋਣਾਂ"
-
-#~ msgid "Priority Groups"
-#~ msgstr "ਤਰਜੀਹ ਗਰੁੱਪ"
-
-#~ msgid "Fabric"
-#~ msgstr "ਫਬਰਿਕ"
-
-#~ msgid "VN2VN"
-#~ msgstr "VN2VN"
-
-#~ msgid "Priority Flow Control"
-#~ msgstr "ਤਰਜੀਹੀ ਫਲੋ ਕੰਟਰੋਲ"
-
-#~ msgid ""
-#~ "Enable or disable priority pause transmission for each User Priority."
-#~ msgstr "ਹਰੇਕ ਵਰਤੋਂਕਾਰ ਤਰਜੀਹ ਲਈ ਤਰਜੀਹ ਵਿਰਾਮ ਟਰਾਂਸਮਿਸ਼ਨ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕਰੋ।"
-
-#~ msgid "0"
-#~ msgstr "0"
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "3"
-#~ msgstr "3"
-
-#~ msgid "4"
-#~ msgstr "4"
-
-#~ msgid "5"
-#~ msgstr "5"
-
-#~ msgid "6"
-#~ msgstr "6"
-
-#~ msgid "7"
-#~ msgstr "7"
-
-#, fuzzy
-#~ msgid "Traffic Class"
-#~ msgstr "ਟਰੈਫਿਕ ਕੰਟਰੋਲ:"
-
-#, fuzzy
-#~ msgid "Strict Bandwidth"
-#~ msgstr "ਸਖਤ ਬੈਂਡਵਿਡਥ:"
-
-#, fuzzy
-#~ msgid "Priority Bandwidth"
-#~ msgstr "ਤਰਜੀਹੀ ਬੈਂਡਵਿਡਥ:"
-
-#, fuzzy
-#~ msgid "Group Bandwidth"
-#~ msgstr "ਗਰੁੱਪ ਬੈਂਡਵਿਡਥ:"
-
-#, fuzzy
-#~ msgid "Group ID"
-#~ msgstr "ਗਰੁੱਪ ਆਈਡੀ:"
-
-#~ msgid "Enter the priority group ID for each User Priority."
-#~ msgstr "ਹਰੇਕ ਵਰਤੋਂਕਾਰ ਤਰਜੀਹ ਲਈ ਤਰਜੀਹ ਗਰੁੱਪ ਆਈਡੀ ਦਿਉ।"
-
-#~ msgid ""
-#~ "Enter the allowed link bandwidth percent each Priority Group may use. The "
-#~ "sum of all groups must total 100%."
-#~ msgstr ""
-#~ "ਹਰੇਕ ਗਰੁੱਪ ਵਲੋਂ ਵਰਤੋਂ ਲਈ ਮਨਜ਼ੂਰ ਬੈਂਡਵਿਡਥ ਫੀਸਦੀ ਦਿਉ। ਸਭ ਗਰੁੱਪਾਂ ਲਈ ਜੋੜ ਕੁੱਲ 100% ਹੋਣਾ ਚਾਹੀਦਾ "
-#~ "ਹੈ।"
-
-#~ msgid ""
-#~ "Enter the percentage of priority group bandwidth each user priority may "
-#~ "use."
-#~ msgstr "ਹਰੇਕ ਵਰਤੋਂਕਾਰ ਤਰਜੀਹ ਵਲੋਂ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਤਰਜੀਹ ਗਰੁੱਪ ਬੈਂਡਵਿਡਥ ਦੀ ਫੀਸਦੀ ਦਿਉ।"
-
-#~ msgid "Enable or disable strict bandwidth for each user priority."
-#~ msgstr "ਹਰੇਕ ਵਰਤੋਂਕਾਰ ਤਰਜੀਹ ਲਈ ਸਖਤ ਬੈਂਡਵਿਡਥ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕਰੋ।"
-
-#~ msgid "Enter the traffic class for each user priority."
-#~ msgstr "ਹਰੇਕ ਵਰਤੋਂਕਾਰ ਤਰਜੀਹ ਲਈ ਟਰੈਫਿਕ ਕਲਾਸ ਦਿਉ।"
-
-#, fuzzy
-#~ msgid "_Service"
-#~ msgstr "ਸਰਵਿਸ(_S):"
-
-#, fuzzy
-#~ msgid "PPP _interface"
-#~ msgstr "ਇੰਟਰਫੇਸ"
-
-#, fuzzy
-#~ msgid "P_arent interface"
-#~ msgstr "ਮੂਲ ਇੰਟਰਫੇਸ(_P):"
-
-#, fuzzy
-#~ msgid "C_laim interface"
-#~ msgstr "ਮੂਲ ਇੰਟਰਫੇਸ(_P):"
-
-#~ msgid "Twisted Pair (TP)"
-#~ msgstr "ਟਵਿੱਸਟ ਪੇਅਰ (TP)"
-
-#~ msgid "Attachment Unit Interface (AUI)"
-#~ msgstr "ਅਟੈਚਮੈਂਟ ਯੂਨਿਟ ਇੰਟਰਫੇਸ (AUI)"
-
-#~ msgid "BNC"
-#~ msgstr "BNC"
-
-#~ msgid "Media Independent Interface (MII)"
-#~ msgstr "ਮੀਡਿਆ ਇੰਡੀਮੈਂਡੈਂਟ ਇੰਟਰਫੇਸ (MII)"
-
-#~ msgid "10 Mb/s"
-#~ msgstr "10 Mb/s"
-
-#~ msgid "100 Mb/s"
-#~ msgstr "100 Mb/s"
-
-#~ msgid "1 Gb/s"
-#~ msgstr "1 Gb/s"
-
-#~ msgid "10 Gb/s"
-#~ msgstr "10 Gb/s"
-
-#~ msgid "Half"
-#~ msgstr "ਅੱਧਾ"
-
-#~ msgid "Full"
-#~ msgstr "ਪੂਰਾ"
-
-#~ msgid "Ignore"
-#~ msgstr "ਅਣਡਿੱਠਾ"
-
-#~ msgid "Manual"
-#~ msgstr "ਦਸਤੀ"
-
-#, fuzzy
-#~ msgid "_Port"
-#~ msgstr "ਪੋਰਟ(_P):"
-
-#, fuzzy
-#~ msgid "C_loned MAC address"
-#~ msgstr "ਕਨੋਲ ਕੀਤਾ MAC ਐਡਰੈੱਸ(_l):"
-
-#, fuzzy
-#~ msgid "Wake on LAN"
-#~ msgstr "ਵੇਕ ਆਨ ਲਾਨ(LAN):"
-
-#~ msgid "De_fault"
-#~ msgstr "ਡਿਫਾਲਟ(_f)"
-
-#~ msgid "_Ignore"
-#~ msgstr "ਅਣਡਿੱਠਾ(_I)"
-
-#~ msgid "_Phy"
-#~ msgstr "ਭੌਤਿਕ(_P)"
-
-#~ msgid "_Unicast"
-#~ msgstr "ਯੂਨੀਕਾਸਟ(_U)"
-
-#~ msgid "Mul_ticast"
-#~ msgstr "ਮਲਟੀਕਾਸਟ(_t)"
-
-#~ msgid "_Broadcast"
-#~ msgstr "ਬਰਾਡਕਾਸਟ(_B)"
-
-#~ msgid "_Arp"
-#~ msgstr "_Arp"
-
-#~ msgid "Ma_gic"
-#~ msgstr "ਮੈਜਿਕ(_g)"
-
-#, fuzzy
-#~ msgid "_Wake on LAN password"
-#~ msgstr "ਵੇਕ ਆਨ ਲਾਨ(LAN) ਪਾਸਵਰਡ(_W):"
-
-#, fuzzy
-#~ msgid "_Speed"
-#~ msgstr "ਸਪੀਡ(_S):"
-
-#, fuzzy
-#~ msgid "Duple_x"
-#~ msgstr "ਡੁਪਲੈਕਸ(_x):"
-
-#~ msgid "Yes"
-#~ msgstr "ਹਾਂ"
-
-#~ msgid "No"
-#~ msgstr "ਨਹੀਂ"
-
-#~ msgid "All _users may connect to this network"
-#~ msgstr "ਸਭ ਵਰਤੋਂਕਾਰ ਇਸ ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਹੋ ਸਕਦੇ ਹਨ(_u)"
-
-#, fuzzy
-#~ msgid "Automatically connect to _VPN"
-#~ msgstr "ਜਦੋਂ ਇਹ ਕਨੈਕਸ਼ਨ ਵਰਤਿਆ ਜਾਵੇ ਤਾਂ ਆਪਣੇ-ਆਪ ਹੀ _VPN ਨੂੰ ਕਨੈਕਟ ਕਰੋ"
-
-#, fuzzy
-#~ msgid "Firewall _zone"
-#~ msgstr "ਫਾਇਰਵਾਲ ਜ਼ੋਨ(_z):"
-
-#, fuzzy
-#~ msgid "_Metered connection"
-#~ msgstr "ਟੀਮ ਕੀਤੇ ਕਨੈਕਸ਼ਨ(_T):"
-
-#, fuzzy
-#~ msgid "Connect _automatically with priority"
-#~ msgstr "ਆਟੋਮੈਟਿਕ ਕੁਨੈਕਟ ਕਰੋ(_a)"
-
-#~ msgid ""
-#~ "IP addresses identify your computer on the network. Click the “Add” "
-#~ "button to add static IP address to be configured in addition to the "
-#~ "automatic ones."
-#~ msgstr ""
-#~ "IP ਐਡਰੈੱਸ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਨੂੰ ਨੈੱਟਵਰਕ ਉੱਤੇ ਪਛਾਣਦਾ ਹੈ। ਆਪਣੇ-ਆਪ ਐਡਰੈਸ ਦੇ ਨਾਲ ਨਾਲ ਸਥਿਰ IP "
-#~ "ਐਡਰੈਸ ਜੋੜਨ ਲਈ “ਸ਼ਾਮਲ“ ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰੋ।"
-
-#~ msgid "Additional static addresses"
-#~ msgstr "ਵਾਧੂ ਸਥਿਰ ਐਡਰੈਸ"
-
-#~ msgid "Addresses"
-#~ msgstr "ਐਡਰੈੱਸ"
-
-#~ msgid "Address (optional)"
-#~ msgstr "ਐਡਰੈਸ (ਚੋਣਵਾਂ)"
-
-#~ msgid "Datagram"
-#~ msgstr "ਡਾਟਾਗਰਾਮ"
-
-#~ msgid "Connected"
-#~ msgstr "ਕਨੈਕਟ ਹੈ"
-
-#, fuzzy
-#~ msgid "_Transport mode"
-#~ msgstr "ਟਰਾਂਸਪੋਰਟ ਮੋਡ(_T):"
-
-#~ msgid "IPIP"
-#~ msgstr "IPIP"
-
-#~ msgid "GRE"
-#~ msgstr "GRE"
-
-#~ msgid "SIT"
-#~ msgstr "SIT"
-
-#~ msgid "ISATAP"
-#~ msgstr "ISATAP"
-
-#~ msgid "VTI"
-#~ msgstr "VTI"
-
-#~ msgid "IP6IP6"
-#~ msgstr "IP6IP6"
-
-#~ msgid "IPIP6"
-#~ msgstr "IPIP6"
-
-#~ msgid "IP6GRE"
-#~ msgstr "IP6GRE"
-
-#~ msgid "VTI6"
-#~ msgstr "VTI6"
-
-#, fuzzy
-#~ msgid "Device name"
-#~ msgstr "ਜੰਤਰ ਨਾਂ:"
-
-#, fuzzy
-#~ msgid "Parent device"
-#~ msgstr "ਮੁੱਢਲਾ ਜੰਤਰ:"
-
-#, fuzzy
-#~ msgid "Mode"
-#~ msgstr "ਮੋਡ(_M):"
-
-#, fuzzy
-#~ msgid "Local IP"
-#~ msgstr "ਲੋਕਲ IP:"
-
-#, fuzzy
-#~ msgid "Remote IP"
-#~ msgstr "ਰਿਮੋਟ IP:"
-
-#, fuzzy
-#~ msgid "Input key"
-#~ msgstr "ਇਨਪੁੱਟ ਕੁੰਜੀ:"
-
-#, fuzzy
-#~ msgid "Output key"
-#~ msgstr "ਆਉਟਪੁੱਟ ਕੁੰਜੀ:"
-
-#, fuzzy
-#~ msgid "MTU"
-#~ msgstr "_MTU:"
-
-#~ msgid "Automatic with manual DNS settings"
-#~ msgstr "ਦਸਤੀ DNS ਸੈਟਿੰਗ ਨਾਲ ਆਟੋਮੈਟਿਕ"
-
-#~ msgid "Link-Local"
-#~ msgstr "ਲਿੰਕ-ਲੋਕਲ"
-
-#~ msgid "Shared to other computers"
-#~ msgstr "ਹੋਰ ਕੰਪਿਊਟਰਾਂ ਨਾਲ ਸਾਂਝਾ"
-
-#, fuzzy
-#~ msgid "_Method"
-#~ msgstr "ਢੰਗ(_M):"
-
-#~ msgid ""
-#~ "The DHCP client identifier allows the network administrator to customize "
-#~ "your computer’s configuration. If you wish to use a DHCP client "
-#~ "identifier, enter it here."
-#~ msgstr ""
-#~ "DHCP ਕਲਾਈਂਟ ਪਛਾਣ ਕਰਤਾ ਨੈੱਟਵਰਕ ਪਰਸ਼ਾਸ਼ਕ ਨੂੰ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਦੀ ਸੰਰਚਨਾ ਕਸਟਮਾਈਜ਼ ਕਰਨ ਲਈ "
-#~ "ਸਹਾਇਕ ਹੈ। ਜੇ ਤੁਸੀਂ DHCP ਕਲਾਇਟ ਪਛਾਣਕਰਤਾ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਇੱਥੇ ਦਿਓ।"
-
-#~ msgid ""
-#~ "Domains used when resolving host names. Use commas to separate multiple "
-#~ "domains."
-#~ msgstr "ਜਦੋਂ ਹੋਸਟ-ਨਾਂ ਲੱਭਣੇ ਹੋਣ ਤੋਂ ਡੋਮੇਨ ਵਰਤੋਂ। ਵੱਖ ਵੱਖ ਡੋਮੇਨ ਦੇਣ ਲਈ ਕੌਮੇ (,) ਵਰਤੋਂ।"
-
-#, fuzzy
-#~ msgid "D_HCP client ID"
-#~ msgstr "D_HCP ਕਲਾਇਟ ID:"
-
-#, fuzzy
-#~ msgid "S_earch domains"
-#~ msgstr "ਖੋਜ ਡੋਮੇਨ(_e):"
-
-#, fuzzy
-#~ msgid "DNS ser_vers"
-#~ msgstr "_DNS ਸਰਵਰ:"
-
-#~ msgid ""
-#~ "IP addresses of domain name servers used to resolve host names. Use "
-#~ "commas to separate multiple domain name server addresses."
-#~ msgstr ""
-#~ "ਡੋਮੇਨ ਨੇਮ ਸਰਵਰ ਦਾ IP ਐਡਰੈੱਸ ਹੋਸਟ-ਨਾਂ ਲੈਣ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਕਈ ਡੋਮੇਨ ਨੇਮ ਸਰਵਰ ਐਡਰੈਸਾਂ ਲਈ "
-#~ "ਕੌਮਿਆਂ (,) ਦੀ ਵਰਤੋਂ ਕਰੋ।"
-
-#~ msgid "Require IPv_4 addressing for this connection to complete"
-#~ msgstr "ਇਸ ਕਨੈਕਸ਼ਨ ਦੇ ਮੁਕੰਮਲ ਹੋਣ ਲਈ IPv_4 ਐਡਰੈੱਸਿੰਗ ਦੀ ਲੋੜ ਹੈ"
-
-#~ msgid ""
-#~ "When connecting to IPv6-capable networks, allows the connection to "
-#~ "complete if IPv4 configuration fails but IPv6 configuration succeeds."
-#~ msgstr ""
-#~ "ਜਦੋਂ IPv6-ਅਧਾਰਿਤ ਨੈੱਟਵਰਕ ਨਾਲ ਜੁੜਿਆ ਜਾਂਦਾ ਹੈ, ਕਨੈਕਸ਼ਨ ਮੁਕੰਮਲ ਹੋਣ ਲਈ ਮਨਜ਼ੂਰੀ ਦਿੰਦਾ ਹੈ, ਜੇ "
-#~ "IPv4 ਸੰਰਚਨਾ ਫੇਲ੍ਹ ਹੁੰਦੀ ਹੈ, ਪਰ IPv6 ਸੰਰਚਨਾ ਸਫ਼ਲ ਹੁੰਦੀ ਹੈ।"
-
-#~ msgid "_Routes…"
-#~ msgstr "…ਰੂਟ(_R)"
-
-#~ msgid "Disabled"
-#~ msgstr "ਬੰਦ ਹੈ"
-
-#~ msgid "Enabled (prefer public address)"
-#~ msgstr "ਚਾਲੂ (ਤਰਜੀਹੀ ਜਨਤਕ ਐਡਰੈਸ)"
-
-#~ msgid "Enabled (prefer temporary address)"
-#~ msgstr "ਚਾਲੂ (ਤਰਜੀਹੀ ਆਰਜ਼ੀ ਐਡਰੈਸ)"
-
-#, fuzzy
-#~ msgid "Stable privacy"
-#~ msgstr "ਸਥਿਰ"
-
-#~ msgid ""
-#~ "IP addresses of domain name servers used to resolve host names. Use "
-#~ "commas to separate multiple domain name server addresses. Link-local "
-#~ "addresses will be automatically scoped to the connecting interface."
-#~ msgstr ""
-#~ "ਡੋਮੇਨ ਨੇਮ ਸਰਵਰ ਦਾ IP ਐਡਰੈੱਸ ਹੋਸਟ-ਨਾਂ ਲੈਣ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਕਈ ਡੋਮੇਨ ਨੇਮ ਸਰਵਰ ਐਡਰੈਸਾਂ ਲਈ "
-#~ "ਕੌਮਿਆਂ (,) ਦੀ ਵਰਤੋਂ ਕਰੋ। ਲਿੰਕ-ਲੋਕਲ ਸਿਰਨਾਵਿਆਂ ਨੂੰ ਕਨੈਕਟ ਕਰਨ ਵਾਲੇ ਇੰਟਰਫੇਸ ਲਈ ਆਟੋਮੈਟਿਖ ਸਕੋਪ "
-#~ "ਲਈ ਵਰਤਿਆ ਜਾਵੇਗਾ।"
-
-#, fuzzy
-#~ msgid "IPv6 _privacy extensions"
-#~ msgstr "I_Pv6 ਪਰਦੇਦਾਰੀ ਇਕਸਟੈਨਸ਼ਨ:"
-
-#~ msgid "Require IPv_6 addressing for this connection to complete"
-#~ msgstr "ਇਸ ਕਨੈਕਸ਼ਨ ਦੇ ਮੁਕੰਮਲ ਹੋਣ ਲਈ IPv_6 ਐਡਰੈੱਸਿੰਗ ਦੀ ਲੋੜ ਹੈ"
-
-#~ msgid ""
-#~ "When connecting to IPv4-capable networks, allows the connection to "
-#~ "complete if IPv6 configuration fails but IPv4 configuration succeeds."
-#~ msgstr ""
-#~ "ਜਦੋਂ IPv4-ਅਧਾਰਿਤ ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਕਨੈਕਸ਼ਨ ਮੁਕੰਮਲ ਹੋਣ ਲਈ ਮਨਜ਼ੂਰੀ ਦਿੰਦਾ ਹੈ, "
-#~ "ਜੇ IPv6 ਸੰਰਚਨਾ ਫੇਲ੍ਹ ਹੁੰਦੀ ਹੈ, ਪਰ IPv4 ਸੰਰਚਨਾ ਸਫ਼ਲ ਹੁੰਦੀ ਹੈ।"
-
-#~ msgid "PSK"
-#~ msgstr "PSK"
-
-#~ msgid "EAP"
-#~ msgstr "EAP"
-
-#~ msgid "Check"
-#~ msgstr "ਚੈਕ ਕਰੋ"
-
-#~ msgid "Strict"
-#~ msgstr "ਸਖ਼ਤ"
-
-#, fuzzy
-#~ msgid "_Device name"
-#~ msgstr "ਜੰਤਰ ਨਾਂ:"
-
-#, fuzzy
-#~ msgid "_Parent device"
-#~ msgstr "ਮੁੱਢਲਾ ਜੰਤਰ:"
-
-#, fuzzy
-#~ msgid "Keys"
-#~ msgstr "ਕੁੰਜੀਆਂ:"
-
-#, fuzzy
-#~ msgid "_Mode"
-#~ msgstr "ਮੋਡ(_M):"
-
-#, fuzzy
-#~ msgid "Parameters"
-#~ msgstr "ਪੈਰਾਮੀਟਰ:"
-
-#, fuzzy
-#~ msgid "_Validation"
-#~ msgstr "ਵੈਧਤਾ:"
-
-#, fuzzy
-#~ msgid "_SCI port"
-#~ msgstr "SCI ਪੋਰਟ:"
-
-#, fuzzy
-#~ msgid "_Encrypt"
-#~ msgstr "ਇੰਕ੍ਰਿਪਟ"
-
-#~ msgid "Basic"
-#~ msgstr "ਮੁੱਢਲਾ"
-
-#, fuzzy
-#~ msgid "Nu_mber"
-#~ msgstr "ਨੰਬਰ(_m):"
-
-#~ msgid "Advanced"
-#~ msgstr "ਤਕਨੀਕੀ"
-
-#, fuzzy
-#~ msgid "_APN"
-#~ msgstr "_APN:"
-
-#, fuzzy
-#~ msgid "N_etwork ID"
-#~ msgstr "ਨੈੱਟਵਰਕ ID(_e):"
-
-#~ msgid "Change…"
-#~ msgstr "…ਬਦਲੋ"
-
-#, fuzzy
-#~ msgid "P_IN"
-#~ msgstr "P_IN:"
-
-#~ msgid "Allow _roaming if home network is not available"
-#~ msgstr "ਜੇ ਘਰ (ਹੋਮ) ਨੈੱਟਵਰਕ ਉਪਲੱਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਰੋਮਿੰਗ ਮਨਜ਼ੂਰ(_r)"
-
-#~ msgid "Authentication"
-#~ msgstr "ਪਰਮਾਣਕਿਤਾ"
-
-#, fuzzy
-#~ msgid "Allowed methods"
-#~ msgstr "ਮਨਜ਼ੂਰ ਢੰਗ:"
-
-#~ msgid "Configure _Methods…"
-#~ msgstr "ਸੰਰਚਨਾ ਢੰਗ(_M)…"
-
-#~ msgid "Compression"
-#~ msgstr "ਕੰਪਰੈੱਸ਼ਨ"
-
-#~ msgid "_Use point-to-point encryption (MPPE)"
-#~ msgstr "ਪੁਆਇੰਟ-ਟੂ-ਪੁਆਇੰਟ ਇੰਕ੍ਰਿਪਸ਼ਨ ਵਰਤੋਂ (MPPE)(_U)"
-
-#~ msgid "_Require 128-bit encryption"
-#~ msgstr "੧੨੮-ਬਿੱਟ ਇੰਕ੍ਰਿਪਸ਼ਨ ਲੋੜੀਦੀ ਹੈ(_R)"
-
-#~ msgid "Use _stateful MPPE"
-#~ msgstr "ਸਟੇਟਫੁੱਲ MPPE ਵਰਤੋਂ(_s)"
-
-#~ msgid "Allow _BSD data compression"
-#~ msgstr "_BSD ਡਾਟਾ ਕੰਪਰੈਸ਼ਨ ਮਨਜ਼ੂਰ"
-
-#~ msgid "Allow _Deflate data compression"
-#~ msgstr "ਡਿਫਲੇਸ਼ਨ ਡਾਟਾ ਕੰਪਰੈਸ਼ਨ ਮਨਜ਼ੂਰ(_D)"
-
-#~ msgid "Use TCP _header compression"
-#~ msgstr "TCP ਹੈੱਡਰ ਕੰਪਰੈੱਸ਼ਨ ਵਰਤੋਂ(_h)"
-
-#~ msgid "Echo"
-#~ msgstr "ਈਚੋ"
-
-#~ msgid "Send PPP _echo packets"
-#~ msgstr "PPP ਈਚੋ ਪੈਕੇਟ ਭੇਜੋ(_e)"
-
-#~ msgid "None"
-#~ msgstr "ਕੋਈ ਨਹੀਂ"
-
-#~ msgid "For browser only"
-#~ msgstr "ਕੇਵਲ ਬਰਾਊਜ਼ਰ ਲਈ"
-
-#, fuzzy
-#~ msgid "PAC URL"
-#~ msgstr "PAC URL:"
-
-#, fuzzy
-#~ msgid "PAC script"
-#~ msgstr "PAC ਸਕ੍ਰਿਪਟ:"
-
-#~ msgid "Import script from a file…"
-#~ msgstr "…ਫਾਇਲ ਤੋਂ ਸਕ੍ਰਿਪਟ ਇੰਪੋਰਟ ਕਰੋ"
-
-#, fuzzy
-#~ msgid "Method"
-#~ msgstr "ਢੰਗ:"
-
-#~ msgid "Ad_vanced…"
-#~ msgstr "ਤਕਨੀਕੀ(_v)…"
-
-#~ msgid "Set by master"
-#~ msgstr "ਮਾਸਟਰ ਵਜੋਂ ਸੈੱਟ"
-
-#~ msgid "Ethernet port state"
-#~ msgstr "ਈਥਰਨੈੱਟ ਪੋਰਟ ਹਾਲਤ"
-
-#~ msgid "ARP (IPv4)"
-#~ msgstr "ARP (IPv4)"
-
-#~ msgid "NDP (IPv6)"
-#~ msgstr "NDP (IPv6)"
-
-#~ msgid "Team Advanced Options"
-#~ msgstr "ਟੀਮ ਤਕਨੀਕੀ ਚੋਣਾਂ"
-
-#, fuzzy
-#~ msgid "_Queue ID"
-#~ msgstr "ਕਤਾਰ ID(_Q):"
-
-#, fuzzy
-#~ msgid "_Port priority"
-#~ msgstr "ਪੋਰਟ ਤਰਜੀਹ(_P):"
-
-#~ msgid "Port _sticky"
-#~ msgstr "ਪੋਰਟ ਸਟਿੱਕੀ(_s)"
-
-#~ msgid "LACP runner options"
-#~ msgstr "LACP ਰਨਰ ਚੋਣਾਂ"
-
-#, fuzzy
-#~ msgid "_LACP port priority"
-#~ msgstr "_LACP ਪੋਰਟ ਤਰਜੀਹ:"
-
-#, fuzzy
-#~ msgid "LACP port _key"
-#~ msgstr "LACP ਪੋਰਟ ਕੁੰਜੀ(_k):"
-
-#, fuzzy
-#~ msgid "_Up delay"
-#~ msgstr "ਅੱਪ ਦੇਰੀ(_U):"
-
-#, fuzzy
-#~ msgid "_Down delay"
-#~ msgstr "ਬੰਦ ਹੋਣ ਦੇਰੀ(_D):"
-
-#, fuzzy
-#~ msgid "Send _interval"
-#~ msgstr "ਭੇਜਣ ਅੰਤਰਾਲ(_i):"
-
-#, fuzzy
-#~ msgid "_Source host"
-#~ msgstr "ਸਰੋਤ ਹੋਸਟ(_S):"
-
-#, fuzzy
-#~ msgid "_Target host"
-#~ msgstr "ਟਾਰਗੇਟ ਹੋਸਟ(_T):"
-
-#~ msgid "S_end on inactive ports"
-#~ msgstr "ਨਾ-ਸਰਗਰਮ ਪੋਰਟ 'ਤੇ ਭੇਜੋ(_e)"
-
-#~ msgid "Im_port team configuration from a file…"
-#~ msgstr "…ਫਾਇਲ ਤੋਂ ਟੀਮ ਸੰਰਚਨਾ ਇੰਪੋਰਟ ਕਰੋ(_p)"
-
-#, fuzzy
-#~ msgid "Edit _JSON configuration"
-#~ msgstr "_JSON ਸੰਰਚਨਾ ਸੋਧੋ:"
-
-#~ msgid "Raw Configuration"
-#~ msgstr "ਰਾਅ ਸੰਰਚਨਾ"
-
-#~ msgid "Highest priority"
-#~ msgstr "ਸਭ ਤੋਂ ਵੱਧ ਤਰਜੀਹ"
-
-#~ msgid "Highest priority (stable)"
-#~ msgstr "ਸਭ ਤੋਂ ਵੱਧ ਤਰਜੀਹ (ਸਥਿਰ)"
-
-#~ msgid "Bandwidth"
-#~ msgstr "ਬੈਂਡਵਿਡਥ"
-
-#~ msgid "Highest number of ports"
-#~ msgstr "ਪੋਰਟਾਂ ਦੀ ਸਭ ਤੋਂ ਵੱਧ ਗਿਣਤੀ"
-
-#~ msgid "Port priority"
-#~ msgstr "ਪੋਰਟ ਤਰਜੀਹ"
-
-#~ msgid "From the team device"
-#~ msgstr "ਟੀਮ ਜੰਤਰ ਤੋਂ"
-
-#~ msgid "From the active port"
-#~ msgstr "ਸਰਗਰਮ ਪੋਰਟ ਤੋਂ"
-
-#~ msgid "From active to team device"
-#~ msgstr "ਸਰਗਰਮ ਤੋਂ ਟੀਮ ਜੰਤਰ ਤੋਂ"
-
-#, fuzzy
-#~ msgid "_Teamed connections"
-#~ msgstr "ਟੀਮ ਕੀਤੇ ਕਨੈਕਸ਼ਨ(_T):"
-
-#~ msgid "Load balance"
-#~ msgstr "ਲੋਡ ਬਲੈਨਸ"
-
-#~ msgid "LACP"
-#~ msgstr "LACP"
-
-#~ msgid "Ethernet"
-#~ msgstr "ਈਥਰਨੈੱਟ"
-
-#~ msgid "VLAN"
-#~ msgstr "VLAN"
-
-#~ msgid "IP"
-#~ msgstr "IP"
-
-#~ msgid "Any L3 protocol"
-#~ msgstr "ਕੋਈ L3 ਪਰੋਟੋਕਾਲ"
-
-#~ msgid "TCP"
-#~ msgstr "TCP"
-
-#~ msgid "UDP"
-#~ msgstr "UDP"
-
-#~ msgid "SCTP"
-#~ msgstr "SCTP"
-
-#~ msgid "Any L4 protocol"
-#~ msgstr "ਕੋਈ L4 ਪਰੋਟੋਕਾਲ"
-
-#, fuzzy
-#~ msgid "_Hardware Address"
-#~ msgstr "ਹਾਰਡਵੇਅਰ ਐਡਰੈੱਸ(_H):"
-
-#, fuzzy
-#~ msgid "_Runner"
-#~ msgstr "ਰਨਰ(_R):"
-
-#, fuzzy
-#~ msgid "_Hardware address policy"
-#~ msgstr "ਹਾਰਡਵੇਅਰ ਐਡਰੈੱਸ ਨੀਤੀ(_H):"
-
-#~ msgid "Name of runner to be used."
-#~ msgstr "ਰਨਰ ਦਾ ਨਾਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
-
-#, fuzzy
-#~ msgid "_System priority"
-#~ msgstr "ਸਿਸਟਮ ਤਰਜੀਹ(_S):"
-
-#, fuzzy
-#~ msgid "_Minimum ports"
-#~ msgstr "ਘੱਟੋ-ਘੱਟ ਪੋਰਟ(_M):"
-
-#~ msgid "System priority, value can be 0 – 65535."
-#~ msgstr "ਸਿਸਟਮ ਤਰਜੀਹ, ਮੁੱਲ 0 - 65535 ਹੈ।"
-
-#~ msgid "_Fields for transmission hash"
-#~ msgstr "ਟਰਾਂਸਮਿਸ਼ਨ ਹੈਸ਼ ਲਈ ਖੇਤਰ(_F)"
-
-#, fuzzy
-#~ msgid "Transmission _balancing interval"
-#~ msgstr "ਟਰਾਂਸਮਿਸ਼ਨ ਬਲੈਂਸ ਕਰਨ ਦਾ ਇੰਟਰਫੇਸ(_b):"
-
-#, fuzzy
-#~ msgid "_Transmission balancer"
-#~ msgstr "ਟਰਾਂਸਮਿਸ਼ਨ ਬਲੈਂਸਰ(_T):"
-
-#~ msgid "Runner"
-#~ msgstr "ਰਨਰ"
-
-#, fuzzy
-#~ msgid "_Parent interface"
-#~ msgstr "ਮੂਲ ਇੰਟਰਫੇਸ(_P):"
-
-#, fuzzy
-#~ msgid "VLAN inter_face name"
-#~ msgstr "VLAN ਇੰਟਰਫੇਸ ਨਾਂ(_f):"
-
-#, fuzzy
-#~ msgid "Cloned MAC _address"
-#~ msgstr "ਕਨੋਲ ਕੀਤਾ M_AC ਐਡਰੈੱਸ:"
-
-#, fuzzy
-#~ msgid "VLAN _id"
-#~ msgstr "VLAN _id:"
-
-#, fuzzy
-#~ msgid "Flags"
-#~ msgstr "ਫਲੈਗ:"
-
-#~ msgid "_GVRP"
-#~ msgstr "_GVRP"
-
-#~ msgid "M_VRP"
-#~ msgstr "M_VRP"
-
-#~ msgid "Device name + number"
-#~ msgstr "ਜੰਤਰ ਨਾਂ + ਨੰਬਰ"
-
-#~ msgid "\"vlan\" + number"
-#~ msgstr "\"vlan\" + ਨੰਬਰ"
-
-#, fuzzy
-#~ msgid "S_ecurity"
-#~ msgstr "ਸੁਰੱਖਿਆ(_e):"
-
-#~ msgid "A (5 GHz)"
-#~ msgstr "A (5 GHz)"
-
-#~ msgid "B/G (2.4 GHz)"
-#~ msgstr "B/G (2.4 GHz)"
-
-#~ msgid "Client"
-#~ msgstr "ਕਲਾਈਂਟ"
-
-#~ msgid "Ad-hoc"
-#~ msgstr "ਐਡ-ਹਾਕ"
-
-#~ msgid "mW"
-#~ msgstr "mW"
-
-#, fuzzy
-#~ msgid "Transmission po_wer"
-#~ msgstr "ਟਰਾਂਸਮਿਸ਼ਨ ਪਾਵਰ(_w):"
-
-#~ msgid "Mb/s"
-#~ msgstr "Mb/s"
-
-#, fuzzy
-#~ msgid "_Rate"
-#~ msgstr "ਰੇਟ(_R):"
-
-#, fuzzy
-#~ msgid "_BSSID"
-#~ msgstr "_BSSID:"
-
-#, fuzzy
-#~ msgid "C_hannel"
-#~ msgstr "ਚੈਨਲ(_h):"
-
-#, fuzzy
-#~ msgid "Ban_d"
-#~ msgstr "ਬੈਂਡ(_d):"
-
-#, fuzzy
-#~ msgid "SS_ID"
-#~ msgstr "SS_ID:"
-
-#~ msgid "No polkit authorization to perform the action"
-#~ msgstr "ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਕੋਈ ਪਾਲਕਿੱਟ ਪਰਮਾਣਕਿਤਾ ਨਹੀਂ ਹੈ"
-
-#~ msgid "Allowed Authentication Methods"
-#~ msgstr "ਮਨਜ਼ੂਰ ਕੀਤੇ ਪਰਮਾਣਕਿਤਾ ਢੰਗ"
-
-#~ msgid "_EAP"
-#~ msgstr "_EAP"
-
-#~ msgid "Extensible Authentication Protocol"
-#~ msgstr "ਐਕਸਟੇਸ਼ੇਬਲ ਅਥੈਂਟੀਕੇਸ਼ਨ ਪਰੋਟੋਕਾਲ"
-
-#~ msgid "_PAP"
-#~ msgstr "_PAP"
-
-#~ msgid "Password Authentication Protocol"
-#~ msgstr "ਪਾਸਵਰਡ ਪਰਮਾਣਕਿਤਾ ਪਰੋਟੋਕਾਲ"
-
-#~ msgid "C_HAP"
-#~ msgstr "C_HAP"
-
-#~ msgid "Challenge Handshake Authentication Protocol"
-#~ msgstr "ਚੈਲੰਜ਼ ਹੈਂਡਸ਼ੇਕ ਅਥੈਂਟੀਕੇਸ਼ਨ ਪਰੋਟੋਕਾਲ"
-
-#~ msgid "_MSCHAP"
-#~ msgstr "_MSCHAP"
-
-#~ msgid "Microsoft Challenge Handshake Authentication Protocol"
-#~ msgstr "ਮਾਈਕਰੋਸਾਫ਼ਟ ਚੈਲੰਜ਼ ਹੈਂਡਸ਼ੇਕ ਅਥੈਂਟੀਕੇਸ਼ਨ ਪਰੋਟੋਕਾਲ"
-
-#~ msgid "MSCHAP v_2"
-#~ msgstr "MSCHAP v_2"
-
-#~ msgid "Microsoft Challenge Handshake Authentication Protocol version 2"
-#~ msgstr "ਮਾਈਕਰੋਸਾਫ਼ਟ ਚੈਲੰਜ਼ ਹੈਂਡਸ਼ੇਕ ਅਥੈਂਟੀਕੇਸ਼ਨ ਪਰੋਟੋਕਾਲ ਵਰਜਨ ੨"
-
-#~ msgid ""
-#~ "In most cases, the provider’s PPP servers will support all authentication "
-#~ "methods. If connections fail, try disabling support for some methods."
-#~ msgstr ""
-#~ "ਬਹੁਤੇ ਹਾਲਤਾਂ ਵਿੱਚ ਪਰੋਵਾਇਡਰ ਦਾ PPP ਸਰਵਰ ਸਭ ਪਰਮਾਣਕਿਤਾ ਢੰਗਾਂ ਲਈ ਸਹਾਇਕ ਹੋਵੇਗਾ। ਜੇ ਕਨੈਕਸ਼ਨ "
-#~ "ਫੇਲ੍ਹ ਹੋਵੇ ਤਾਂ ਕੁਝ ਢੰਗ ਅਸਮਰੱਥ ਕਰਕੇ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ।"
-
-#~ msgid "Wi-Fi"
-#~ msgstr "Wi-Fi"
-
-#~ msgid "Bluetooth"
-#~ msgstr "ਬਲਿਊਟੁੱਥ"
-
-#~ msgid "InfiniBand"
-#~ msgstr "ਇੰਫੀਬੈਂਡ"
-
-#~ msgid "Bond"
-#~ msgstr "ਬੌਂਡ"
-
-#~ msgid "Team"
-#~ msgstr "ਟੀਮ"
-
-#~ msgid "Bridge"
-#~ msgstr "ਬਰਿੱਜ਼"
-
-#~ msgid "IP tunnel"
-#~ msgstr "IP ਟਨਲ"
-
-#~ msgid "MACsec"
-#~ msgstr "MACsec"
-
-#~ msgid "VPN"
-#~ msgstr "VPN"
-
-#, fuzzy
-#~ msgid "The VPN plugin failed to import the VPN connection correctly: "
-#~ msgstr ""
-#~ "VPN ਪਲੱਗਇਨ VPN ਕਨੈਕਸ਼ਨ ਨੂੰ ਠੀਕ ਤਰ੍ਹਾਂ ਇੰਪੋਰਟ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੈ।\n"
-#~ "\n"
-#~ "ਗਲਤੀ: ਕੋਈ VPN ਸਰਵਿਸ ਟਾਈਪ ਨਹੀਂ।"
-
-#~ msgid "Select file to import"
-#~ msgstr "ਇੰਪੋਰਟ ਕਰਨ ਲਈ ਫਾਇਲ ਚੁਣੋ"
-
-#~ msgid "Hardware"
-#~ msgstr "ਹਾਰਡਵੇਅਰ"
-
-#~ msgid "Virtual"
-#~ msgstr "ਵਰਚੁਅਲ"
-
-#~ msgid "Import a saved VPN configuration…"
-#~ msgstr "…ਸੰਭਾਲੀ VPN ਸੰਰਚਨਾ ਇੰਪੋਰਟ ਕਰੋ"
-
-#~ msgid ""
-#~ "The connection editor dialog could not be initialized due to an unknown "
-#~ "error."
-#~ msgstr "ਅਣਜਾਣ ਗਲਤੀ ਕਰਕੇ ਕਨੈਕਸ਼ਨ ਐਡੀਟਰ ਡਾਈਲਾਗ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Could not create new connection"
-#~ msgstr "ਨਵਾਂ ਕਨੈਕਸ਼ਨ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
-
-#~ msgid "Connection delete failed"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਹਟਾਉਣ ਲਈ ਫੇਲ੍ਹ"
-
-#, c-format
-#~ msgid "Are you sure you wish to delete the connection %s?"
-#~ msgstr "ਕੀ ਤੁਸੀਂ ਕਨੈਕਸ਼ਨ %s ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
-
-#, fuzzy
-#~ msgid "_New Connection"
-#~ msgstr "_VPN ਕਨੈਕਸ਼ਨ"
-
-#~ msgid "Address"
-#~ msgstr "ਐਡਰੈੱਸ"
-
-#~ msgid "Netmask"
-#~ msgstr "ਨੈੱਟਮਾਸਕ"
-
-#~ msgid "Gateway"
-#~ msgstr "ਗੇਟਵੇ"
-
-#~ msgid "Metric"
-#~ msgstr "ਮੈਟਰਿਕ"
-
-#~ msgid "Prefix"
-#~ msgstr "ਪ੍ਰੀਫਿਕਸ"
-
-#, c-format
-#~ msgid "Editing %s"
-#~ msgstr "%s ਸੋਧ"
-
-#~ msgid "Editing un-named connection"
-#~ msgstr "ਬੇਨਾਮ ਕਨੈਕਸ਼ਨ ਸੋਧ"
-
-#~ msgid "Missing connection name"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਨਾਂ ਗੁੰਮ ਹੈ"
-
-#~ msgid "Editor initializing…"
-#~ msgstr "ਐਡੀਟਰ ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…"
-
-#~ msgid "Connection cannot be modified"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਸੋਧਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
-
-#, c-format
-#~ msgid "Invalid setting %s: %s"
-#~ msgstr "ਅਢੁੱਕਵੀਂ ਸੈਟਿੰਗ %s: %s"
-
-#~ msgid ""
-#~ "The connection editor could not find some required resources (the .ui "
-#~ "file was not found)."
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਐਡੀਟਰ ਕੁਝ ਲੋੜੀਦੇ ਸਰੋਤ ਨਹੀਂ ਲੱਭ ਸਕਿਆ (.ui ਫਾਇਲ ਨਹੀਂ ਲੱਭੀ ਹੈ)।"
-
-#~ msgid "_Save"
-#~ msgstr "ਸੰਭਾਲੋ(_S)"
-
-#~ msgid "Save any changes made to this connection."
-#~ msgstr "ਇਸ ਕਨੈਕਸ਼ਨ ਲਈ ਕੀਤੇ ਬਦਲਾਅ ਸੰਭਾਲੋ"
-
-#~ msgid "Authenticate to save this connection for all users of this machine."
-#~ msgstr "ਇਸ ਕਨੈਕਸ਼ਨ ਲਈ ਪਰਮਾਣਕਿਤਾ ਨੂੰ ਇਸ ਮਸ਼ੀਨ ਉੱਤੇ ਸਭ ਵਰਤੋਂਕਾਰਾਂ ਲਈ ਸੰਭਾਲੋ।"
-
-#~ msgid "Could not create connection"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
-
-#~ msgid "Could not edit connection"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਸੋਧਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
-
-#~ msgid "Unknown error creating connection editor dialog."
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਐਡੀਟਰ ਡਾਈਲਾਗ ਬਣਾਉਣ ਦੌਰਾਨ ਅਣਜਾਣ ਗਲਤੀ।"
-
-#~ msgid "Error initializing editor"
-#~ msgstr "ਐਡੀਟਰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਗਲਤੀ"
-
-#~ msgid "Connection add failed"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਫੇਲ੍ਹ"
-
-#~ msgid "Fix"
-#~ msgstr "ਠੀਕ ਕਰੋ"
-
-#~ msgid ""
-#~ "Security labels may prevent some files from being used with certificate "
-#~ "authentication."
-#~ msgstr "ਸੁਰੱਖਿਆ ਲੇਬਲ ਕੁਝ ਫਾਇਲਾਂ ਨੂੰ ਸਰਟੀਫਿਕੇਟ ਪ੍ਰਮਾਣਕਿਤਾ ਨਾਲ ਵਰਤੇ ਜਾਣ ਤੋਂ ਰੋਕਦੇ ਹਨ।"
-
-#, fuzzy
-#~ msgid "Connection _name"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਨਾਂ(_n):"
-
-#~ msgid "_Export…"
-#~ msgstr "…ਐਕਸਪੋਰਟ(_E)"
-
-#~ msgid "File Relabel"
-#~ msgstr "ਫਾਇਲ ਮੁੜ-ਲੇਬਲ ਕਰੋ"
-
-#~ msgid "_Relabel"
-#~ msgstr "ਮੁੜ ਲੇਬਲ ਲਾਓ(_R)"
-
-#~ msgid "Relabel"
-#~ msgstr "ਮੁੜ ਲੇਬਲ ਲਾਓ"
-
-#~ msgid "Filename"
-#~ msgstr "ਫਾਇਲ-ਨਾਂ"
-
-#~ msgid "never"
-#~ msgstr "ਕਦੇ ਨਹੀਂ"
-
-#~ msgid "now"
-#~ msgstr "ਹੁਣ"
-
-#, c-format
-#~ msgid "%d minute ago"
-#~ msgid_plural "%d minutes ago"
-#~ msgstr[0] "%d ਮਿੰਟ ਪਹਿਲਾਂ"
-#~ msgstr[1] "%d ਮਿੰਟ ਪਹਿਲਾਂ"
-
-#, c-format
-#~ msgid "%d hour ago"
-#~ msgid_plural "%d hours ago"
-#~ msgstr[0] "%d ਘੰਟਾ ਪਹਿਲਾਂ"
-#~ msgstr[1] "%d ਘੰਟੇ ਪਹਿਲਾਂ"
-
-#, c-format
-#~ msgid "%d day ago"
-#~ msgid_plural "%d days ago"
-#~ msgstr[0] "%d ਦਿਨ ਪਹਿਲਾਂ"
-#~ msgstr[1] "%d ਦਿਨ ਪਹਿਲਾਂ"
-
-#, c-format
-#~ msgid "%d month ago"
-#~ msgid_plural "%d months ago"
-#~ msgstr[0] "%d ਮਹੀਨਾ ਪਹਿਲਾਂ"
-#~ msgstr[1] "%d ਮਹੀਨੇ ਪਹਿਲਾਂ"
-
-#, c-format
-#~ msgid "%d year ago"
-#~ msgid_plural "%d years ago"
-#~ msgstr[0] "%d ਸਾਲ ਪਹਿਲਾਂ"
-#~ msgstr[1] "%d ਸਾਲ ਪਹਿਲਾਂ"
-
-#~ msgid "Connection cannot be deleted"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ"
-
-#~ msgid "Select a connection to edit"
-#~ msgstr "ਸੋਧਣ ਲਈ ਕਨੈਕਸ਼ਨ ਚੁਣੋ"
-
-#~ msgid "Select a connection to delete"
-#~ msgstr "ਹਟਾਉਣ ਲਈ ਕਨੈਕਸ਼ਨ ਚੁਣੋ"
-
-#~ msgid "Last Used"
-#~ msgstr "ਆਖਰੀ ਵਰਤੇ"
-
-#~ msgid "Edit the selected connection"
-#~ msgstr "ਚੁਣਿਆ ਕਨੈਕਸ਼ਨ ਸੋਧੋ"
-
-#~ msgid "Authenticate to edit the selected connection"
-#~ msgstr "ਚੁਣੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਸੋਧਣ ਲੀ ਪਰਮਾਣਕਿਤਾ"
-
-#~ msgid "Delete the selected connection"
-#~ msgstr "ਚੁਣਿਆ ਕਨੈਕਸ਼ਨ ਹਟਾਓ"
-
-#~ msgid "Authenticate to delete the selected connection"
-#~ msgstr "ਚੁਣੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਹਟਾਉਣ ਲਈ ਪਰਮਾਣਕਿਤਾ"
-
-#, fuzzy
-#~ msgid "Unrecognized connection type"
-#~ msgstr "ਅਣ-ਸਹਾਇਕ ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਕਨੈਕਸ਼ਨ ਕਿਸਮ"
-
-#, fuzzy, c-format
-#~ msgid "Don’t know how to import “%s” connections"
-#~ msgstr "ਪਤਾ ਨਹੀਂ ਹੈ ਕਿ ”%s” ਕਨੈਕਸ਼ਨ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ"
-
-#, fuzzy
-#~ msgid "Error importing connection"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਸੋਧਣ ਦੌਰਾਨ ਗਲਤੀ"
-
-#~ msgid "Error creating connection"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
-
-#, fuzzy
-#~ msgid "Connection type not specified."
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਸੋਧਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
-
-#~ msgid "No VPN plugins are installed."
-#~ msgstr "ਕੋਈ VPN ਪਲੱਗਇਨ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ।"
-
-#, c-format
-#~ msgid "Don’t know how to create “%s” connections"
-#~ msgstr "ਪਤਾ ਨਹੀਂ ਹੈ ਕਿ ”%s” ਕਨੈਕਸ਼ਨ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ"
-
-#~ msgid "Error editing connection"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਸੋਧਣ ਦੌਰਾਨ ਗਲਤੀ"
-
-#, c-format
-#~ msgid "Did not find a connection with UUID “%s”"
-#~ msgstr "UUID ”%s” ਨਾਲ ਕੋਈ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਲੱਭਿਆ"
-
-#~ msgid "Network Connections"
-#~ msgstr "ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ"
-
-#~ msgid "Add a new connection"
-#~ msgstr "ਨਵਾਂ ਕਨੈਕਸ਼ਨ ਜੋੜੋ"
-
-#~ msgid "802.1X Security"
-#~ msgstr "802.1X ਸੁਰੱਖਿਆ"
-
-#~ msgid "Could not load 802.1X Security user interface."
-#~ msgstr "802.1X ਸੁਰੱਖਿਆ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Use 802.1_X security for this connection"
-#~ msgstr "ਇਸ ਕਨੈਕਸ਼ਨ ਲਈ 802.1_X ਸੁਰੱਖਿਆ ਵਰਤੋਂ"
-
-#~ msgid "MAC address of the Bluetooth device. Example: 00:11:22:33:44:55"
-#~ msgstr "ਬਲੂਟੁੱਥ ਜੰਤਰ ਦੇ MAC ਐਡਰੈਸ ਹੈ। ਜਿਵੇਂ: 00:11:22:33:44:55"
-
-#~ msgid "Could not load Bluetooth user interface."
-#~ msgstr "ਬਲੂਟੁੱਥ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#, c-format
-#~ msgid "invalid Bluetooth device (%s)"
-#~ msgstr "ਗ਼ਲਤ ਬਲੂਟੁੱਥ ਜੰਤਰ (%s)"
-
-#, c-format
-#~ msgid "Bluetooth connection %d"
-#~ msgstr "ਬਲੂਟੁੱਥ ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Bluetooth Type"
-#~ msgstr "ਬਲਿਊਟੁੱਥ ਕਿਸਮ"
-
-#~ msgid "Select the type of the Bluetooth connection profile."
-#~ msgstr "ਬਲੂਟੁੱਥ ਕਨੈਕਸ਼ਨ ਪਰੋਫਾਇਲ ਦੀ ਕਿਸਮ ਚੁਣੋ।"
-
-#~ msgid "_Personal Area Network"
-#~ msgstr "ਨਿੱਜੀ ਖੇਤਰ ਨੈੱਟਵਰਕ(_P)"
-
-#~ msgid "_Dial-Up Network"
-#~ msgstr "ਡਾਇਲ ਅੱਪ ਨੈੱਟਵਰਕ(_D)"
-
-#~ msgid "Could not load bond user interface."
-#~ msgstr "ਬੌਂਡ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "primary"
-#~ msgstr "ਪ੍ਰਾਇਮਰੀ"
-
-#, c-format
-#~ msgid "Bond connection %d"
-#~ msgstr "ਬੌਂਡ ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Could not load bridge user interface."
-#~ msgstr "ਬਰਿਜ਼ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#, c-format
-#~ msgid "Bridge connection %d"
-#~ msgstr "ਬਰਿਜ਼ ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Bridge Port"
-#~ msgstr "ਬਰਿਜ਼ ਪੋਰਟ"
-
-#~ msgid "Could not load bridge port user interface."
-#~ msgstr "ਬਰਿਜ਼ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "DCB"
-#~ msgstr "DCB"
-
-#~ msgid "Could not load DCB user interface."
-#~ msgstr "DCB ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Could not load DSL user interface."
-#~ msgstr "DSL ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
-
-#, fuzzy
-#~ msgid "missing parent interface"
-#~ msgstr "ਮੂਲ ਇੰਟਰਫੇਸ(_P):"
-
-#, c-format
-#~ msgid "DSL connection %d"
-#~ msgstr "DSL ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid ""
-#~ "This option locks this connection to the network device specified either "
-#~ "by its interface name or permanent MAC or both. Examples: “em1”, "
-#~ "“3C:97:0E:42:1A:19”, “em1 (3C:97:0E:42:1A:19)”"
-#~ msgstr ""
-#~ "ਇਹ ਚੋਣ ਨੈੱਟਵਰਕ ਜੰਤਰ ਨਾਲ ਕਨੈਕਸ਼ਨ ਲਾਕ ਕਰ ਦਿੰਦੀ ਹੈ, ਜੋ ਕਿ ਇੰਟਰਫੇਸ ਨਾਂ ਜਾਂ ਪੱਕੇ MAC ਜਾਂ ਦੋਵਾਂ "
-#~ "ਰਾਹੀਂ ਦਿੱਤੇ ਹਨ। ਜਿਵੇਂ “em1”, “3C:97:0E:42:1A:19”, “em1 (3C:97:0E:42:1A:19)”"
-
-#~ msgid "ignored"
-#~ msgstr "ਅਣਡਿੱਠਾ ਕੀਤੀ"
-
-#~ msgid "Could not load ethernet user interface."
-#~ msgstr "ਈਥਰਨੈੱਟ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Ethernet device"
-#~ msgstr "ਈਥਰਨੈੱਟ ਜੰਤਰ"
-
-#~ msgid "cloned MAC"
-#~ msgstr "ਕਨੋਲ ਕੀਤਾ MAC"
-
-#~ msgid "Wake-on-LAN password"
-#~ msgstr "ਵੇਕ ਆਨ ਲਾਨ(LAN) ਪਾਸਵਰਡ"
-
-#, c-format
-#~ msgid "Ethernet connection %d"
-#~ msgstr "ਈਥਰਨੈੱਟ ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid ""
-#~ "The zone defines the trust level of the connection. Default is not a "
-#~ "regular zone, selecting it results in the use of the default zone set in "
-#~ "the firewall. Only usable if firewalld is active."
-#~ msgstr ""
-#~ "ਜ਼ੋਨ ਕਨੈਕਸ਼ਨ ਦਾ ਭਰੋਸਾ ਪੱਧਰ ਦਰਸਾਉਂਦਾ ਹੈ। ਡਿਫਾਲਟ ਨਿਯਮਤ ਜ਼ੋਨ ਨਹੀਂ ਹੈ, ਇਸ ਨੂੰ ਚੁਣਨ ਨਾਲ "
-#~ "ਫਾਇਰਵਾਲ ਵਿੱਚ ਮੂਲ ਜ਼ੋਨ ਸੈੱਟ ਵਰਤੋਂ ਦਾ ਨਤੀਜਾ ਹੁੰਦਾ ਹੈ। ਤਾਂ ਹੀ ਪ੍ਰਭਾਵੀ ਹੈ ਜੇ firewalld ਸਰਗਰਮ "
-#~ "ਹੈ।"
-
-#~ msgid "Could not load General user interface."
-#~ msgstr "ਆਮ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid ""
-#~ "This option locks this connection to the network device specified either "
-#~ "by its interface name or permanent MAC or both. Examples: “ib0”, "
-#~ "“80:00:00:48:fe:80:00:00:00:00:00:00:00:02:c9:03:00:00:0f:65”, “ib0 "
-#~ "(80:00:00:48:fe:80:00:00:00:00:00:00:00:02:c9:03:00:00:0f:65)”"
-#~ msgstr ""
-#~ "ਇਹ ਚੋਣ ਨੈੱਟਵਰਕ ਜੰਤਰ ਨਾਲ ਕਨੈਕਸ਼ਨ ਲਾਕ ਕਰ ਦਿੰਦੀ ਹੈ, ਜੋ ਕਿ ਇਸ ਦੇ ਇੰਟਰਫੇਸ ਨਾਂ ਜਾਂ ਪੱਕੇ MAC ਜਾਂ "
-#~ "ਦੋਵਾਂ ਰਾਹੀਂ ਦਿੱਤੇ ਹਨ। ਜਿਵੇਂ: “ib0”, “80:00:00:48:fe:80:00:00:00:00:00:00:00:02:"
-#~ "c9:03:00:00:0f:65”, “ib0 (80:00:00:48:fe:80:00:00:00:00:00:00:00:02:"
-#~ "c9:03:00:00:0f:65)”"
-
-#~ msgid "Could not load InfiniBand user interface."
-#~ msgstr "ਇਫੀਂਬੈਂਡ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "infiniband device"
-#~ msgstr "ਇਫੀਂਬੈਂਡ ਜੰਤਰ"
-
-#, c-format
-#~ msgid "InfiniBand connection %d"
-#~ msgstr "ਇਫੀਂਬੈਂਡ ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Could not load IP tunnel user interface."
-#~ msgstr "IP ਟਨਲ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#, c-format
-#~ msgid "IP tunnel connection %d"
-#~ msgstr "IP ਟਨਲ ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Automatic (VPN)"
-#~ msgstr "ਆਟੋਮੈਟਿਕ (VPN)"
-
-#~ msgid "Automatic (VPN) addresses only"
-#~ msgstr "ਆਟੋਮੈਟਿਕ (VPN) ਐਡਰੈੱਸ ਹੀ"
-
-#~ msgid "Automatic, addresses only"
-#~ msgstr "ਆਟੋਮੈਟਿਕ, ਸਿਰਫ਼ ਐਡਰੈੱਸ ਹੀ"
-
-#~ msgid "Automatic (PPPoE)"
-#~ msgstr "ਆਟੋਮੈਟਿਕ (PPPoE)"
-
-#~ msgid "Automatic (PPPoE) addresses only"
-#~ msgstr "ਆਟੋਮੈਟਿਕ (PPPoE) ਐਡਰੈੱਸ ਹੀ"
-
-#~ msgid "Automatic (DHCP)"
-#~ msgstr "ਆਟੋਮੈਟਿਕ (DHCP)"
-
-#~ msgid "Automatic (DHCP) addresses only"
-#~ msgstr "ਆਟੋਮੈਟਿਕ (DHCP) ਐਡਰੈੱਸ ਹੀ"
-
-#~ msgid "Link-Local Only"
-#~ msgstr "ਲਿੰਕ-ਲੋਕਲ ਹੀ"
-
-#, fuzzy
-#~ msgid "Additional DNS ser_vers"
-#~ msgstr "ਵਾਧੂ _DNS ਸਰਵਰ:"
-
-#, fuzzy
-#~ msgid "Additional s_earch domains"
-#~ msgstr "ਵਾਧੂ ਖੋਜ ਡੋਮੇਨ(_e):"
-
-#, c-format
-#~ msgid "Editing IPv4 routes for %s"
-#~ msgstr "%s ਲਈ IPv4 ਰੂਟ ਸੋਧ"
-
-#~ msgid "IPv4 Settings"
-#~ msgstr "IPv4 ਸੈਟਿੰਗਾਂ"
-
-#~ msgid "Could not load IPv4 user interface."
-#~ msgstr "IPv4 ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#, c-format
-#~ msgid "IPv4 address “%s” invalid"
-#~ msgstr "IPv4 ਐਡਰੈਸ “%s” ਅਢੁੱਕਵਾਂ ਹੈ"
-
-#, c-format
-#~ msgid "IPv4 address netmask “%s” invalid"
-#~ msgstr "IPv4 ਐਡਰੈਸ ਨੈੱਟਮਾਸਕ “%s” ਅਢੁੱਕਵਾਂ ਹੈ"
-
-#, c-format
-#~ msgid "IPv4 gateway “%s” invalid"
-#~ msgstr "IPv4 ਗੇਟਵੇ “%s” ਅਢੁੱਕਵਾਂ ਹੈ"
-
-#, c-format
-#~ msgid "IPv4 DNS server “%s” invalid"
-#~ msgstr "IPv4 DNS ਸਰਵਰ “%s” ਅਢੁੱਕਵਾਂ ਹੈ"
-
-#~ msgid "Automatic, DHCP only"
-#~ msgstr "ਆਟੋਮੈਟਿਕ, ਸਿਰਫ DHCP"
-
-#, c-format
-#~ msgid "Editing IPv6 routes for %s"
-#~ msgstr "%s ਲਈ IPv6 ਰੂਟ ਸੋਧ"
-
-#~ msgid "IPv6 Settings"
-#~ msgstr "IPv6 ਸੈਟਿੰਗਾਂ"
-
-#~ msgid "Could not load IPv6 user interface."
-#~ msgstr "IPv6 ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#, c-format
-#~ msgid "IPv6 address “%s” invalid"
-#~ msgstr "IPv6 ਐਡਰੈਸ “%s” ਅਢੁੱਕਵਾਂ ਹੈ"
-
-#, c-format
-#~ msgid "IPv6 prefix “%s” invalid"
-#~ msgstr "IPv6 ਪ੍ਰੀਫਿਕਸ “%s” ਅਢੁੱਕਵਾਂ ਹੈ"
-
-#, c-format
-#~ msgid "IPv6 gateway “%s” invalid"
-#~ msgstr "IPv6 ਗੇਟਵੇ “%s” ਅਢੁੱਕਵਾਂ ਹੈ"
-
-#, c-format
-#~ msgid "IPv6 DNS server “%s” invalid"
-#~ msgstr "IPv6 DNS ਸਰਵਰ “%s” ਅਢੁੱਕਵਾਂ ਹੈ"
-
-#~ msgid "Could not load MACsec user interface."
-#~ msgstr "MACsec ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
-
-#, c-format
-#~ msgid "MACSEC connection %d"
-#~ msgstr "MACSEC ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Duplicate slaves"
-#~ msgstr "ਡੁਪਲੀਕੇਟ ਸਲੇਵ"
-
-#, c-format
-#~ msgid "Slaves “%s” and “%s” both apply to device “%s”"
-#~ msgstr "ਸਲੇਵ “%s“ ਅਤੇ “%s“ ਦੋਵਾਂ ਨੂੰ ਜੰਤਰ “%s“ ਲਈ ਲਾਗੂ ਕਰੋ"
-
-#, c-format
-#~ msgid ""
-#~ "Slaves “%s” and “%s” apply to different virtual ports (“%s” and “%s”) of "
-#~ "the same physical device."
-#~ msgstr ""
-#~ "ਸਲੇਵ “%s“ ਅਤੇ “%s“ ਇੱਕੋ ਭੌਤਿਕ ਜੰਤਰ ਦੀਆਂ ਵੱਖ-ਵੱਖ ਵਰਚੁਅਲ ਪੋਰਟਾਂ (“%s“ ਤੇ “%s“) ਲਈ ਲਾਗੂ ਕਰੋ"
-
-#, c-format
-#~ msgid "%s slave %d"
-#~ msgstr "%s ਸਲੇਵ %d"
-
-#~ msgid "Could not load mobile broadband user interface."
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Unsupported mobile broadband connection type."
-#~ msgstr "ਅਣ-ਸਹਾਇਕ ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਕਨੈਕਸ਼ਨ ਕਿਸਮ"
-
-#~ msgid "Select Mobile Broadband Provider Type"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਪਰੋਵਾਇਡਰ ਕਿਸਮ ਚੁਣੋ"
-
-#~ msgid ""
-#~ "Select the technology your mobile broadband provider uses. If you are "
-#~ "unsure, ask your provider."
-#~ msgstr ""
-#~ "ਤਕਨਾਲੋਜੀ ਚੁਣੋ, ਜੋ ਕਿ ਤੁਹਾਡਾ ਬਰਾਂਡਬੈਂਡ ਪਰੋਵਾਇਡਰ ਵਰਤਦਾ ਹੈ। ਜੇ ਤੁਹਾਨੂੰ ਪੱਕਾ ਪਤਾ ਨਾ ਹੋਵੇ ਤਾਂ "
-#~ "ਆਪਣੇ ਪਰੋਵਾਇਡਰ ਤੋਂ ਪੁੱਛੋ।"
-
-#~ msgid ""
-#~ "My provider uses _GSM-based technology (i.e. GPRS, EDGE, UMTS, HSDPA)"
-#~ msgstr ""
-#~ "ਮੇਰਾ ਪਰੋਵਾਇਡਰ _GSM ਅਧਾਰਿਤ ਤਕਨਾਲੋਜੀ (ਜਿਵੇਂ GPRS, EDGE, UMTS, HSDPA) ਵਰਤਦਾ ਹੈ।"
-
-#~ msgid "My provider uses C_DMA-based technology (i.e. 1xRTT, EVDO)"
-#~ msgstr "ਮੇਰਾ ਪਰੋਵਾਇਡਰ C_DMA ਅਧਾਰਿਤ ਤਕਨਾਲੋਜੀ (ਜਿਵੇਂ 1xRTT, EVDO) ਵਰਤਦਾ ਹੈ।"
-
-#~ msgid "none"
-#~ msgstr "ਕੋਈ ਨਹੀਂ"
-
-#, c-format
-#~ msgid "Editing PPP authentication methods for %s"
-#~ msgstr "%s ਲਈ PPP ਪਰਮਾਣਕਿਤਾ ਢੰਗ ਸੋਧ"
-
-#~ msgid "PPP Settings"
-#~ msgstr "PPP ਸੈਟਿੰਗ"
-
-#~ msgid "Could not load PPP user interface."
-#~ msgstr "PPP ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Proxy"
-#~ msgstr "ਪਰਾਕਸੀ"
-
-#~ msgid "Could not load proxy user interface."
-#~ msgstr "ਪਰਾਕਸੀ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Error: file doesn’t contain a valid JSON configuration"
-#~ msgstr "ਗਲਤੀ: ਫਾਇਲ ਵਿੱਚ ਠੀਕ JSON ਸੰਰਚਨਾ ਨਹੀਂ ਰੱਖਦਾ ਹੈ"
-
-#~ msgid "Could not load team user interface."
-#~ msgstr "ਟੀਮ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#, c-format
-#~ msgid "Team connection %d"
-#~ msgstr "ਟੀਮ ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Team Port"
-#~ msgstr "ਟੀਮ ਪੋਰਟ"
-
-#~ msgid "Could not load team port user interface."
-#~ msgstr "ਟੀਮ ਪੋਰਟ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#, c-format
-#~ msgid "%s (via “%s”)"
-#~ msgstr "%s (“%s” ਰਾਹੀਂ)"
-
-#~ msgid "New connection…"
-#~ msgstr "ਨਵਾਂ ਕਨੈਕਸ਼ਨ…"
-
-#~ msgid "Could not load vlan user interface."
-#~ msgstr "ਵੀਲੈਨ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "vlan parent"
-#~ msgstr "vlan ਪੇਰੈਂਟ"
-
-#, c-format
-#~ msgid "VLAN connection %d"
-#~ msgstr "VLAN ਕਨੈਕਸ਼ਨ %d"
-
-#, c-format
-#~ msgid "Could not load editor VPN plugin for “%s” (%s)."
-#~ msgstr "“%s“ (%s) ਲਈ ਐਡੀਟਰ VPN ਪਲੱਗਇਨ ਲੱਭੀ ਨਹੀਂ ਜਾ ਸਕੀ।"
-
-#~ msgid "unknown failure"
-#~ msgstr "ਅਣਪਛਾਤਾ ਅਸਫ਼ਲਤਾ"
-
-#~ msgid "Could not load VPN user interface."
-#~ msgstr "VPN ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#, c-format
-#~ msgid "Could not find VPN plugin for “%s”."
-#~ msgstr "”%s” ਲਈ VPN ਪਲੱਗਇਨ ਲੱਭੀ ਨਹੀਂ ਜਾ ਸਕੀ।"
-
-#, c-format
-#~ msgid "VPN connection %d"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Choose a VPN Connection Type"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ ਕਿਸਮ ਚੁਣੋ"
-
-#~ msgid ""
-#~ "Select the type of VPN you wish to use for the new connection. If the "
-#~ "type of VPN connection you wish to create does not appear in the list, "
-#~ "you may not have the correct VPN plugin installed."
-#~ msgstr ""
-#~ "VPN ਦੀ ਕਿਸਮ ਚੁਣੋ, ਜੋ ਤੁਸੀਂ ਨਵੇਂ ਕਨੈਕਸ਼ਨ ਲਈ ਵਰਤਣੀ ਚਾਹੁੰਦੇ ਹੋ। ਜੇ VPN ਕਨੈਕਸ਼ਨ ਦੀ ਟਾਈਪ ਲਿਸਟ "
-#~ "ਵਿੱਚ ਨਾ ਦੱਸੇ, ਜੋ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਢੁੱਕਵੀਂ VPN ਪਲੱਗਇਨ ਇੰਸਟਾਲ ਨਾ ਹੋਵੇ।"
-
-#~ msgid ""
-#~ "This option locks this connection to the Wi-Fi access point (AP) "
-#~ "specified by the BSSID entered here. Example: 00:11:22:33:44:55"
-#~ msgstr ""
-#~ "ਇਹ ਚੋਣ ਇਸ ਕਨੈਕਸ਼ਨ ਨੂੰ Wi-Fi ਐਕਸੈੱਸ ਪੁਆਇੰਟ (AP) ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਤੋਂ ਲਾਕ ਕਰਦੀ ਹੈ, ਜੋ ਇੱਥੇ ਦਿੱਤੇ "
-#~ "BSSID ਵਲੋਂ ਦਿੱਤਾ ਹੈ। ਜਿਵੇਂ: 00:11:22:33:44:55"
-
-#~ msgid ""
-#~ "This option locks this connection to the network device specified either "
-#~ "by its interface name or permanent MAC or both. Examples: “wlan0”, "
-#~ "“3C:97:0E:42:1A:19”, “wlan0 (3C:97:0E:42:1A:19)”"
-#~ msgstr ""
-#~ "ਇਹ ਚੋਣ ਨੈੱਟਵਰਕ ਜੰਤਰ ਨਾਲ ਕਨੈਕਸ਼ਨ ਲਾਕ ਕਰ ਦਿੰਦੀ ਹੈ, ਜੋ ਕਿ ਇੰਟਰਫੇਸ ਨਾਂ ਜਾਂ ਪੱਕੇ MAC ਐਡਰੈੱਸ ਜਾਂ "
-#~ "ਦੋਵਾਂ ਰਾਹੀਂ ਦਿੱਤੇ ਹਨ। ਜਿਵੇਂ: “wlan0”, “3C:97:0E:42:1A:19”, “wlan0 "
-#~ "(3C:97:0E:42:1A:19)”"
-
-#, c-format
-#~ msgid "%u (%u MHz)"
-#~ msgstr "%u (%u MHz)"
-
-#~ msgid "Could not load Wi-Fi user interface."
-#~ msgstr "Wi-Fi ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "bssid"
-#~ msgstr "bssid"
-
-#~ msgid "Wi-Fi device"
-#~ msgstr "Wi-Fi ਜੰਤਰ"
-
-#, c-format
-#~ msgid "Wi-Fi connection %d"
-#~ msgstr "Wi-Fi ਕਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Dynamic WEP (802.1X)"
-#~ msgstr "ਡਾਇਨੈਮਿਕ WEP (802.1X)"
-
-#~ msgid "Could not load Wi-Fi security user interface; missing Wi-Fi setting."
-#~ msgstr "Wi-Fi ਸੁਰੱਖਿਆ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ; Wi-Fi ਸੈਟਿੰਗ ਗੁੰਮ ਹੈ।"
-
-#~ msgid "Wi-Fi Security"
-#~ msgstr "Wi-Fi ਸੁਰੱਖਿਆ"
-
-#~ msgid "Could not load Wi-Fi security user interface."
-#~ msgstr "Wi-Fi ਸੁਰੱਖਿਆ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "missing SSID"
-#~ msgstr "ਗੁੰਮ SSID"
-
-#~ msgid "Security not compatible with Ad-Hoc mode"
-#~ msgstr "ਐਡ-ਹਾਕ ਮੋਡ ਨਾਲ ਸੁਰੱਖਿਆ ਅਨੁਕੂਲ ਨਹੀਂ ਹੈ"
-
-#, c-format
-#~ msgid "A file named “%s” already exists."
-#~ msgstr "”%s” ਫਾਇਲ ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ।"
-
-#~ msgid "_Replace"
-#~ msgstr "ਬਦਲੋ(_R)"
-
-#, c-format
-#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
-#~ msgstr "ਕੀ ਤੁਸੀਂ %s ਨੂੰ VPN, ਜੋ ਤੁਸੀਂ ਸੰਭਾਲ ਰਹੇ ਹੋ, ਨਾਲ ਬਦਲਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
-
-#~ msgid "Cannot export VPN connection"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ ਐਕਸਪੋਰਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"
-
-#, c-format
-#~ msgid ""
-#~ "The VPN connection “%s” could not be exported to %s.\n"
-#~ "\n"
-#~ "Error: %s."
-#~ msgstr ""
-#~ "“%s“ VPN ਕਨੈਕਸ਼ਨ %s ਲਈ ਐਕਸਪੋਰਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।\n"
-#~ "\n"
-#~ "ਗਲਤੀ: %s"
-
-#~ msgid "Export VPN connection…"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ ਐਕਸਪੋਰਟ…"
-
-#~ msgid "_Unlock"
-#~ msgstr "ਅਣ-ਲਾਕ(_U)"
-
-#~ msgid "Automatically unlock this device"
-#~ msgstr "ਇਹ ਜੰਤਰ ਆਟੋਮੈਟਿਕ ਅਣ-ਲਾਕ ਕਰੋ"
-
-#~ msgid "Connection Information"
-#~ msgstr "ਕਨੈਕਸ਼ਨ ਜਾਣਕਾਰੀ"
-
-#~ msgid "_Close"
-#~ msgstr "ਬੰਦ ਕਰੋ(_C)"
-
-#~ msgid "I can’t find my provider and I wish to enter it _manually:"
-#~ msgstr "ਮੈਨੂੰ ਆਪਣਾ ਪਰੋਵਾਇਡਰ ਨਹੀਂ ਮਿਲਿਆ ਅਤੇ ਮੈਂ ਖੁਦ ਦੇਣਾ ਚਾਹੁੰਦਾ ਹਾਂ(_m):"
-
-#~ msgid "Provider:"
-#~ msgstr "ਪਰੋਵਾਇਡਰ:"
-
-#~ msgid "Country or Region List:"
-#~ msgstr "ਦੇਸ਼ ਜਾਂ ਖੇਤਰ ਲਿਸਟ:"
-
-#~ msgid "Country or region"
-#~ msgstr "ਦੇਸ਼ ਜਾਂ ਖੇਤਰ"
-
-#~ msgid "Wired"
-#~ msgstr "ਤਾਰ"
-
-#~ msgid "OLPC Mesh"
-#~ msgstr "OLPC ਮਿਸ਼"
-
-#~ msgid "ADSL"
-#~ msgstr "ADSL"
-
-#~ msgid "PCI"
-#~ msgstr "PCI"
-
-#~ msgid "USB"
-#~ msgstr "USB"
-
-#, c-format
-#~ msgctxt "long device name"
-#~ msgid "%s %s"
-#~ msgstr "%s %s"
-
-#~ msgid "Wi-Fi _security:"
-#~ msgstr "Wi-Fi ਸੁਰੱਖਿਆ(_s):"
-
-#~ msgid "_Network name:"
-#~ msgstr "ਨੈੱਟਵਰਕ ਨਾਂ(_N):"
-
-#~ msgid "C_onnection:"
-#~ msgstr "ਕਨੈਕਸ਼ਨ(_n):"
-
-#~ msgid "Wi-Fi _adapter:"
-#~ msgstr "Wi-Fi ਅਡੈਪਟਰ(_a):"
-
-#~ msgid "Usage:"
-#~ msgstr "ਵਰਤੋਂ:"
-
-#~ msgid ""
-#~ "This program is a component of NetworkManager (https://wiki.gnome.org/"
-#~ "Projects/NetworkManager/)."
-#~ msgstr ""
-#~ "ਇਹ ਪਰੋਗਰਾਮ ਨੈੱਟਵਰਕਮੈਨੇਜਰ ਦਾ ਭਾਗ ਹੈ (https://wiki.gnome.org/Projects/"
-#~ "NetworkManager/)"
-
-#~ msgid ""
-#~ "It is not intended for command-line interaction but instead runs in the "
-#~ "GNOME desktop environment."
-#~ msgstr ""
-#~ "ਇਹ ਕਮਾਂਡ-ਲਾਈਨ ਲਈ ਨਹੀਂ ਬਣਾਇਆ ਗਿਆ ਹੈ, ਬਲਕਿ ਗਨੋਮ ਡੈਸਕਟਾਪ ਇੰਵਾਇਰਨਮੈਂਟ 'ਚ ਚਲਾਉਣ ਲਈ ਹੈ।"
-
-#~ msgid "EVDO"
-#~ msgstr "EVDO"
-
-#~ msgid "GPRS"
-#~ msgstr "GPRS"
-
-#~ msgid "EDGE"
-#~ msgstr "EDGE"
-
-#~ msgid "UMTS"
-#~ msgstr "UMTS"
-
-#~ msgid "HSDPA"
-#~ msgstr "HSDPA"
-
-#~ msgid "HSUPA"
-#~ msgstr "HSUPA"
-
-#~ msgid "HSPA"
-#~ msgstr "HSPA"
-
-#~ msgid "HSPA+"
-#~ msgstr "HSPA+"
-
-#~ msgid "LTE"
-#~ msgstr "LTE"
-
-#~ msgid "not enabled"
-#~ msgstr "ਯੋਗ ਨਹੀਂ"
-
-#~ msgid "not registered"
-#~ msgstr "ਰਜਿਸਟਰ ਨਹੀਂ ਹੈ"
-
-#, c-format
-#~ msgid "Home network (%s)"
-#~ msgstr "ਘਰ ਨੈੱਟਵਰਕ (%s)"
-
-#~ msgid "Home network"
-#~ msgstr "ਘਰ ਨੈੱਟਵਰਕ"
-
-#~ msgid "searching"
-#~ msgstr "ਖੋਜ ਜਾਰੀ ਹੈ"
-
-#~ msgid "registration denied"
-#~ msgstr "ਰਜਿਸਟਰੇਸ਼ਨ ਪਾਬੰਦੀ ਹੈ"
-
-#, c-format
-#~ msgid "%s (%s roaming)"
-#~ msgstr "%s (%s ਰੋਮਿੰਗ)"
-
-#, c-format
-#~ msgid "%s (roaming)"
-#~ msgstr "%s (ਰੋਮਿੰਗ)"
-
-#, c-format
-#~ msgid "Roaming network (%s)"
-#~ msgstr "ਰੋਮਿੰਗ ਨੈੱਟਵਰਕ (%s)"
-
-#~ msgid "Roaming network"
-#~ msgstr "ਰੋਮਿੰਗ ਨੈੱਟਵਰਕ"
-
-#, c-format
-#~ msgid "PIN code for SIM card “%s” on “%s”"
-#~ msgstr "“%2$s“ 'ਤੇ SIM ਕਾਰਡ “%1$s“ ਲਈ ਪਿੰਨ ਕੋਡ"
-
-#~ msgid "PIN code required"
-#~ msgstr "PIN ਕੋਡ ਲੋੜੀਦਾ ਹੈ"
-
-#~ msgid "PIN code is needed for the mobile broadband device"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਜੰਤਰ ਲਈ PIN ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
-
-#, c-format
-#~ msgid "Mobile broadband connection “%s” active: (%d%%%s%s)"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਕਨੈਕਸ਼ਨ “%s“ ਸਰਗਰਮ: (%d%%%s%s)"
-
-#~ msgid "roaming"
-#~ msgstr "ਰੋਮਿੰਗ"
-
-#, fuzzy
-#~ msgid "CKN"
-#~ msgstr "CKN:"
-
-#, fuzzy
-#~ msgid "CAK"
-#~ msgstr "CAK:"
-
-#~ msgid "%s (default)"
-#~ msgstr "%s (ਡਿਫਾਲਟ)"
-
-#~ msgid "Ignored"
-#~ msgstr "ਅਣਡਿੱਠਾ"
-
-#~ msgid "Failed to update connection secrets due to an unknown error."
-#~ msgstr "ਅਣਜਾਣੀ ਗਲਤੀ ਕਰਕੇ ਕਨੈਕਸ਼ਨ ਸੀਕਰਟ ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੈ।"
-
-#~ msgid "Priority:"
-#~ msgstr "ਤਰਜੀਹ:"
-
-#~ msgid "0:"
-#~ msgstr "0:"
-
-#~ msgid "1:"
-#~ msgstr "1:"
-
-#~ msgid "2:"
-#~ msgstr "2:"
-
-#~ msgid "3:"
-#~ msgstr "3:"
-
-#~ msgid "4:"
-#~ msgstr "4:"
-
-#~ msgid "5:"
-#~ msgstr "5:"
-
-#~ msgid "6:"
-#~ msgstr "6:"
-
-#~ msgid "7:"
-#~ msgstr "7:"
-
-#~ msgid "_Automatically connect to this network when it is available"
-#~ msgstr "ਜਦੋਂ ਵੀ ਉਪਲੱਬਧ ਹੋਵੇ ਤਾਂ ਇਹ ਨੈੱਟਵਰਕ ਨਾਲ ਆਪਣੇ-ਆਪ ਹੀ ਕਨੈਕਟ ਕਰੋ(_A)"
-
-#~ msgid "Connection _priority for auto-activation:"
-#~ msgstr "ਆਟੋ-ਸਰਗਰਮ ਲਈ ਕਨੈਕਸ਼ਨ ਤਰਜੀਹ(_p):"
-
-#~| msgid "M_ode:"
-#~ msgid "Mode:"
-#~ msgstr "ਮੋਡ:"
-
-#~| msgid "_MTU:"
-#~ msgid "MTU:"
-#~ msgstr "MTU:"
-
-#~ msgid "DSL"
-#~ msgstr "DSL"
-
-#~ msgid "Cannot import VPN connection"
-#~ msgstr "VPN ਕਨੈਕਸ਼ਨ ਇੰਪੋਰਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"
-
-#~ msgid ""
-#~ "The file “%s” could not be read or does not contain recognized VPN "
-#~ "connection information\n"
-#~ "\n"
-#~ "Error: %s."
-#~ msgstr ""
-#~ "ਫਾਇਲ ”%s” ਪੜ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ ਜਾਂ ਪਛਾਣਯੋਗ VPN ਕਨੈਕਸ਼ਨ ਜਾਣਕਾਰੀ ਨਹੀਂ ਰੱਖਦੀ ਹੈ।\n"
-#~ "\n"
-#~ "ਗਲਤੀ: %s।"
-
-#~ msgid "unknown error"
-#~ msgstr "ਅਣਪਛਾਤੀ ਗਲਤੀ"
-
-#~ msgid "Active Network Connections"
-#~ msgstr "ਸਰਗਰਮ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ"
-
-#, fuzzy
-#~ msgid "Choose a Certificate Authority certificate"
-#~ msgstr "ਸਰਟੀਫਿਕੇਟ ਅਥਾਰਟੀ ਸਰਫੀਟਿਕੇਟ ਚੁਣੋ।"
-
-#~ msgid "C_A certificate:"
-#~ msgstr "C_A ਸਰਟੀਫਿਕੇਟ"
-
-#, fuzzy
-#~ msgid "NetworkManager for GNOME"
-#~ msgstr "ਨੈੱਟਵਰਕ ਮੈਨੇਜਰ"
-
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection '%s' disconnected because the VPN service stopped."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕੁਨੈਕਸ਼ਨ '%s' ਡਿਸ-ਕੁਨੈਕਟ ਹੋਇਆ, ਕਿਉਂਕਿ VPN ਸਰਵਿਸ ਰੁਕ ਗਈ।"
-
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection '%s' disconnected."
-#~ msgstr ""
-#~ "\n"
-#~ "VPN ਕੁਨੈਕਸ਼ਨ '%s' ਡਿਸ-ਕੁਨੈਕਟ ਹੋਇਆ।"
-
-#~ msgid "_Disconnect VPN"
-#~ msgstr "VPN ਡਿਸ-ਕੁਨੈਕਟ ਕਰੋ(_D)"
-
-#~ msgid "NetworkManager is not running..."
-#~ msgstr "ਨੈੱਟਵਰਕਮੈਨੇਜਰ ਚੱਲ ਨਹੀਂ ਰਿਹਾ ਹੈ..."
-
-#~ msgid "New Mobile Broadband connection..."
-#~ msgstr "...ਨਵਾਂ ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਕੁਨੈਕਸ਼ਨ"
-
-#~ msgid "_Connect to Hidden Wi-Fi Network..."
-#~ msgstr "...ਲੁਕਵੇਂ ਵਾਈ-ਫਾਈ ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਕਰੋ(_C)"
-
-#~ msgid "Create _New Wi-Fi Network..."
-#~ msgstr "....ਨਵਾਂ ਵਾਈ-ਫਾਈ ਨੈੱਟਵਰਕ ਬਣਾਓ(_N)"
-
-#~ msgid " "
-#~ msgstr " "
-
-#~ msgid "15"
-#~ msgstr "15"
-
-#~ msgid "Aut_onegotiate"
-#~ msgstr "ਆਟੋ-ਨੈਗੋਸ਼ਿਏਟ(_o)"
-
-#~ msgid "FirewallD is not running."
-#~ msgstr "ਫਾਇਰਵਾਲID ਚੱਲ ਨਹੀਂ ਰਹੀ ਹੈ।"
-
-#~ msgid "New..."
-#~ msgstr "ਨਵਾਂ..."
-
-#, fuzzy
-#~ msgid "invalid EAP-TLS CA certificate: %s"
-#~ msgstr "C_A ਸਰਟੀਫਿਕੇਟ"
-
-#~ msgid "Unencrypted private keys are insecure"
-#~ msgstr "ਬਿਨ-ਇੰਕ੍ਰਿਪਸ਼ਨ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀਆਂ ਅਸੁਰੱਖਿਅਤ ਹਨ"
-
-#~ msgid ""
-#~ "The selected private key does not appear to be protected by a password.  "
-#~ "This could allow your security credentials to be compromised.  Please "
-#~ "select a password-protected private key.\n"
-#~ "\n"
-#~ "(You can password-protect your private key with openssl)"
-#~ msgstr ""
-#~ "ਚੁਣੀ ਗਈ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਪਾਸਵਰਡ ਨਾਲ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਜਾਪਦੀ ਹੈ। ਇਹ ਤੁਹਾਡੀ ਸੁਰੱਖਿਅਤ ਸਨਦ ਨੂੰ "
-#~ "ਖਤਰਾ ਪੈਦਾ ਕਰ ਸਕਦੀ ਹੈ। ਪਾਸਵਰਡ ਨਾਲ ਸੁਰੱਖਿਅਤ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਚੁਣੋ ਜੀ।\n"
-#~ "\n"
-#~ "(ਤੁਸੀਂ openssl ਨਾਲ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਪਾਸਵਰਡ ਸੁਰੱਖਿਅਤ ਕਰ ਸਕਦੇ ਹੋ)"
-
-#~ msgid "Choose your personal certificate..."
-#~ msgstr "ਆਪਣਾ ਨਿੱਜੀ ਸਰਟੀਫਿਕੇਟ ਚੁਣੋ..."
-
-#~ msgid "Choose your private key..."
-#~ msgstr "ਆਪਣੀ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਚੁਣੋ..."
-
-#~ msgid "Enable WiMA_X Mobile Broadband"
-#~ msgstr "WiMA_X ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਚਾਲੂ"
-
-#~ msgid "_Help"
-#~ msgstr "ਮੱਦਦ(_H)"
-
-#~ msgid "You are now connected to the bonded network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ ਬੌਂਡਡ ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "Preparing bond connection '%s'..."
-#~ msgstr "...'%s' ਬੌਂਡ ਕੁਨੈਕਟ ਲਈ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Configuring bond connection '%s'..."
-#~ msgstr "...'%s' ਬੌਂਡ ਕੁਨੈਕਟ ਸੰਰਚਿਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "User authentication required for bond connection '%s'..."
-#~ msgstr "...ਬੌਂਡ ਕੁਨੈਕਸ਼ਨ '%s' ਲਈ ਯੂਜ਼ਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ ਹੈ"
-
-#~ msgid "Requesting address for '%s'..."
-#~ msgstr "...'%s' ਲਈ ਐਡਰੈੱਸ ਦੀ ਮੰਗ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
-
-#~ msgid "Bond connection '%s' active"
-#~ msgstr "ਬੌਂਡ ਕੁਨੈਕਸ਼ਨ '%s' ਐਕਟਿਵ ਹੈ"
-
-#~ msgid "You are now connected to the bridged network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ ਬਰਿੱਜ਼ ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "Preparing bridge connection '%s'..."
-#~ msgstr "...ਬਰਿੱਜ਼ ਕੁਨੈਕਸ਼ਨ '%s' ਲਈ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Configuring bridge connection '%s'..."
-#~ msgstr "...ਬਰਿੱਜ਼ ਕੁਨੈਕਸ਼ਨ '%s' ਨਾਲ ਸੰਰਚਨਾ ਜਾਰੀ"
-
-#~ msgid "User authentication required for bridge connection '%s'..."
-#~ msgstr "...ਬਰਿੱਜ਼ ਕੁਨੈਕਸ਼ਨ '%s' ਲਈ ਯੂਜ਼ਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ ਹੈ"
-
-#~ msgid "Bridge connection '%s' active"
-#~ msgstr "ਬਰਿੱਜ਼ ਕੁਨੈਕਸ਼ਨ '%s' ਐਕਟਿਵ ਹੈ"
-
-#~ msgid "New Mobile Broadband (CDMA) connection..."
-#~ msgstr "...ਨਵਾਂ ਆਟੋ ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ (CDMA) ਕੁਨੈਕਸ਼ਨ"
-
-#~ msgid "You are now connected to the CDMA network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ CDMA ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "CDMA network."
-#~ msgstr "CDMA ਨੈੱਟਵਰਕ।"
-
-#~ msgid "New Mobile Broadband (GSM) connection..."
-#~ msgstr "...ਨਵਾਂ ਆਟੋ ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ (GSM) ਕੁਨੈਕਸ਼ਨ"
-
-#~ msgid "You are now connected to the GSM network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ GSM ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "GSM network."
-#~ msgstr "GSM ਨੈੱਟਵਰਕ।"
-
-#~ msgid "Auto InfiniBand"
-#~ msgstr "ਆਟੋ ਇੰਫੀਬੈਂਡ"
-
-#~ msgid "InfiniBand Networks (%s)"
-#~ msgstr "ਇੰਫੀਬੈਂਡ ਨੈੱਟਵਰਕ (%s)"
-
-#~ msgid "InfiniBand Network (%s)"
-#~ msgstr "ਇੰਫੀਬੈਂਡ ਨੈੱਟਵਰਕ (%s)"
-
-#~ msgid "InfiniBand Networks"
-#~ msgstr "ਇੰਫੀਬੈਂਡ ਨੈੱਟਵਰਕ"
-
-#~ msgid "InfiniBand Network"
-#~ msgstr "ਇੰਫੀਬੈਂਡ ਨੈੱਟਵਰਕ"
-
-#~ msgid "You are now connected to the InfiniBand network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ ਇੰਫੀਬੈਂਡ ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "Preparing InfiniBand connection '%s'..."
-#~ msgstr "....ਇੰਫੀਬੈਂਡ ਕੁਨੈਕਸ਼ਨ '%s' ਲਈ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Configuring InfiniBand connection '%s'..."
-#~ msgstr "...ਇੰਫੀਬੈਂਡ ਕੁਨੈਕਸ਼ਨ '%s' ਨਾਲ ਸੰਰਚਨਾ ਜਾਰੀ"
-
-#~ msgid "User authentication required for InfiniBand connection '%s'..."
-#~ msgstr "...ਇੰਫੀਬੈਂਡ ਕੁਨੈਕਸ਼ਨ '%s' ਲਈ ਯੂਜ਼ਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ ਹੈ"
-
-#~ msgid "InfiniBand connection '%s' active"
-#~ msgstr "ਇਫੀਂਬੈਂਡ ਕੁਨੈਕਸ਼ਨ '%s' ਸਰਗਰਮ ਹੈ"
-
-#~ msgid "You are now connected to the teamed network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ ਟੀਮਡ ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "Preparing team connection '%s'..."
-#~ msgstr "...ਟੀਮ ਕੁਨੈਕਸ਼ਨ '%s' ਲਈ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Configuring team connection '%s'..."
-#~ msgstr "...ਟੀਮ ਕੁਨੈਕਸ਼ਨ '%s' ਨਾਲ ਸੰਰਚਨਾ ਜਾਰੀ"
-
-#~ msgid "User authentication required for team connection '%s'..."
-#~ msgstr "ਟੀਮ ਕੁਨੈਕਸ਼ਨ '%s' ਲਈ ਯੂਜ਼ਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ ਹੈ..."
-
-#~ msgid "Team connection '%s' active"
-#~ msgstr "ਟੀਮ ਕੁਨੈਕਸ਼ਨ '%s' ਐਕਟਿਵ ਹੈ"
-
-#~ msgid "You are now connected to the VLAN."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ VLAN ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "Preparing VLAN connection '%s'..."
-#~ msgstr "...VLAN ਕੁਨੈਕਸ਼ਨ '%s' ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Configuring VLAN connection '%s'..."
-#~ msgstr "...VLAN ਕੁਨੈਕਸ਼ਨ '%s' ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "User authentication required for VLAN connection '%s'..."
-#~ msgstr "...VLAN ਕੁਨੈਕਸ਼ਨ '%s' ਲਈ ਯੂਜ਼ਰ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ ਹੈ"
-
-#~ msgid "VLAN connection '%s' active"
-#~ msgstr "VLAN ਕੁਨੈਕਸ਼ਨ '%s' ਐਕਟਿਵ ਹੈ"
-
-#~ msgid "WiMAX Mobile Broadband (%s)"
-#~ msgstr "WiMAX ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ (%s)"
-
-#~ msgid "WiMAX Mobile Broadband"
-#~ msgstr "WiMAX ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ"
-
-#~ msgid "WiMAX is disabled"
-#~ msgstr "WiMAX ਬੰਦ ਹੈ"
-
-#~ msgid "WiMAX is disabled by hardware switch"
-#~ msgstr "WiMAX ਨੂੰ ਹਾਰਡਵੇਅਰ ਸਵਿੱਚ ਰਾਹੀਂ ਬੰਦ ਕੀਤਾ ਹੋਇਆ ਹੈ"
-
-#~ msgid "You are now connected to the WiMAX network."
-#~ msgstr "ਹੁਣ ਤੁਸੀਂ WiMAX ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ ਗਏ ਹੋ।"
-
-#~ msgid "%d dB"
-#~ msgstr "%d dB"
-
-#~ msgctxt "WiMAX CINR"
-#~ msgid "unknown"
-#~ msgstr "ਅਣਜਾਣ"
-
-#~ msgctxt "WiMAX Base Station ID"
-#~ msgid "unknown"
-#~ msgstr "ਅਣਜਾਣ"
-
-#~ msgid "WiMAX (%s)"
-#~ msgstr "WiMAX (%s)"
-
-#~ msgid "CINR:"
-#~ msgstr "CINR:"
-
-#~ msgid "BSID:"
-#~ msgstr "BSID:"
-
-#~ msgid "_Device MAC address:"
-#~ msgstr "ਜੰਤਰ MAC ਐਡਰੈੱਸ(_D):"
-
-#~ msgid "Any"
-#~ msgstr "ਕੋਈ ਵੀ"
-
-#~ msgid "3G (UMTS/HSPA)"
-#~ msgstr "3G (UMTS/HSPA)"
-
-#~ msgid "2G (GPRS/EDGE)"
-#~ msgstr "2G (GPRS/EDGE)"
-
-#~ msgid "Prefer 3G (UMTS/HSPA)"
-#~ msgstr "3G (UMTS/HSPA) ਨੂੰ ਪਹਿਲ"
-
-#~ msgid "Prefer 2G (GPRS/EDGE)"
-#~ msgstr "2G (GPRS/EDGE) ਨੂੰ ਪਹਿਲ"
-
-#~ msgid "Prefer 4G (LTE)"
-#~ msgstr "4G (LTE) ਪਹਿਲ"
-
-#~ msgid "Use only 4G (LTE)"
-#~ msgstr "ਕੇਵਲ 4G (LTE) ਹੀ ਵਰਤੋਂ"
-
-#~ msgid "I_mport team configuration from a file..."
-#~ msgstr "...ਫਾਇਲ ਤੋਂ ਟੀਮ ਸੰਰਚਨਾ ਇੰਪੋਰਟ ਕਰੋ(_m)"
-
-#~ msgid "Infrastructure"
-#~ msgstr "ਇੰਫਰਾਸਟੱਕਚਰ"
-
-#~ msgid "WiMAX"
-#~ msgstr "WiMAX"
-
-#~ msgid "Error saving connection"
-#~ msgstr "ਕੁਨੈਕਸ਼ਨ ਸੰਭਾਲਣ ਦੌਰਾਨ ਗਲਤੀ"
-
-#~ msgid "The property '%s' / '%s' is invalid: %d"
-#~ msgstr "ਵਿਸ਼ੇਸ਼ਤਾ '%s' / '%s' ਅਢੁੱਕਵੀਂ: %d"
-
-#~ msgid "Automatic (PPP)"
-#~ msgstr "ਆਟੋਮੈਟਿਕ (PPP)"
-
-#~ msgid "Automatic (PPP) addresses only"
-#~ msgstr "ਆਟੋਮੈਟਿਕ (PPP) ਐਡਰੈੱਸ ਹੀ"
-
-#~ msgid ""
-#~ "Bluetooth configuration not possible (failed to connect to D-Bus: (%s) "
-#~ "%s)."
-#~ msgstr "ਬਲਿਊਟੁੱਥ ਸੰਰਚਨਾ ਸੰਭਵ ਨਹੀਂ ਹੈ (D-Bus ਨਾਲ ਜੁੜਨ ਤੋਂ ਫੇਲ੍ਹ ਹੋਇਆ ਹੈ: (%s) %s)।"
-
-#~ msgid ""
-#~ "Bluetooth configuration not possible (error finding NetworkManager: (%s) "
-#~ "%s)."
-#~ msgstr "ਬਲਿਊਟੁੱਥ ਸੰਰਚਨਾ ਸੰਭਵ ਨਹੀਂ ਹੈ (ਨੈੱਟਵਰਕ-ਮੈਨੇਜਰ ਲੱਭਣ ਵਿੱਚ ਗਲਤੀ: (%s) %s)।"
-
-#~ msgid "Use your mobile phone as a network device (PAN/NAP)"
-#~ msgstr "ਆਪਣੇ ਮੋਬਾਇਲ ਫੋਨ ਨੂੰ ਨੈੱਟਵਰਕ ਜੰਤਰ ਵਜੋਂ ਵਰਤੋਂ (PAN/NAP)"
-
-#~ msgid "Access the Internet using your mobile phone (DUN)"
-#~ msgstr "ਆਪਣੇ ਮੋਬਾਇਲ ਫੋਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਇੰਟਰਨੈੱਟ ਵਰਤੋਂ (DUN)"
-
-#~ msgid "Error: %s"
-#~ msgstr "ਗਲਤੀ: %s"
-
-#~ msgid "Your phone is now ready to use!"
-#~ msgstr "ਤੁਹਾਡਾ ਫੋਨ ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੈ!"
-
-#~ msgid "Mobile wizard was canceled"
-#~ msgstr "ਮੋਬਾਇਲ ਸਹਾਇਕ ਰੱਦ ਕੀਤਾ ਗਿਆ"
-
-#~ msgid "Unknown phone device type (not GSM or CDMA)"
-#~ msgstr "ਅਣਜਾਣ ਫੋਨ ਜੰਤਰ ਕਿਸਮ (GSM ਜਾਂ CDMA ਨਹੀਂ)"
-
-#~ msgid "unknown modem type."
-#~ msgstr "ਅਣਜਾਣ ਮਾਡਮ ਕਿਸਮ"
-
-#~ msgid "failed to connect to the phone."
-#~ msgstr "ਫੋਨ ਨਾਲ ਕੁਨੈਕਟ ਹੋਣ ਲਈ ਫੇਲ੍ਹ ਹੈ"
-
-#~ msgid "error getting bus connection"
-#~ msgstr "ਬਸ ਕੁਨੈਕਸ਼ਨ ਲੈਣ ਦੌਰਾਨ ਗਲਤੀ"
-
-#~ msgid "unexpectedly disconnected from the phone."
-#~ msgstr "ਫੋਨ ਤੋਂ ਅਚਾਨਕ ਡਿਸ-ਕੁਨੈਕਟ ਹੋ ਗਿਆ।"
-
-#~ msgid "timed out detecting phone details."
-#~ msgstr "ਫੋਨ ਵੇਰਵਾ ਲੈਣ ਲਈ ਸਮਾਂ ਸਮਾਪਤ।"
-
-#~ msgid "Detecting phone configuration..."
-#~ msgstr "ਫੋਨ ਸੰਰਚਨਾ ਲਈ ਜਾ ਰਹੀ ਹੈ..."
-
-#~ msgid ""
-#~ "The default Bluetooth adapter must be enabled before setting up a Dial-Up-"
-#~ "Networking connection."
-#~ msgstr ""
-#~ "ਡਿਫਾਲਟ ਬਲਿਊਟੁੱਥ ਐਡਪਟਰ ਨੂੰ ਡਾਇਲ-ਅੱਪ ਨੈੱਟਵਰਕਿੰਗ ਕੁਨੈਕਸ਼ਨ ਸੈਟਅੱਪ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਚਾਲੂ ਕਰਨਾ "
-#~ "ਲਾਜ਼ਮੀ ਹੈ।"
-
-#~ msgid "Failed to create PAN connection: %s"
-#~ msgstr "PAN ਕੁਨੈਕਸ਼ਨ ਬਣਾਉਣ ਲਈ ਫੇਲ੍ਹ ਹੈ: %s"
-
-#~ msgid "%s Network"
-#~ msgstr "%s ਨੈੱਟਵਰਕ"
-
-#~ msgid "_Save..."
-#~ msgstr "ਸੰਭਾਲੋ(_S)..."
-
-#~ msgid "_Edit..."
-#~ msgstr "ਸੋਧ(_E)..."
-
-#~ msgid "_Delete..."
-#~ msgstr "ਹਟਾਓ(_D)..."
-
-#~ msgid "No Certificate Authority certificate chosen"
-#~ msgstr "ਕੋਈ ਸਰਟੀਫਿਕੇਟ ਅਥਾਰਟੀ ਸਰਟੀਫਿਕੇਟ ਨਹੀਂ ਚੁਣਿਆ"
-
-#~ msgid ""
-#~ "Not using a Certificate Authority (CA) certificate can result in "
-#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
-#~ "a Certificate Authority certificate?"
-#~ msgstr ""
-#~ "ਸਰਟੀਫਿਕੇਟ ਅਥਾਰਟੀ (CA) ਸਰਟੀਫਿਕੇਟ ਦੀ ਵਰਤੋਂ ਨਾ ਕਰਨ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਅਸੁਰੱਖਿਅਤ, ਠੱਗ ਵਾਈ-ਫਾਈ "
-#~ "ਨੈੱਟਵਰਕ ਹੋ ਸਕਦੇ ਹਨ। ਕੀ ਤੁਸੀਂ ਸਰਟੀਫਿਕੇਟ ਅਥਾਰਟੀ ਸਰਟੀਫਿਕੇਟ ਚੁਣਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
-
-#~ msgid "A_vailable to all users"
-#~ msgstr "ਸਭ ਯੂਜ਼ਰ ਲਈ ਉਪਲੱਬਧ"
-
-#~ msgid "An unknown error occurred."
-#~ msgstr "ਇੱਕ ਅਣਜਾਣੀ ਗਲਤੀ ਆਈ ਹੈ।"
-
-#~ msgid "Could not edit new connection"
-#~ msgstr "ਨਵਾਂ ਕੁਨੈਕਸ਼ਨ ਸੋਧਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
-
-#~ msgid "Wireless Networks (%s)"
-#~ msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ (%s)"
-
-#~ msgid "Wireless Network (%s)"
-#~ msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ (%s)"
-
-#~ msgid "Wireless Network"
-#~ msgid_plural "Wireless Networks"
-#~ msgstr[0] "ਬੇਤਾਰ ਨੈੱਟਵਰਕ"
-#~ msgstr[1] "ਬੇਤਾਰ ਨੈੱਟਵਰਕ"
-
-#~ msgid "wireless is disabled"
-#~ msgstr "ਬੇਤਾਰ ਬੰਦ ਹੈ"
-
-#~ msgid "wireless is disabled by hardware switch"
-#~ msgstr "ਬੇਤਾਰ ਨੂੰ ਹਾਰਡਵੇਅਰ ਸਵਿੱਚ ਰਾਹੀਂ ਬੰਦ ਕੀਤਾ ਹੋਇਆ ਹੈ"
-
-#~ msgid "Preparing wireless network connection '%s'..."
-#~ msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ '%s' ਲਈ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
-
-#~ msgid "Configuring wireless network connection '%s'..."
-#~ msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ '%s' ਦੀ ਸੰਰਚਨਾ ਜਾਰੀ..."
-
-#~ msgid "Requesting a wireless network address for '%s'..."
-#~ msgstr "'%s' ਲਈ ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਐਡਰੈੱਸ ਲਈ ਮੰਗ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ..."
-
-#~ msgid "Wireless network connection '%s' active"
-#~ msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ '%s' ਐਕਟਿਵ"
-
-#~ msgid "Could not load Wired Security security user interface."
-#~ msgstr "ਤਾਰ ਵਾਲਾ ਸੁਰੱਖਿਆ ਯੂਜ਼ਰ ਇੰਟਰਫੇਸ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Wireless"
-#~ msgstr "ਬੇਤਾਰ"
-
-#~ msgid "Wireless connection %d"
-#~ msgstr "ਬੇਤਾਰ ਕੁਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Could not edit imported connection"
-#~ msgstr "ਇੰਪੋਰਟ ਕੀਤਾ ਕੁਨੈਕਸ਼ਨ ਸੋਧਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
-
-#~ msgid "No VPN plugin available. Please install one to enable this button."
-#~ msgstr "ਕੋਈ VPN ਪਲੱਗਇਨ ਨਹੀਂ ਲੱਭੀ। ਇਹ ਬਟਨ ਚਾਲੂ ਕਰਨ ਲਈ ਕੋਈ ਇੰਸਟਾਲ ਕਰੋ।"
-
-#~ msgid "Don't know how to edit '%s' connections"
-#~ msgstr "ਪਤਾ ਨਹੀਂ ਹੈ ਕਿ '%s' ਕੁਨੈਕਸ਼ਨ ਕਿਵੇਂ ਸੋਧਿਆ ਜਾਵੇ"
-
-#~ msgid "Bluetooth configuration not possible (failed to create D-Bus proxy)."
-#~ msgstr "ਬਲਿਊਟੁੱਥ ਸੰਰਚਨਾ ਸੰਭਵ ਨਹੀਂ ਹੈ (D-Bus ਪਰਾਕਸੀ ਨਾਲ ਜੁੜਨ ਤੋਂ ਫੇਲ ਹੋਇਆ ਹੈ: %s)।"
-
-#~ msgid "Click on this icon to connect to a wireless network"
-#~ msgstr "ਇਹ ਆਈਕਾਨ ਨੂੰ ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ"
-
-#~ msgid "_Security:"
-#~ msgstr "ਸੁਰੱਖਿਆ(_S):"
-
-#~ msgid "United Kingdom"
-#~ msgstr "ਯੂਨਾਈਟਡ ਕਿੰਗਡਮ"
-
-#~ msgid "Other Wireless Network..."
-#~ msgstr "...ਹੋਰ ਬੇਤਾਰ ਨੈੱਟਵਰਕ"
-
-#~ msgid "An instance of nm-applet is already running.\n"
-#~ msgstr "nm-applet ਪਹਿਲਾਂ ਹੀ ਚੱਲ ਰਿਹਾ ਹੈ।\n"
-
-#~ msgid "Could not acquire the %s service. (%d)\n"
-#~ msgstr "%s ਸਰਵਿਸ ਲਈ ਨਹੀਂ ਜਾ ਸਕੀ। (%d)\n"
-
-#~ msgid "could not connect to the system bus."
-#~ msgstr "ਸਿਸਟਮ ਬੱਸ ਨਾਲ ਕੁਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Cannot start VPN connection '%s'"
-#~ msgstr "VPN ਕੁਨੈਕਸ਼ਨ '%s' ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"
-
-#~ msgid ""
-#~ "Could not find the authentication dialog for VPN connection type '%s'. "
-#~ "Contact your system administrator."
-#~ msgstr ""
-#~ "VPN ਕੁਨਕੈਸ਼ਨ ਟਾਈਪ '%s' ਲਈ ਪਰਮਾਣਕਿਤਾ ਡਾਈਲਾਗ ਲੱਭਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ। ਆਪਣੇ ਸਿਸਟਮ "
-#~ "ਪਰਸ਼ਾਸ਼ਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
-
-#~ msgid ""
-#~ "There was a problem launching the authentication dialog for VPN "
-#~ "connection type '%s'. Contact your system administrator."
-#~ msgstr ""
-#~ "VPN ਕੁਨਕੈਸ਼ਨ ਟਾਈਪ '%s' ਲਈ ਪਰਮਾਣਕਿਤਾ ਡਾਈਲਾਗ ਚਲਾਉਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਹੈ। ਆਪਣੇ ਸਿਸਟਮ "
-#~ "ਪਰਸ਼ਾਸ਼ਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
-
-#~ msgid "Country"
-#~ msgstr "ਦੇਸ਼"
-
-#~| msgid "_Routes&#x2026;"
-#~ msgid "Create&#x2026;"
-#~ msgstr "ਬਣਾਓ&#x2026;"
-
-#~| msgid ""
-#~| "The connection editor could not find some required resources (the "
-#~| "NetworkManager applet glade file was not found)."
-#~ msgid ""
-#~ "The connection editor could not find some required resources (the "
-#~ "NetworkManager applet .ui file was not found)."
-#~ msgstr ""
-#~ "ਕੁਨੈਕਸ਼ਨ ਐਡੀਟਰ ਕੁਝ ਸਰੋਤ ਨਹੀਂ ਲੱਭ ਸਕਿਆ (ਨੈੱਟਵਰਕ ਮੈਨੇਜਰ ਐਪਲਿਟ .ui ਫਾਇਲ ਨਹੀਂ ਲੱਭੀ ਹੈ)।"
-
-#~ msgid ""
-#~ "<span size=\"larger\" weight=\"bold\">Active Network Connections</span>"
-#~ msgstr "<span size=\"larger\" weight=\"bold\">ਐਕਟਿਵ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ</span>"
-
-#~ msgid ""
-#~ "Automatic\n"
-#~ "Version 0\n"
-#~ "Version 1"
-#~ msgstr ""
-#~ "ਆਟੋਮੈਟਿਕ\n"
-#~ "ਵਰਜਨ 0\n"
-#~ "ਵਰਜਨ 1"
-
-#~ msgid "<b>Addresses</b>"
-#~ msgstr "<b>ਐਡਰੈੱਸ</b>"
-
-#~ msgid ""
-#~ "Automatic\n"
-#~ "Automatic with manual DNS settings\n"
-#~ "Manual\n"
-#~ "Link-Local\n"
-#~ "Shared to other computers"
-#~ msgstr ""
-#~ "ਆਟੋਮੈਟਿਕ\n"
-#~ "ਆਟੈਮੋਟਿਕ ਦੇ ਨਾਲ ਖੁਦ ਦਿੱਤੀ DNS ਸੈਟਿੰਗ\n"
-#~ "ਖੁਦ (ਮੇਨੂਅਲ)\n"
-#~ "ਲਿੰਕ-ਲੋਕਲ\n"
-#~ "ਹੋਰ ਕੰਪਿਊਟਰਾਂ ਨਾਲ ਸਾਂਝਾ ਕੀਤਾ"
-
-#~ msgid "<b>Basic</b>"
-#~ msgstr "<b>ਬੇਸਿਕ</b>"
-
-#~ msgid ""
-#~ "Any\n"
-#~ "3G (UMTS/HSPA)\n"
-#~ "2G (GPRS/EDGE)\n"
-#~ "Prefer 3G (UMTS/HSPA)\n"
-#~ "Prefer 2G (GPRS/EDGE)"
-#~ msgstr ""
-#~ "ਕੋਈ ਵੀ\n"
-#~ "3G (UMTS/HSPA)\n"
-#~ "2G (GPRS/EDGE)\n"
-#~ "ਪਸੰਦੀਦਾ 3G (UMTS/HSPA)\n"
-#~ "ਪਸੰਦੀਦਾ 2G (GPRS/EDGE)"
-
-#~ msgid "<b>Authentication</b>"
-#~ msgstr "<b>ਪਰਮਾਣਕਿਤਾ</b>"
-
-#~ msgid "<b>Echo</b>"
-#~ msgstr "<b>ਈਕੋ</b>"
-
-#~ msgid ""
-#~ "Automatic\n"
-#~ "10 Mb/s\n"
-#~ "100 Mb/s\n"
-#~ "1 Gb/s\n"
-#~ "10 Gb/s"
-#~ msgstr ""
-#~ "ਆਟੋਮੈਟਿਕ\n"
-#~ "10 Mb/s\n"
-#~ "100 Mb/s\n"
-#~ "1 Gb/s\n"
-#~ "10 Gb/s"
-
-#~ msgid ""
-#~ "Automatic\n"
-#~ "Twisted Pair (TP)\n"
-#~ "Attachment Unit Interface (AUI)\n"
-#~ "BNC\n"
-#~ "Media Independent Interface (MII)"
-#~ msgstr ""
-#~ "ਆਟੋਮੈਟਿਕ\n"
-#~ "ਟਵਿਸਟ ਪੇਅਰ (TP)\n"
-#~ "ਅਟੈਚ ਯੂਨਿਟ ਇੰਟਰਫੇਸ (AUI)\n"
-#~ "BNC\n"
-#~ "ਮੀਡਿਆ ਇਡੀਪੈਂਡੈਂਟ ਇੰਟਰਫੇਸ (MII)"
-
-#~ msgid ""
-#~ "Automatic\n"
-#~ "A (5 GHz)\n"
-#~ "B/G (2.4 GHz)"
-#~ msgstr ""
-#~ "ਆਟੋਮੈਟਿਕ\n"
-#~ "A (5 GHz)\n"
-#~ "B/G (2.4 GHz)"
-
-#~ msgid "Apply"
-#~ msgstr "ਲਾਗੂ ਕਰੋ"
-
-#~ msgid "Apply..."
-#~ msgstr "ਲਾਗੂ ਕਰੋ..."
-
-#~ msgid "PUK code required"
-#~ msgstr "PUK ਕੋਡ ਲੋੜੀਦਾ ਹੈ"
-
-#~ msgid "PUK code is needed for the mobile broadband device"
-#~ msgstr "ਮੋਬਾਇਲ ਬਰਾਡਬੈਂਡ ਜੰਤਰ ਲੀ PUK ਕੋਡ ਲੋੜੀਦਾ ਹੈ"
-
-#~ msgctxt "No wired security used"
-#~ msgid "None"
-#~ msgstr "ਕੋਈ ਨਹੀਂ"
-
-#~ msgctxt "Unknown/unrecognized wired or wifi security"
-#~ msgid "Unknown"
-#~ msgstr "ਅਣਜਾਣ"
-
-#~ msgid "Save this connection for all users of this machine."
-#~ msgstr "ਇਹ ਕੁਨੈਕਸ਼ਨ ਨੂੰ ਇਸ ਮਸ਼ੀਨ ਉੱਤੇ ਸਭ ਯੂਜ਼ਰਾਂ ਲਈ ਸੰਭਾਲੋ।"
-
-#~ msgid ""
-#~ "The NetworkManager applet could not find some required resources.  It "
-#~ "cannot continue.\n"
-#~ msgstr "ਨੈੱਟਵਰਕ-ਮੈਨੇਜਰ ਐਪਲਿਟ ਲੋੜੀਦੇ ਸਰੋਤ ਨਹੀਂ ਲੱਭਿਆ ਸਕਿਆ। ਇਹ ਜਾਰੀ ਨਹੀਂ ਰਹਿ ਸਕਦਾ ਹੈ।\n"
-
-#~ msgid "_Band:"
-#~ msgstr "ਬੈਂਡ(_B):"
-
-#~ msgid ""
-#~ "Insufficient privileges or unknown error retrieving system connection "
-#~ "secrets."
-#~ msgstr "ਸਿਸਟਮ ਕੁਨੈਕਸ਼ਨ ਸੀਕਰਟ ਲੈਣ ਦੌਰਾਨ ਲੋੜੀਦੇ ਅਧਿਕਾਰ ਨਹੀਂ ਜਾਂ ਅਣਜਾਣ ਗਲਤੀ"
-
-#~ msgid "Could not request secrets from the system settings service."
-#~ msgstr "ਸਿਸਟਮ ਸੈਟਿੰਗ ਸਰਵਿਸ ਤੋਂ ਸੀਕਰਟ ਦੀ ਮੰਗ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।"
-
-#~ msgid "Could not connect to D-Bus to request connection secrets."
-#~ msgstr "ਡੀ-ਬੱਸ ਲਈ ਕੁਨੈਕਸ਼ਨ ਸੀਕਰਟ ਮੰਗ ਲਈ ਕੁਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Could not create D-Bus proxy for connection secrets."
-#~ msgstr "ਕੁਨੈਕਸ਼ਨ ਸੀਕਰਟ ਲਈ ਡੀ-ਬੱਸ ਪਰਾਕਸੀ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "PU_K:"
-#~ msgstr "PU_K:"
-
-#~ msgid "PolicyKit authorization request was invalid."
-#~ msgstr "ਪਾਲਸੀਕਿੱਟ ਪਰਮਾਣਕਿਤਾ ਮੰਗ ਅਢੁੱਕਵੀਂ ਹੈ।"
-
-#~ msgid "PolicyKit authorization request was malformed."
-#~ msgstr "ਪਾਲਸੀਕਿੱਟ ਪਰਮਾਣਕਿਤਾ ਮੰਗ ਨਿਕਾਰਾ ਹੈ।"
-
-#~ msgid "PolicyKit authorization could not be created; invalid action ID."
-#~ msgstr "ਪਾਲਸੀਕਿੱਟ ਪਰਮਾਣਕਿਤਾ ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕੀ; ਅਢੁੱਕਵਾਂ ਕਾਰਵਾਈ ID"
-
-#~ msgid "Could not obtain required privileges"
-#~ msgstr "ਲੋੜੀਦੇ ਅਧਿਕਾਰ ਨਹੀਂ ਲਏ ਜਾ ਸਕੇ।"
-
-#~ msgid "Could not delete connection"
-#~ msgstr "ਕੁਨੈਕਸ਼ਨ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
-
-#~ msgid "The connection could not be deleted due to an unknown error."
-#~ msgstr "ਅਣਜਾਣ ਗਲਤੀ ਕਰਕੇ ਕੁਨੈਕਸ਼ਨ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Could not add connection"
-#~ msgstr "ਕੁਨੈਕਸ਼ਨ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
-
-#~ msgid "The connection could not be added due to an unknown error."
-#~ msgstr "ਅਣਜਾਣ ਗਲਤੀ ਕਰਕੇ ਕੁਨੈਕਸ਼ਨ ਜੋੜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "Could not update connection"
-#~ msgstr "ਕੁਨੈਕਸ਼ਨ ਅੱਪਡੇਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
-
-#~ msgid "The connection could not be updated due to an unknown error."
-#~ msgstr "ਅਣਜਾਣੀ ਗਲਤੀ ਕਰਕੇ ਕੁਨੈਕਸ਼ਨ ਅੱਪਡੇਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
-
-#~ msgid "User Name:"
-#~ msgstr "ਯੂਜ਼ਰ ਨਾਂ:"
-
-#~ msgid "alert text"
-#~ msgstr "ਚੇਤਾਵਨੀ ਟੈਕਸਟ"
-
-#~ msgid "Create a GSM connection"
-#~ msgstr "GSM ਕੁਨੈਕਸ਼ਨ ਬਣਾਓ"
-
-#~ msgid "Create a CDMA connection"
-#~ msgstr "CDMA ਕੁਨੈਕਸ਼ਨ ਬਣਾਓ"
-
-#~ msgid "GSM connection %d"
-#~ msgstr "GSM ਕੁਨੈਕਸ਼ਨ %d"
-
-#~ msgid "Modify Wireless Networks"
-#~ msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਸੋਧ"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid ""
-#~ "128-bit Passphrase (WEP)\n"
-#~ "Ascii Key (WEP)\n"
-#~ "Hex Key (WEP)"
-#~ msgstr ""
-#~ "128-bit ਪ੍ਹੈਰਾ (WEP)\n"
-#~ "Ascii ਕੁੰਜੀ (WEP)\n"
-#~ "Hex ਕੁੰਜੀ (WEP)"
-
-#~ msgid "_Login to Network"
-#~ msgstr "ਨੈਟਵਰਕ ਤੇ ਲਾਗਿੰਨ(_L)"
-
-#~ msgid "Ascii Key:"
-#~ msgstr "Ascii ਕੁੰਜੀ:"
-
-#~ msgid "You must log in to access the private network %s"
-#~ msgstr "ਤੁਹਾਨੂੰ ਨਿੱਜੀ ਨੈਟਵਰਕ %s ਨੂੰ ਵਰਤਣ ਲਈ ਲਾਗਿੰਨ ਕਰਨਾ ਪਵੇਗਾ"
-
-#~ msgid "Scanning for wireless networks..."
-#~ msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਲਈ ਖੋਜ ਜਾਰੀ ਹੈ..."
-
-#~ msgid "Pause Wireless Scanning"
-#~ msgstr "ਬੇਤਾਰ ਪੜਤਾਲ ਰੋਕੋ"
-
-#~ msgid "Resume Wireless Scanning"
-#~ msgstr "ਬੇਤਾਰ ਪੜਤਾਲ ਮੁੜ ਚਾਲੂ"
-
-#~ msgid "Stop All Wireless Devices"
-#~ msgstr "ਸਭ ਬੇਤਾਰ ਜੰਤਰ ਰੋਕੋ"
-
-#~ msgid "Start All Wireless Devices"
-#~ msgstr "ਸਭ ਬੇਤਾਰ ਜੰਤਰ ਸ਼ੁਰੂ"
-
-#~ msgid "Custom wireless network"
-#~ msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਸੋਧ"
-
-#~ msgid ""
-#~ "128-bit passphrase (WEP)\n"
-#~ "Ascii key (WEP)\n"
-#~ "Hex key (WEP)"
-#~ msgstr ""
-#~ "128-bit ਪ੍ਹੈਰਾ (WEP)\n"
-#~ "Ascii ਕੁੰਜੀ (WEP)\n"
-#~ "Hex ਕੁੰਜੀ (WEP)"
-
-#~ msgid "Key type:"
-#~ msgstr "ਕੁੰਜੀ ਕਿਸਮ:"
-
-#~ msgid "Wireless _network:"
-#~ msgstr "ਬੇਤਾਰ ਨੈਟਵਰਕ(_n):"
-
-#~ msgid " (invalid Unicode)"
-#~ msgstr " (ਗਲਤ ਯੂਨੀਕੋਡ)"
-
-#~ msgid "The orientation of the tray."
-#~ msgstr "ਟਰੇ ਦੀ ਸਥਿਤੀ ਹੈ।"

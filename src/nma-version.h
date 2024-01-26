@@ -23,7 +23,7 @@
  * Evaluates to the minor version number of NetworkManager which this source
  * is compiled against.
  */
-#define NMA_MINOR_VERSION (8)
+#define NMA_MINOR_VERSION (10)
 
 /**
  * NMA_MICRO_VERSION:
@@ -31,7 +31,7 @@
  * Evaluates to the micro version number of NetworkManager which this source
  * compiled against.
  */
-#define NMA_MICRO_VERSION (38)
+#define NMA_MICRO_VERSION (6)
 
 /**
  * NMA_CHECK_VERSION:
@@ -63,6 +63,7 @@
 #define NMA_VERSION_1_8_28 (NMA_ENCODE_VERSION (1, 8, 28))
 #define NMA_VERSION_1_8_34 (NMA_ENCODE_VERSION (1, 8, 34))
 #define NMA_VERSION_1_8_36 (NMA_ENCODE_VERSION (1, 8, 36))
+#define NMA_VERSION_1_10_6 (NMA_ENCODE_VERSION (1, 10, 6))
 
 /* For releases, NMA_API_VERSION is equal to NMA_VERSION.
  *

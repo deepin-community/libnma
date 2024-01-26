@@ -1,13 +1,13 @@
-# Kurdish translation for network-manager
+# Kurdish translation for libnma
+# This file is distributed under the same license as the libnma package.
+#
 # Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-# This file is distributed under the same license as the network-manager package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
 # Erdal Ronahî <erdal dot ronahi at gmail dot com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: network-manager\n"
+"Project-Id-Version: libnma\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libnma/\n"
-"POT-Creation-Date: 2022-04-07 09:46+0200\n"
+"POT-Creation-Date: 2023-01-09 00:38+0100\n"
 "PO-Revision-Date: 2011-10-18 15:16+0200\n"
 "Last-Translator: Erdal Ronahî <erdal dot ronahi at gmail dot com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -19,80 +19,19 @@ msgstr ""
 "X-Generator: Virtaal 0.6.1\n"
 "X-Launchpad-Export-Date: 2011-10-17 13:00+0000\n"
 
-#: org.gnome.nm-applet.gschema.xml.in:6
-msgid "Disable connected notifications"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:7
-msgid "Set this to true to disable notifications when connecting to a network."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:11
-#, fuzzy
-msgid "Disable disconnected notifications"
-msgstr "negirêdayî"
-
-#: org.gnome.nm-applet.gschema.xml.in:12
-msgid ""
-"Set this to true to disable notifications when disconnecting from a network."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:16
-msgid "Disable VPN notifications"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:17
-msgid ""
-"Set this to true to disable notifications when connecting to or "
-"disconnecting from a VPN."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:21
-msgid "Suppress networks available notifications"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:22
-msgid ""
-"Set this to true to disable notifications when Wi-Fi networks are available."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:26
-msgid "Stamp"
-msgstr "Damxe"
-
-#: org.gnome.nm-applet.gschema.xml.in:27
-msgid "Used to determine whether settings should be migrated to a new version."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:31
-msgid "Disable WiFi Create"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:32
-msgid ""
-"Set to true to disable creation of adhoc networks when using the applet."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:36
-msgid "Show the applet in notification area"
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:37
-msgid "Set to FALSE to disable displaying the applet in the notification area."
-msgstr ""
-
-#: org.gnome.nm-applet.gschema.xml.in:43 org.gnome.nm-applet.gschema.xml.in:48
+#: org.gnome.nm-applet.eap.gschema.xml.in:6
+#: org.gnome.nm-applet.eap.gschema.xml.in:11
 #, fuzzy
 msgid "Ignore CA certificate"
 msgstr "Sertîfikaya _bikarhêner:"
 
-#: org.gnome.nm-applet.gschema.xml.in:44
+#: org.gnome.nm-applet.eap.gschema.xml.in:7
 msgid ""
 "Set this to true to disable warnings about CA certificates in EAP "
 "authentication."
 msgstr ""
 
-#: org.gnome.nm-applet.gschema.xml.in:49
+#: org.gnome.nm-applet.eap.gschema.xml.in:12
 msgid ""
 "Set this to true to disable warnings about CA certificates in phase 2 of EAP "
 "authentication."
@@ -131,11 +70,11 @@ msgid ""
 "type '%s'"
 msgstr ""
 
-#: src/nma-bar-code-widget.c:142
+#: src/nma-bar-code-widget.c:140
 msgid "Network"
 msgstr "Tor"
 
-#: src/nma-bar-code-widget.c:159
+#: src/nma-bar-code-widget.c:157
 #, fuzzy
 msgid "Password"
 msgstr "Şîfre:"
@@ -144,74 +83,121 @@ msgstr "Şîfre:"
 msgid "Scan with your phone or <a href=\"nma:print\">Print</a>"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:179
+#: src/nma-cert-chooser.c:513
+#, fuzzy
+msgid "No certificate set"
+msgstr "Sertîfikaya _bikarhêner:"
+
+#: src/nma-cert-chooser.c:537
+msgid "No key set"
+msgstr ""
+
+#: src/nma-cert-chooser.c:860
+#, fuzzy, c-format
+msgid "Choose a %s Certificate"
+msgstr "Sertîfikaya _bikarhêner:"
+
+#: src/nma-cert-chooser.c:864
+#, fuzzy, c-format
+msgid "%s _certificate"
+msgstr "Sertîfikaya _bikarhêner:"
+
+#: src/nma-cert-chooser.c:868
+#, fuzzy, c-format
+msgid "%s certificate _password"
+msgstr "Sertîfikaya _bikarhêner:"
+
+#: src/nma-cert-chooser.c:887
+#, fuzzy, c-format
+msgid "Choose a key for %s Certificate"
+msgstr "Sertîfikaya _bikarhêner:"
+
+#: src/nma-cert-chooser.c:891
+#, fuzzy, c-format
+msgid "%s private _key"
+msgstr "Mifteya _taybet:"
+
+#: src/nma-cert-chooser.c:895
+#, fuzzy, c-format
+msgid "%s key _password"
+msgstr "Şî_freya mifteya taybet:"
+
+#: src/nma-cert-chooser.c:1125
+msgid "Sho_w passwords"
+msgstr "Şîfreyan _nîşan bide"
+
+#: src/nma-cert-chooser-button.c:177
 #, c-format
 msgid "Key in %s"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:180
+#: src/nma-cert-chooser-button.c:178
 #, c-format
 msgid "Certificate in %s"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:211 src/nma-cert-chooser-button.c:322
+#: src/nma-cert-chooser-button.c:209 src/nma-cert-chooser-button.c:320
 msgid "Select"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:212 src/nma-cert-chooser-button.c:323
+#: src/nma-cert-chooser-button.c:210 src/nma-cert-chooser-button.c:321
 msgid "Cancel"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:279 src/nma-ws/nma-eap-fast.c:330
+#: src/nma-cert-chooser-button.c:277 src/nma-ws/nma-eap-fast.c:329
 #, fuzzy
 msgid "(None)"
 msgstr "(tune)"
 
-#: src/nma-cert-chooser-button.c:302 src/nma-pkcs11-cert-chooser-dialog.c:184
+#: src/nma-cert-chooser-button.c:300 src/nma-pkcs11-cert-chooser-dialog.c:189
 msgid "(Unknown)"
 msgstr ""
 
-#: src/nma-cert-chooser-button.c:432
+#: src/nma-cert-chooser-button.c:431
 msgid "Select from file…"
 msgstr ""
 
-#: src/nma-mobile-providers.c:787
+#: src/nma-mobile-providers.c:818
 msgid "Default"
 msgstr "Standard"
 
-#: src/nma-mobile-providers.c:976
+#: src/nma-mobile-providers.c:1007
 msgid "My country is not listed"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:142
+#: src/nma-mobile-providers.c:1045
+msgid "Kosovo"
+msgstr ""
+
+#: src/nma-mobile-wizard.c:140
 msgid "GSM"
 msgstr "GSM"
 
-#: src/nma-mobile-wizard.c:145
+#: src/nma-mobile-wizard.c:143
 msgid "CDMA"
 msgstr "CDMA"
 
-#: src/nma-mobile-wizard.c:250 src/nma-mobile-wizard.c:282
+#: src/nma-mobile-wizard.c:252 src/nma-mobile-wizard.c:284
 msgid "Unlisted"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:481
+#: src/nma-mobile-wizard.c:483
 msgid "My plan is not listed…"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:652
+#: src/nma-mobile-wizard.c:654
 msgid "Provider"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:1024
+#: src/nma-mobile-wizard.c:1026
 msgid "Installed GSM device"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:1027
+#: src/nma-mobile-wizard.c:1029
 msgid "Installed CDMA device"
 msgstr ""
 
-#: src/nma-mobile-wizard.c:1232
+#: src/nma-mobile-wizard.c:1234
 msgid "Any device"
 msgstr ""
 
@@ -327,25 +313,25 @@ msgstr ""
 msgid "Confirm Mobile Broadband Settings"
 msgstr ""
 
-#: src/nma-pkcs11-cert-chooser-dialog.c:255
+#: src/nma-pkcs11-cert-chooser-dialog.c:260
 msgid "Error logging in: "
 msgstr ""
 
-#: src/nma-pkcs11-cert-chooser-dialog.c:277
+#: src/nma-pkcs11-cert-chooser-dialog.c:282
 #, fuzzy
 msgid "Error opening a session: "
 msgstr "Nikarî girêdana VPN ya '%s' bibîne"
 
-#: src/nma-pkcs11-cert-chooser-dialog.ui:19
+#: src/nma-pkcs11-cert-chooser-dialog.ui:18
 #, fuzzy
 msgid "_Unlock token"
 msgstr "_Kîlît rake"
 
-#: src/nma-pkcs11-cert-chooser-dialog.ui:115
+#: src/nma-pkcs11-cert-chooser-dialog.ui:99
 msgid "Name"
 msgstr "Nav"
 
-#: src/nma-pkcs11-cert-chooser-dialog.ui:125
+#: src/nma-pkcs11-cert-chooser-dialog.ui:109
 msgid "Issued By"
 msgstr ""
 
@@ -354,8 +340,8 @@ msgstr ""
 msgid "Enter %s PIN"
 msgstr ""
 
-#: src/nma-pkcs11-token-login-dialog.ui:18 src/nma-vpn-password-dialog.ui:28
-#: src/nma-wifi-dialog.c:1115 src/nma-ws/nma-eap-fast.ui:27
+#: src/nma-pkcs11-token-login-dialog.ui:19 src/nma-vpn-password-dialog.ui:28
+#: src/nma-wifi-dialog.c:1125 src/nma-ws/nma-eap-fast.ui:27
 msgid "_Cancel"
 msgstr ""
 
@@ -367,19 +353,19 @@ msgstr ""
 msgid "_Remember PIN"
 msgstr ""
 
-#: src/nma-ui-utils.c:34
+#: src/nma-ui-utils.c:32
 msgid "Store the password only for this user"
 msgstr ""
 
-#: src/nma-ui-utils.c:35
+#: src/nma-ui-utils.c:33
 msgid "Store the password for all users"
 msgstr ""
 
-#: src/nma-ui-utils.c:36
+#: src/nma-ui-utils.c:34
 msgid "Ask for this password every time"
 msgstr ""
 
-#: src/nma-ui-utils.c:37
+#: src/nma-ui-utils.c:35
 msgid "The password is not required"
 msgstr ""
 
@@ -406,127 +392,127 @@ msgstr "Şî_fre:"
 msgid "_Password:"
 msgstr "Şî_fre:"
 
-#: src/nma-wifi-dialog.c:116
+#: src/nma-wifi-dialog.c:114
 #, fuzzy
 msgid "Click to connect"
 msgstr "Veqetîne"
 
-#: src/nma-wifi-dialog.c:443
+#: src/nma-wifi-dialog.c:441
 msgid "New…"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:927
+#: src/nma-wifi-dialog.c:937
 msgctxt "Wifi/wired security"
 msgid "None"
 msgstr "Tune"
 
-#: src/nma-wifi-dialog.c:943
+#: src/nma-wifi-dialog.c:953
 msgid "WEP 40/128-bit Key (Hex or ASCII)"
 msgstr "Mifteya WEP a 40/128-bit (Hex an ASCII)"
 
-#: src/nma-wifi-dialog.c:950
+#: src/nma-wifi-dialog.c:960
 msgid "WEP 128-bit Passphrase"
 msgstr "Şîfreya WEP a 128-bit"
 
-#: src/nma-wifi-dialog.c:965 src/nma-ws/nma-ws-802-1x.c:367
+#: src/nma-wifi-dialog.c:975 src/nma-ws/nma-ws-802-1x.c:366
 msgid "LEAP"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:976
+#: src/nma-wifi-dialog.c:986
 #, fuzzy
 msgid "Dynamic WEP (802.1x)"
 msgstr "WEP a dînamîk (802.1X)"
 
-#: src/nma-wifi-dialog.c:988
+#: src/nma-wifi-dialog.c:998
 msgid "WPA & WPA2 Personal"
 msgstr "WPA & WPA2 Personal"
 
-#: src/nma-wifi-dialog.c:1004
+#: src/nma-wifi-dialog.c:1014
 msgid "WPA & WPA2 Enterprise"
 msgstr "WPA & WPA2 Enterprise"
 
-#: src/nma-wifi-dialog.c:1015
+#: src/nma-wifi-dialog.c:1025
 #, fuzzy
 msgid "WPA3 Personal"
 msgstr "WPA Personal"
 
-#: src/nma-wifi-dialog.c:1026
+#: src/nma-wifi-dialog.c:1036
 msgid "Enhanced Open"
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1119
+#: src/nma-wifi-dialog.c:1129
 msgid "C_reate"
 msgstr "_Afirandin"
 
-#: src/nma-wifi-dialog.c:1121
+#: src/nma-wifi-dialog.c:1131
 msgid "C_onnect"
 msgstr "_Girêdan"
 
-#: src/nma-wifi-dialog.c:1199
+#: src/nma-wifi-dialog.c:1209
 #, fuzzy, c-format
 msgid ""
 "Passwords or encryption keys are required to access the Wi-Fi network “%s”."
 msgstr "Niha bi tora bêqablo '%s' re girêdayî yî."
 
-#: src/nma-wifi-dialog.c:1201
+#: src/nma-wifi-dialog.c:1211
 #, fuzzy
 msgid "Wi-Fi Network Authentication Required"
 msgstr "Mifteya tora bêqablo pêwîst e"
 
-#: src/nma-wifi-dialog.c:1203
+#: src/nma-wifi-dialog.c:1213
 #, fuzzy
 msgid "Authentication required by Wi-Fi network"
 msgstr "Tora bêqablo ya nû biafirîne"
 
-#: src/nma-wifi-dialog.c:1208
+#: src/nma-wifi-dialog.c:1218
 #, fuzzy
 msgid "Create New Wi-Fi Network"
 msgstr "Tora bêqablo ya nû biafirîne"
 
-#: src/nma-wifi-dialog.c:1210
+#: src/nma-wifi-dialog.c:1220
 #, fuzzy
 msgid "New Wi-Fi network"
 msgstr "Tora bêqablo ya nû"
 
-#: src/nma-wifi-dialog.c:1211
+#: src/nma-wifi-dialog.c:1221
 msgid "Enter a name for the Wi-Fi network you wish to create."
 msgstr ""
 
-#: src/nma-wifi-dialog.c:1213
+#: src/nma-wifi-dialog.c:1223
 #, fuzzy
 msgid "Connect to Hidden Wi-Fi Network"
 msgstr "Li tora bêqablo ya veşartî girê bide..."
 
-#: src/nma-wifi-dialog.c:1215
+#: src/nma-wifi-dialog.c:1225
 #, fuzzy
 msgid "Hidden Wi-Fi network"
 msgstr "Tora bêqablo ya veşartî"
 
-#: src/nma-wifi-dialog.c:1216
+#: src/nma-wifi-dialog.c:1226
 msgid ""
 "Enter the name and security details of the hidden Wi-Fi network you wish to "
 "connect to."
 msgstr ""
 
-#: src/nma-ws/nma-eap-fast.c:60
+#: src/nma-ws/nma-eap-fast.c:59
 msgid "missing EAP-FAST PAC file"
 msgstr ""
 
-#: src/nma-ws/nma-eap-fast.c:250 src/nma-ws/nma-eap-peap.c:310
-#: src/nma-ws/nma-eap-ttls.c:363
+#: src/nma-ws/nma-eap-fast.c:249 src/nma-ws/nma-eap-peap.c:309
+#: src/nma-ws/nma-eap-ttls.c:362
 msgid "GTC"
 msgstr "GTC"
 
-#: src/nma-ws/nma-eap-fast.c:266 src/nma-ws/nma-eap-peap.c:278
-#: src/nma-ws/nma-eap-ttls.c:297
+#: src/nma-ws/nma-eap-fast.c:265 src/nma-ws/nma-eap-peap.c:277
+#: src/nma-ws/nma-eap-ttls.c:296
 msgid "MSCHAPv2"
 msgstr "MSCHAPv2"
 
-#: src/nma-ws/nma-eap-fast.c:449
+#: src/nma-ws/nma-eap-fast.c:448
 msgid "PAC files (*.pac)"
 msgstr ""
 
-#: src/nma-ws/nma-eap-fast.c:453
+#: src/nma-ws/nma-eap-fast.c:452
 msgid "All files"
 msgstr ""
 
@@ -568,11 +554,11 @@ msgstr ""
 msgid "Allow automatic PAC pro_visioning"
 msgstr ""
 
-#: src/nma-ws/nma-eap-leap.c:55
+#: src/nma-ws/nma-eap-leap.c:52
 msgid "missing EAP-LEAP username"
 msgstr ""
 
-#: src/nma-ws/nma-eap-leap.c:64
+#: src/nma-ws/nma-eap-leap.c:61
 msgid "missing EAP-LEAP password"
 msgstr ""
 
@@ -595,8 +581,8 @@ msgstr "Şî_fre:"
 msgid "Sho_w password"
 msgstr "Şîfreyê _nîşan bide"
 
-#: src/nma-ws/nma-eap-peap.c:294 src/nma-ws/nma-eap-ttls.c:347
-#: src/nma-ws/nma-ws-802-1x.c:343
+#: src/nma-ws/nma-eap-peap.c:293 src/nma-ws/nma-eap-ttls.c:346
+#: src/nma-ws/nma-ws-802-1x.c:342
 msgid "MD5"
 msgstr ""
 
@@ -631,15 +617,15 @@ msgstr ""
 msgid "_Domain"
 msgstr ""
 
-#: src/nma-ws/nma-eap-simple.c:79
+#: src/nma-ws/nma-eap-simple.c:78
 msgid "missing EAP username"
 msgstr ""
 
-#: src/nma-ws/nma-eap-simple.c:95
+#: src/nma-ws/nma-eap-simple.c:94
 msgid "missing EAP password"
 msgstr ""
 
-#: src/nma-ws/nma-eap-simple.c:109
+#: src/nma-ws/nma-eap-simple.c:108
 msgid "missing EAP client Private Key passphrase"
 msgstr ""
 
@@ -653,24 +639,24 @@ msgstr "Şîfreya WEP a 128-bit"
 msgid "Sh_ow passphrase"
 msgstr "Şîfreyan _nîşan bide"
 
-#: src/nma-ws/nma-eap-tls.c:47
+#: src/nma-ws/nma-eap-tls.c:44
 msgid "missing EAP-TLS identity"
 msgstr ""
 
-#: src/nma-ws/nma-eap-tls.c:237
+#: src/nma-ws/nma-eap-tls.c:234
 #, fuzzy
 msgid "no user certificate selected"
 msgstr "Sertîfikaya _bikarhêner:"
 
-#: src/nma-ws/nma-eap-tls.c:242
+#: src/nma-ws/nma-eap-tls.c:239
 msgid "selected user certificate file does not exist"
 msgstr ""
 
-#: src/nma-ws/nma-eap-tls.c:262
+#: src/nma-ws/nma-eap-tls.c:259
 msgid "no key selected"
 msgstr ""
 
-#: src/nma-ws/nma-eap-tls.c:267
+#: src/nma-ws/nma-eap-tls.c:264
 msgid "selected key file does not exist"
 msgstr ""
 
@@ -679,61 +665,61 @@ msgstr ""
 msgid "I_dentity"
 msgstr "_Nasname:"
 
-#: src/nma-ws/nma-eap-ttls.c:265
+#: src/nma-ws/nma-eap-ttls.c:264
 msgid "PAP"
 msgstr "PAP"
 
-#: src/nma-ws/nma-eap-ttls.c:281
+#: src/nma-ws/nma-eap-ttls.c:280
 msgid "MSCHAP"
 msgstr "MSCHAP"
 
-#: src/nma-ws/nma-eap-ttls.c:314
+#: src/nma-ws/nma-eap-ttls.c:313
 #, fuzzy
 msgid "MSCHAPv2 (no EAP)"
 msgstr "MSCHAPv2"
 
-#: src/nma-ws/nma-eap-ttls.c:331
+#: src/nma-ws/nma-eap-ttls.c:330
 msgid "CHAP"
 msgstr "CHAP"
 
-#: src/nma-ws/nma-eap.c:40
+#: src/nma-ws/nma-eap.c:34
 msgid "undefined error in 802.1X security (wpa-eap)"
 msgstr ""
 
-#: src/nma-ws/nma-eap.c:348
+#: src/nma-ws/nma-eap.c:342
 #, fuzzy
 msgid "no CA certificate selected"
 msgstr "Sertîfikaya _bikarhêner:"
 
-#: src/nma-ws/nma-eap.c:353
+#: src/nma-ws/nma-eap.c:347
 msgid "selected CA certificate file does not exist"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:355
+#: src/nma-ws/nma-ws-802-1x.c:354
 msgid "TLS"
 msgstr "TLS"
 
-#: src/nma-ws/nma-ws-802-1x.c:379
+#: src/nma-ws/nma-ws-802-1x.c:378
 msgid "PWD"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:390
+#: src/nma-ws/nma-ws-802-1x.c:389
 msgid "FAST"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:401
+#: src/nma-ws/nma-ws-802-1x.c:400
 msgid "Tunneled TLS"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:412
+#: src/nma-ws/nma-ws-802-1x.c:411
 msgid "Protected EAP (PEAP)"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:427
+#: src/nma-ws/nma-ws-802-1x.c:426
 msgid "Unknown"
 msgstr ""
 
-#: src/nma-ws/nma-ws-802-1x.c:441
+#: src/nma-ws/nma-ws-802-1x.c:440
 msgid "Externally configured"
 msgstr ""
 
@@ -741,15 +727,15 @@ msgstr ""
 msgid "Au_thentication"
 msgstr ""
 
-#: src/nma-ws/nma-ws-leap.c:71
+#: src/nma-ws/nma-ws-leap.c:70
 msgid "missing leap-username"
 msgstr ""
 
-#: src/nma-ws/nma-ws-leap.c:87
+#: src/nma-ws/nma-ws-leap.c:86
 msgid "missing leap-password"
 msgstr ""
 
-#: src/nma-ws/nma-ws-sae.c:73
+#: src/nma-ws/nma-ws-sae.c:72
 #, fuzzy
 msgid "missing password"
 msgstr "Şî_freya mifteya taybet:"
@@ -759,33 +745,33 @@ msgstr "Şî_freya mifteya taybet:"
 msgid "_Type"
 msgstr "_Cure:"
 
-#: src/nma-ws/nma-ws-wep-key.c:110
+#: src/nma-ws/nma-ws-wep-key.c:109
 msgid "missing wep-key"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:117
+#: src/nma-ws/nma-ws-wep-key.c:116
 #, c-format
 msgid "invalid wep-key: key with a length of %zu must contain only hex-digits"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:125
+#: src/nma-ws/nma-ws-wep-key.c:124
 #, c-format
 msgid ""
 "invalid wep-key: key with a length of %zu must contain only ascii characters"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:131
+#: src/nma-ws/nma-ws-wep-key.c:130
 #, c-format
 msgid ""
 "invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
 "(ascii) or 10/26 (hex)"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:138
+#: src/nma-ws/nma-ws-wep-key.c:137
 msgid "invalid wep-key: passphrase must be non-empty"
 msgstr ""
 
-#: src/nma-ws/nma-ws-wep-key.c:140
+#: src/nma-ws/nma-ws-wep-key.c:139
 msgid "invalid wep-key: passphrase must be shorter than 64 characters"
 msgstr ""
 
@@ -826,7 +812,7 @@ msgstr ""
 msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
 msgstr ""
 
-#: src/nma-ws/nma-ws.c:42
+#: src/nma-ws/nma-ws.c:40
 msgid "Unknown error validating 802.1X security"
 msgstr ""
 
@@ -863,1438 +849,3 @@ msgstr "_Girêdan:"
 #, fuzzy
 msgid "Wi-Fi _adapter"
 msgstr "_Ewlehiya bêqablo:"
-
-#, fuzzy
-#~ msgid "No certificate set"
-#~ msgstr "Sertîfikaya _bikarhêner:"
-
-#, fuzzy, c-format
-#~ msgid "%s private _key"
-#~ msgstr "Mifteya _taybet:"
-
-#, fuzzy, c-format
-#~ msgid "%s key _password"
-#~ msgstr "Şî_freya mifteya taybet:"
-
-#, fuzzy, c-format
-#~ msgid "Choose %s Certificate"
-#~ msgstr "Sertîfikaya _bikarhêner:"
-
-#, fuzzy, c-format
-#~ msgid "%s _certificate"
-#~ msgstr "Sertîfikaya _bikarhêner:"
-
-#, fuzzy, c-format
-#~ msgid "Choose a %s Certificate"
-#~ msgstr "Sertîfikaya _bikarhêner:"
-
-#, fuzzy, c-format
-#~ msgid "%s certificate _password"
-#~ msgstr "Sertîfikaya _bikarhêner:"
-
-#~ msgid "Sho_w passwords"
-#~ msgstr "Şîfreyan _nîşan bide"
-
-#~ msgid "Manage your network connections"
-#~ msgstr "Girêdanên torê yên xwe birêve bike"
-
-#, fuzzy
-#~ msgid "Advanced Network Configuration"
-#~ msgstr "Girêdanên torê yên çalak"
-
-#~ msgid "Manage and change your network connection settings"
-#~ msgstr "Girêdanên torê yên xwe birêve û sererast bike"
-
-#, fuzzy
-#~ msgid "NetworkManager"
-#~ msgstr "Sepanoka NetworkManager"
-
-#, fuzzy
-#~ msgid "NetworkManager connection editor"
-#~ msgstr "Girêdana torê tune"
-
-#, fuzzy
-#~ msgid "The NetworkManager Developers"
-#~ msgstr "Sepanoka NetworkManager"
-
-#, fuzzy
-#~ msgid "Failed to add/activate connection"
-#~ msgstr "Bila girêdana VPN \"%s\" were rakirin?"
-
-#, fuzzy
-#~ msgid "Connection failure"
-#~ msgstr "Lêzêdekirina girêdanê biserneket"
-
-#, fuzzy
-#~ msgid "Disconnect failure"
-#~ msgstr "Negirêdayî"
-
-#, fuzzy
-#~ msgid "Connection activation failed"
-#~ msgstr "Lêzêdekirina girêdanê biserneket"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” disconnected because the network connection was "
-#~ "interrupted."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the network connection was "
-#~ "interrupted."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service stopped "
-#~ "unexpectedly."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service returned invalid "
-#~ "configuration."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the connection attempt timed out."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service did not start in "
-#~ "time."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service failed to start."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because there were no valid VPN secrets."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because of invalid VPN secrets."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed."
-#~ msgstr "Girêdana VPN bi '%s' re"
-
-#~ msgid "VPN Login Message"
-#~ msgstr "Peyaman têketina VPN"
-
-#, fuzzy
-#~ msgid "VPN Connection Failed"
-#~ msgstr "Girêdana VPN biserneket"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed because the VPN service failed to start.\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku çewtiya girêdanê "
-#~ "derket holê"
-
-#, fuzzy, c-format
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection “%s” failed to start.\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr "Girêdana VPN bi '%s' re"
-
-#~ msgid "disconnected"
-#~ msgstr "negirêdayî"
-
-#~ msgid "Disconnect"
-#~ msgstr "Veqetîne"
-
-#~ msgid "No network devices available"
-#~ msgstr "Amûrên torê ne amade ne"
-
-#~ msgid "_VPN Connections"
-#~ msgstr "Girêdanên _VPN"
-
-#, fuzzy
-#~ msgid "_Configure VPN…"
-#~ msgstr "VPN _veava bike..."
-
-#, fuzzy
-#~ msgid "_Add a VPN connection…"
-#~ msgstr "Girêdana VPN a nû lê zêde bike"
-
-#, fuzzy
-#~ msgid "NetworkManager is not running…"
-#~ msgstr "NetworkManager naxebite"
-
-#~ msgid "Networking disabled"
-#~ msgstr "Tor hate neçalakkirin"
-
-#~ msgid "Enable _Networking"
-#~ msgstr "_Torê çalak bike"
-
-#, fuzzy
-#~ msgid "Enable _Wi-Fi"
-#~ msgstr "_Bêqablo çalak bike"
-
-#~ msgid "Connection _Information"
-#~ msgstr "_Agahiya girêdanê"
-
-#, fuzzy
-#~ msgid "Edit Connections…"
-#~ msgstr "Girêdanan sererast bike"
-
-#~ msgid "_About"
-#~ msgstr "_Der barê de"
-
-#, fuzzy, c-format
-#~ msgid "You are now connected to “%s”."
-#~ msgstr "Niha bi '%s' re girêdayî yî."
-
-#~ msgid "Disconnected"
-#~ msgstr "Negirêdayî"
-
-#~ msgid "The network connection has been disconnected."
-#~ msgstr "Girêdana torê qut bu."
-
-#, fuzzy, c-format
-#~ msgid "Preparing network connection “%s”…"
-#~ msgstr "Girêdana torê '%s' tê amadekirin..."
-
-#, fuzzy, c-format
-#~ msgid "User authentication required for network connection “%s”…"
-#~ msgstr "Ji tora bêqablo '%s' navnîşana torê tê xwestin..."
-
-#, fuzzy, c-format
-#~ msgid "Requesting a network address for “%s”…"
-#~ msgstr "Ji bo '%s' navnîşana torê tê xwestin..."
-
-#, fuzzy, c-format
-#~ msgid "Network connection “%s” active"
-#~ msgstr "Girêdana torê '%s' çalak e"
-
-#, fuzzy, c-format
-#~ msgid "Starting VPN connection “%s”…"
-#~ msgstr "Dest bi girêdana VPN ya '%s' dike"
-
-#, fuzzy, c-format
-#~ msgid "User authentication required for VPN connection “%s”…"
-#~ msgstr "Ji tora bêqablo '%s' navnîşana torê tê xwestin..."
-
-#, fuzzy, c-format
-#~ msgid "Requesting a VPN address for “%s”…"
-#~ msgstr "Ji bo '%s' navnîşana VPN tê xwestin..."
-
-#, fuzzy
-#~ msgid "VPN connection active"
-#~ msgstr "Girêdana VPN '%s' çalak e"
-
-#~ msgid "No network connection"
-#~ msgstr "Girêdana torê tune"
-
-#~ msgid "NetworkManager Applet"
-#~ msgstr "Sepanoka NetworkManager"
-
-#~ msgid "Available"
-#~ msgstr "Amade"
-
-#, fuzzy
-#~ msgid "New Mobile Broadband connection…"
-#~ msgstr "Girêdana tora biqablo bi '%s' re (%d%%)"
-
-#~ msgid "Connection Established"
-#~ msgstr "Girêdan pêkhat"
-
-#, fuzzy
-#~ msgid "You are now connected to the Mobile Broadband network."
-#~ msgstr "Niha bi tora biqablo re girêdayî yî."
-
-#~ msgid "You are now registered on the home network."
-#~ msgstr "Niha di tora malê de qeyd bûyî."
-
-#, fuzzy
-#~ msgid "You are now registered on a roaming network."
-#~ msgstr "Niha bi tora biqablo re girêdayî yî."
-
-#, fuzzy
-#~ msgid "You are now connected to the mobile broadband network."
-#~ msgstr "Niha bi tora biqablo re girêdayî yî."
-
-#, fuzzy, c-format
-#~ msgid "Preparing mobile broadband connection “%s”…"
-#~ msgstr "Girêdana tora biqablo bi '%s' re (%d%%)"
-
-#, fuzzy, c-format
-#~ msgid "Configuring mobile broadband connection “%s”…"
-#~ msgstr "Girêdana tora biqablo bi '%s' re (%d%%)"
-
-#, fuzzy, c-format
-#~ msgid "User authentication required for mobile broadband connection “%s”…"
-#~ msgstr "Ji tora bêqablo '%s' navnîşana torê tê xwestin..."
-
-#, fuzzy, c-format
-#~ msgid "Mobile broadband connection “%s” active"
-#~ msgstr "Girêdana tora biqablo bi '%s' re (%d%%)"
-
-#, fuzzy, c-format
-#~ msgid "Ethernet Networks (%s)"
-#~ msgstr "Torên biqablo (%s)"
-
-#, fuzzy, c-format
-#~ msgid "Ethernet Network (%s)"
-#~ msgstr "Tora biqablo (%s)"
-
-#, fuzzy
-#~ msgid "Ethernet Networks"
-#~ msgstr "Torên biqablo"
-
-#, fuzzy
-#~ msgid "Ethernet Network"
-#~ msgstr "Tora biqablo"
-
-#, fuzzy
-#~ msgid "You are now connected to the ethernet network."
-#~ msgstr "Niha bi tora biqablo re girêdayî yî."
-
-#, fuzzy, c-format
-#~ msgid "Preparing ethernet network connection “%s”…"
-#~ msgstr "Girêdana tora biqablo '%s' tê amadekirin..."
-
-#, fuzzy, c-format
-#~ msgid "Configuring ethernet network connection “%s”…"
-#~ msgstr "Girêdana tora biqablo '%s' tê veavakirin..."
-
-#, fuzzy, c-format
-#~ msgid "User authentication required for ethernet network connection “%s”…"
-#~ msgstr "Ji tora bêqablo '%s' navnîşana torê tê xwestin..."
-
-#, fuzzy, c-format
-#~ msgid "Requesting an ethernet network address for “%s”…"
-#~ msgstr "Ji tora bêqablo '%s' navnîşana torê tê xwestin..."
-
-#, fuzzy, c-format
-#~ msgid "Ethernet network connection “%s” active"
-#~ msgstr "Girêdana tora biqablo '%s' çalak e"
-
-#, fuzzy
-#~ msgid "_Connect to Hidden Wi-Fi Network…"
-#~ msgstr "Li tora bêqablo ya veşartî girê bide..."
-
-#, fuzzy
-#~ msgid "Create _New Wi-Fi Network…"
-#~ msgstr "Tora bêqablo ya nû biafirîne"
-
-#~ msgid "(none)"
-#~ msgstr "(tune)"
-
-#, fuzzy
-#~ msgid "Failed to add new connection"
-#~ msgstr "Girêdana torê tune"
-
-#, fuzzy, c-format
-#~ msgid "Wi-Fi Networks (%s)"
-#~ msgstr "Torên biqablo (%s)"
-
-#, fuzzy, c-format
-#~ msgid "Wi-Fi Network (%s)"
-#~ msgstr "Tora biqablo (%s)"
-
-#, fuzzy
-#~ msgid "Wi-Fi Network"
-#~ msgid_plural "Wi-Fi Networks"
-#~ msgstr[0] "Tora biqablo"
-#~ msgstr[1] "Tora biqablo"
-
-#, fuzzy
-#~ msgid "Wi-Fi is disabled"
-#~ msgstr "Tor hate neçalakkirin"
-
-#, fuzzy
-#~ msgid "More networks"
-#~ msgstr "Tora biqablo"
-
-#, fuzzy
-#~ msgid "Wi-Fi Networks Available"
-#~ msgstr "Tora bêqablo (%s)"
-
-#, fuzzy
-#~ msgid "Use the network menu to connect to a Wi-Fi network"
-#~ msgstr "Dema girêdana bi tora bêqablo re çewtî derket"
-
-#, fuzzy, c-format
-#~ msgid "You are now connected to the Wi-Fi network “%s”."
-#~ msgstr "Niha bi tora bêqablo '%s' re girêdayî yî."
-
-#, fuzzy, c-format
-#~ msgid "Preparing Wi-Fi network connection “%s”…"
-#~ msgstr "Girêdana torê '%s' tê amadekirin..."
-
-#, fuzzy, c-format
-#~ msgid "Configuring Wi-Fi network connection “%s”…"
-#~ msgstr "Girêdana tora biqablo '%s' tê veavakirin..."
-
-#, fuzzy, c-format
-#~ msgid "User authentication required for Wi-Fi network “%s”…"
-#~ msgstr "Ji tora bêqablo '%s' navnîşana torê tê xwestin..."
-
-#, fuzzy, c-format
-#~ msgid "Requesting a Wi-Fi network address for “%s”…"
-#~ msgstr "Ji bo '%s' navnîşana torê tê xwestin..."
-
-#, fuzzy, c-format
-#~ msgid "Wi-Fi network connection “%s” active: %s (%d%%)"
-#~ msgstr "Girêdana tora biqablo bi '%s' re (%d%%)"
-
-#, fuzzy, c-format
-#~ msgid "Wi-Fi network connection “%s” active"
-#~ msgstr "Girêdana tora biqablo '%s' çalak e"
-
-#, fuzzy
-#~ msgid "Failed to activate connection"
-#~ msgstr "Bila girêdana VPN \"%s\" were rakirin?"
-
-#~ msgid "Dynamic WEP"
-#~ msgstr "WEP a dînamîk"
-
-#~ msgid "WPA/WPA2"
-#~ msgstr "WPA/WPA2"
-
-#, fuzzy
-#~ msgid "More addresses"
-#~ msgstr "Navnîşan"
-
-#~ msgid "WEP"
-#~ msgstr "WEP"
-
-#, fuzzy
-#~ msgctxt "Wi-Fi/Ethernet security"
-#~ msgid "None"
-#~ msgstr "Tune"
-
-#~ msgid "IP Address"
-#~ msgstr "Navnîşana IP"
-
-#~ msgid "Subnet Mask"
-#~ msgstr "Rûpoşa Bintorê"
-
-#, fuzzy
-#~ msgid "Primary DNS"
-#~ msgstr "DNS ya Yekemîn:"
-
-#, fuzzy
-#~ msgid "Secondary DNS"
-#~ msgstr "DNS ya Duyemîn:"
-
-#, fuzzy
-#~ msgid "Tertiary DNS"
-#~ msgstr "DNS ya Duyemîn:"
-
-#, c-format
-#~ msgid "Ethernet (%s)"
-#~ msgstr "Tora biqablo (%s)"
-
-#, c-format
-#~ msgid "802.11 Wi-Fi (%s)"
-#~ msgstr "802.11 Wi-Fi (%s)"
-
-#, c-format
-#~ msgid "GSM (%s)"
-#~ msgstr "GSM (%s)"
-
-#, c-format
-#~ msgid "CDMA (%s)"
-#~ msgstr "CDMA (%s)"
-
-#~ msgid "Interface"
-#~ msgstr "Navrû"
-
-#~ msgid "Driver"
-#~ msgstr "Ajoger"
-
-#~ msgid "Speed"
-#~ msgstr "Lez"
-
-#, fuzzy
-#~ msgid "Security"
-#~ msgstr "Ewlehî:"
-
-#, fuzzy
-#~ msgid "VPN Type"
-#~ msgstr "Cure:"
-
-#, fuzzy
-#~ msgid "VPN Username"
-#~ msgstr "Navê bikarhêner:"
-
-#, fuzzy
-#~ msgid "Base Connection"
-#~ msgstr "Girêdanên VPN"
-
-#, fuzzy
-#~ msgid "No valid active connections found!"
-#~ msgstr "Girêdanên çalak tune!"
-
-#, fuzzy
-#~ msgid "NetworkManager Website"
-#~ msgstr "Sepanoka NetworkManager"
-
-#~ msgid "Password:"
-#~ msgstr "Şîfre:"
-
-#, fuzzy
-#~ msgid "SIM PIN unlock required"
-#~ msgstr "Koda PIN pêwîst e"
-
-#, fuzzy
-#~ msgid "SIM PIN Unlock Required"
-#~ msgstr "Koda PIN pêwîst e"
-
-#~ msgid "PIN code:"
-#~ msgstr "Koda PIN:"
-
-#~ msgid "Show PIN code"
-#~ msgstr "Koda PIN nîşan bide"
-
-#~ msgid "SIM PUK unlock required"
-#~ msgstr "Vekirina SIM bi koda PUK pêwîst e"
-
-#, fuzzy
-#~ msgid "Connection had no VPN setting"
-#~ msgstr "Agahiya girêdanê"
-
-#, fuzzy, c-format
-#~ msgid "Failed to write connection to VPN UI: %s (%d)"
-#~ msgstr "Bila girêdana VPN \"%s\" were rakirin?"
-
-#, fuzzy
-#~ msgid "C_reate…"
-#~ msgstr "Biafirîne..."
-
-#, fuzzy
-#~ msgid "Choose a Connection Type"
-#~ msgstr "Cureyê girêdana VPN hilbijêre"
-
-#, fuzzy
-#~ msgid "_Device"
-#~ msgstr "_Servîs:"
-
-#, fuzzy
-#~ msgid "ARP"
-#~ msgstr "EAP"
-
-#, fuzzy
-#~ msgid "Bonded _connections"
-#~ msgstr "Girêdanên VPN"
-
-#~ msgid "_Edit"
-#~ msgstr "_Sererastkirin"
-
-#, fuzzy
-#~ msgid "_Interface name"
-#~ msgstr "Navrû:"
-
-#, fuzzy
-#~ msgid "_Primary"
-#~ msgstr "DNS ya Yekemîn:"
-
-#~ msgid "bytes"
-#~ msgstr "bayt"
-
-#, fuzzy
-#~ msgid "_Priority"
-#~ msgstr "_Ewlehî:"
-
-#, fuzzy
-#~ msgid "Bridged _connections"
-#~ msgstr "Girêdanên VPN"
-
-#, fuzzy
-#~ msgid "Enable I_GMP snooping"
-#~ msgstr "_Torê çalak bike"
-
-#~ msgid "automatic"
-#~ msgstr "bixweber"
-
-#~ msgid "default"
-#~ msgstr "standard"
-
-#, fuzzy
-#~ msgid "MAC address"
-#~ msgstr "Navnîşan"
-
-#, fuzzy
-#~ msgid "HW address"
-#~ msgstr "Navnîşan"
-
-#, fuzzy
-#~ msgid "device"
-#~ msgstr "_Servîs:"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "3"
-#~ msgstr "3"
-
-#~ msgid "4"
-#~ msgstr "4"
-
-#, fuzzy
-#~ msgid "_Service"
-#~ msgstr "_Servîs:"
-
-#, fuzzy
-#~ msgid "PPP _interface"
-#~ msgstr "Navrû"
-
-#, fuzzy
-#~ msgid "P_arent interface"
-#~ msgstr "Navrû:"
-
-#, fuzzy
-#~ msgid "C_laim interface"
-#~ msgstr "Navrû:"
-
-#, fuzzy
-#~ msgid "C_loned MAC address"
-#~ msgstr "Navnîşan"
-
-#, fuzzy
-#~ msgid "Wake on LAN"
-#~ msgstr "Şî_freya mifteya taybet:"
-
-#, fuzzy
-#~ msgid "De_fault"
-#~ msgstr "Standard"
-
-#, fuzzy
-#~ msgid "_Wake on LAN password"
-#~ msgstr "Şî_freya mifteya taybet:"
-
-#, fuzzy
-#~ msgid "_Speed"
-#~ msgstr "_Lez:"
-
-#, fuzzy
-#~ msgid "No"
-#~ msgstr "Tune"
-
-#, fuzzy
-#~ msgid "All _users may connect to this network"
-#~ msgstr "Niha bi tora biqablo re girêdayî yî."
-
-#, fuzzy
-#~ msgid "_Metered connection"
-#~ msgstr "Girêdanên VPN"
-
-#, fuzzy
-#~ msgid "Connect _automatically with priority"
-#~ msgstr "Bixweber _girêbide"
-
-#~ msgid "Addresses"
-#~ msgstr "Navnîşan"
-
-#, fuzzy
-#~ msgid "Connected"
-#~ msgstr "_Girêdan"
-
-#, fuzzy
-#~ msgid "Device name"
-#~ msgstr "_Servîs:"
-
-#, fuzzy
-#~ msgid "Parent device"
-#~ msgstr "Tora biqablo (%s)"
-
-#, fuzzy
-#~ msgid "Remote IP"
-#~ msgstr "_Rake"
-
-#, fuzzy
-#~ msgid "_Method"
-#~ msgstr "_Rêbaz:"
-
-#, fuzzy
-#~ msgid "DNS ser_vers"
-#~ msgstr "Pêşkêşkarên _DNS:"
-
-#~ msgid "Disabled"
-#~ msgstr "Bêbandorkirî"
-
-#~ msgid "EAP"
-#~ msgstr "EAP"
-
-#, fuzzy
-#~ msgid "_Device name"
-#~ msgstr "_Servîs:"
-
-#, fuzzy
-#~ msgid "_Parent device"
-#~ msgstr "Tora biqablo (%s)"
-
-#, fuzzy
-#~ msgid "_SCI port"
-#~ msgstr "Î_dhalat"
-
-#~ msgid "Advanced"
-#~ msgstr "Pêşketî"
-
-#, fuzzy
-#~ msgid "_APN"
-#~ msgstr "_APN:"
-
-#, fuzzy
-#~ msgid "N_etwork ID"
-#~ msgstr "_ID ya torê:"
-
-#, fuzzy
-#~ msgid "Change…"
-#~ msgstr "Guhartin..."
-
-#, fuzzy
-#~ msgid "None"
-#~ msgstr "Tune"
-
-#, fuzzy
-#~ msgid "Method"
-#~ msgstr "_Rêbaz:"
-
-#, fuzzy
-#~ msgid "Ad_vanced…"
-#~ msgstr "Pêşketî"
-
-#, fuzzy
-#~ msgid "Ethernet port state"
-#~ msgstr "Torên biqablo"
-
-#, fuzzy
-#~ msgid "_Port priority"
-#~ msgstr "_Ewlehî:"
-
-#, fuzzy
-#~ msgid "_LACP port priority"
-#~ msgstr "_Ewlehî:"
-
-#, fuzzy
-#~ msgid "LACP port _key"
-#~ msgstr "Mifteya _taybet:"
-
-#, fuzzy
-#~ msgid "Send _interval"
-#~ msgstr "Navrû:"
-
-#, fuzzy
-#~ msgid "Port priority"
-#~ msgstr "_Ewlehî:"
-
-#, fuzzy
-#~ msgid "From the team device"
-#~ msgstr "Tora biqablo (%s)"
-
-#, fuzzy
-#~ msgid "_Teamed connections"
-#~ msgstr "Girêdanên VPN"
-
-#, fuzzy
-#~ msgid "Ethernet"
-#~ msgstr "Tora biqablo (%s)"
-
-#, fuzzy
-#~ msgid "TCP"
-#~ msgstr "GTC"
-
-#, fuzzy
-#~ msgid "_Hardware Address"
-#~ msgstr "Navnîşana IP:"
-
-#, fuzzy
-#~ msgid "_Hardware address policy"
-#~ msgstr "Navnîşana IP:"
-
-#, fuzzy
-#~ msgid "_System priority"
-#~ msgstr "_Ewlehî:"
-
-#, fuzzy
-#~ msgid "_Parent interface"
-#~ msgstr "Navrû:"
-
-#, fuzzy
-#~ msgid "VLAN inter_face name"
-#~ msgstr "Navrû:"
-
-#, fuzzy
-#~ msgid "Cloned MAC _address"
-#~ msgstr "Navnîşan"
-
-#, fuzzy
-#~ msgid "S_ecurity"
-#~ msgstr "Ewlehî:"
-
-#~ msgid "A (5 GHz)"
-#~ msgstr "A (5 GHz)"
-
-#~ msgid "B/G (2.4 GHz)"
-#~ msgstr "B/G (2.4 GHz)"
-
-#~ msgid "mW"
-#~ msgstr "mW"
-
-#, fuzzy
-#~ msgid "_BSSID"
-#~ msgstr "_BSSID:"
-
-#, fuzzy
-#~ msgid "C_hannel"
-#~ msgstr "_Kanal:"
-
-#, fuzzy
-#~ msgid "Ban_d"
-#~ msgstr "Ban_t:"
-
-#~ msgid "_EAP"
-#~ msgstr "_EAP"
-
-#~ msgid "_PAP"
-#~ msgstr "_PAP"
-
-#~ msgid "_MSCHAP"
-#~ msgstr "_MSCHAP"
-
-#~ msgid "MSCHAP v_2"
-#~ msgstr "MSCHAP v_2"
-
-#~ msgid "VPN"
-#~ msgstr "VPN"
-
-#, fuzzy
-#~ msgid "Import a saved VPN configuration…"
-#~ msgstr "Girêdana VPN sererast bike"
-
-#, fuzzy
-#~ msgid "Could not create new connection"
-#~ msgstr "Girêdanên torê yên xwe kontrol bike"
-
-#, fuzzy
-#~ msgid "Connection delete failed"
-#~ msgstr "Girêdan pêkhat"
-
-#, fuzzy
-#~ msgid "_New Connection"
-#~ msgstr "Girêdanên _VPN"
-
-#~ msgid "Address"
-#~ msgstr "Navnîşan"
-
-#~ msgid "Netmask"
-#~ msgstr "Rûpûşa torê"
-
-#, fuzzy
-#~ msgid "Editing un-named connection"
-#~ msgstr "Girêdana VPN sererast bike"
-
-#, fuzzy
-#~ msgid "Missing connection name"
-#~ msgstr "Navê _girêdanê:"
-
-#, fuzzy
-#~ msgid "Connection cannot be modified"
-#~ msgstr "Lêzêdekirina girêdanê biserneket"
-
-#~ msgid "_Save"
-#~ msgstr "_Tomarkirin"
-
-#, fuzzy
-#~ msgid "Could not create connection"
-#~ msgstr "Girêdanên torê yên xwe kontrol bike"
-
-#, fuzzy
-#~ msgid "Could not edit connection"
-#~ msgstr "Girêdana torê tune"
-
-#, fuzzy
-#~ msgid "Unknown error creating connection editor dialog."
-#~ msgstr "Nikarî girêdana VPN ya '%s' bibîne"
-
-#~ msgid "Connection add failed"
-#~ msgstr "Lêzêdekirina girêdanê biserneket"
-
-#, fuzzy
-#~ msgid "Connection _name"
-#~ msgstr "Navê _girêdanê:"
-
-#, fuzzy
-#~ msgid "_Export…"
-#~ msgstr "Î_xracat"
-
-#~ msgid "never"
-#~ msgstr "tu car"
-
-#~ msgid "now"
-#~ msgstr "niha"
-
-#, c-format
-#~ msgid "%d minute ago"
-#~ msgid_plural "%d minutes ago"
-#~ msgstr[0] "%d xulek berê"
-#~ msgstr[1] "%d xulek berê"
-
-#, c-format
-#~ msgid "%d hour ago"
-#~ msgid_plural "%d hours ago"
-#~ msgstr[0] "%d saet berê"
-#~ msgstr[1] "%d saet berê"
-
-#, c-format
-#~ msgid "%d day ago"
-#~ msgid_plural "%d days ago"
-#~ msgstr[0] "%d roj berê"
-#~ msgstr[1] "%d roj berê"
-
-#, c-format
-#~ msgid "%d month ago"
-#~ msgid_plural "%d months ago"
-#~ msgstr[0] "%d meh berê"
-#~ msgstr[1] "%d meh berê"
-
-#, c-format
-#~ msgid "%d year ago"
-#~ msgid_plural "%d years ago"
-#~ msgstr[0] "%d sal berê"
-#~ msgstr[1] "%d sal berê"
-
-#, fuzzy
-#~ msgid "Connection cannot be deleted"
-#~ msgstr "Lêzêdekirina girêdanê biserneket"
-
-#, fuzzy
-#~ msgid "Select a connection to edit"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#, fuzzy
-#~ msgid "Select a connection to delete"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#, fuzzy
-#~ msgid "Edit the selected connection"
-#~ msgstr "Girêdana VPN ya hilbijartî sererast bike"
-
-#, fuzzy
-#~ msgid "Authenticate to edit the selected connection"
-#~ msgstr "Girêdana VPN ya hilbijartî jê bibe"
-
-#, fuzzy
-#~ msgid "Delete the selected connection"
-#~ msgstr "Girêdana VPN ya hilbijartî jê bibe"
-
-#, fuzzy
-#~ msgid "Authenticate to delete the selected connection"
-#~ msgstr "Girêdana VPN ya hilbijartî jê bibe"
-
-#, fuzzy
-#~ msgid "Unrecognized connection type"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#, fuzzy, c-format
-#~ msgid "Don’t know how to import “%s” connections"
-#~ msgstr "Girêdanên torê yên xwe kontrol bike"
-
-#, fuzzy
-#~ msgid "Error importing connection"
-#~ msgstr "Nikarî girêdana VPN ya '%s' bibîne"
-
-#, fuzzy
-#~ msgid "Error creating connection"
-#~ msgstr "Nikarî girêdana VPN ya '%s' bibîne"
-
-#, fuzzy
-#~ msgid "Connection type not specified."
-#~ msgstr "Lêzêdekirina girêdanê biserneket"
-
-#, fuzzy, c-format
-#~ msgid "Don’t know how to create “%s” connections"
-#~ msgstr "Girêdanên torê yên xwe kontrol bike"
-
-#, fuzzy
-#~ msgid "Error editing connection"
-#~ msgstr "Nikarî girêdana VPN ya '%s' bibîne"
-
-#~ msgid "Network Connections"
-#~ msgstr "Girêdanên torê"
-
-#, fuzzy
-#~ msgid "Add a new connection"
-#~ msgstr "Girêdana VPN a nû lê zêde bike"
-
-#, fuzzy, c-format
-#~ msgid "Bluetooth connection %d"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#, fuzzy
-#~ msgid "_Personal Area Network"
-#~ msgstr "Tê_keve torê"
-
-#, fuzzy
-#~ msgid "_Dial-Up Network"
-#~ msgstr "Tora bêqablo (%s)"
-
-#, fuzzy
-#~ msgid "primary"
-#~ msgstr "DNS ya Yekemîn:"
-
-#, fuzzy, c-format
-#~ msgid "Bond connection %d"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#, fuzzy, c-format
-#~ msgid "Bridge connection %d"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#, fuzzy
-#~ msgid "missing parent interface"
-#~ msgstr "Navrû:"
-
-#, c-format
-#~ msgid "DSL connection %d"
-#~ msgstr "Girêdana DSL %d"
-
-#, fuzzy
-#~ msgid "Ethernet device"
-#~ msgstr "Tora biqablo (%s)"
-
-#, fuzzy, c-format
-#~ msgid "Ethernet connection %d"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#, fuzzy, c-format
-#~ msgid "InfiniBand connection %d"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#, fuzzy, c-format
-#~ msgid "IP tunnel connection %d"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#~ msgid "Automatic (VPN)"
-#~ msgstr "Bixweber (VPN)"
-
-#~ msgid "Automatic (PPPoE)"
-#~ msgstr "Bixweber (PPPoE)"
-
-#~ msgid "Automatic (DHCP)"
-#~ msgstr "Bixweber (DHCP)"
-
-#, fuzzy
-#~ msgid "Additional DNS ser_vers"
-#~ msgstr "Pêşkêşkarên _DNS:"
-
-#, fuzzy
-#~ msgid "Additional s_earch domains"
-#~ msgstr "Pêşkêşkarên _DNS:"
-
-#, fuzzy, c-format
-#~ msgid "MACSEC connection %d"
-#~ msgstr "Girêdana DSL %d"
-
-#~ msgid "none"
-#~ msgstr "tune"
-
-#, fuzzy, c-format
-#~ msgid "Team connection %d"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#, fuzzy
-#~ msgid "New connection…"
-#~ msgstr "Girêdana torê tune"
-
-#, fuzzy, c-format
-#~ msgid "VLAN connection %d"
-#~ msgstr "Girêdana VPN %d"
-
-#, fuzzy
-#~ msgid "unknown failure"
-#~ msgstr "Lêzêdekirina girêdanê biserneket"
-
-#, c-format
-#~ msgid "VPN connection %d"
-#~ msgstr "Girêdana VPN %d"
-
-#~ msgid "Choose a VPN Connection Type"
-#~ msgstr "Cureyê girêdana VPN hilbijêre"
-
-#, fuzzy, c-format
-#~ msgid "Wi-Fi connection %d"
-#~ msgstr "Girêdana torê biqablo %d"
-
-#~ msgid "Dynamic WEP (802.1X)"
-#~ msgstr "WEP a dînamîk (802.1X)"
-
-#, fuzzy
-#~ msgid "Wi-Fi Security"
-#~ msgstr "Ewlehiya bêqablo:"
-
-#, fuzzy
-#~ msgid "Cannot export VPN connection"
-#~ msgstr "Nikarî girêdana VPN lê zêde bike"
-
-#, fuzzy
-#~ msgid "Export VPN connection…"
-#~ msgstr "Girêdana VPN sererast bike"
-
-#~ msgid "_Unlock"
-#~ msgstr "_Kîlît rake"
-
-#~ msgid "Connection Information"
-#~ msgstr "Agahiya girêdanê"
-
-#, fuzzy
-#~ msgid "Wi-Fi _security:"
-#~ msgstr "_Ewlehiya bêqablo:"
-
-#~ msgid "_Network name:"
-#~ msgstr "_Navê torê:"
-
-#~ msgid "C_onnection:"
-#~ msgstr "_Girêdan:"
-
-#~ msgid "Usage:"
-#~ msgstr "Bikaranîn:"
-
-#~ msgid ""
-#~ "This program is a component of NetworkManager (https://wiki.gnome.org/"
-#~ "Projects/NetworkManager/)."
-#~ msgstr ""
-#~ "Ev bername beşeke NetworkManager'ê ye (https://wiki.gnome.org/Projects/"
-#~ "NetworkManager/)."
-
-#~ msgid "EVDO"
-#~ msgstr "EVDO"
-
-#~ msgid "GPRS"
-#~ msgstr "GPRS"
-
-#~ msgid "EDGE"
-#~ msgstr "EDGE"
-
-#~ msgid "UMTS"
-#~ msgstr "UMTS"
-
-#~ msgid "HSDPA"
-#~ msgstr "HSDPA"
-
-#~ msgid "HSUPA"
-#~ msgstr "HSUPA"
-
-#~ msgid "HSPA"
-#~ msgstr "HSPA"
-
-#, fuzzy
-#~ msgid "HSPA+"
-#~ msgstr "HSPA"
-
-#~ msgid "not enabled"
-#~ msgstr "neçalakkirî"
-
-#~ msgid "not registered"
-#~ msgstr "ne tomarkirî"
-
-#, c-format
-#~ msgid "Home network (%s)"
-#~ msgstr "Tora malê (%s)"
-
-#~ msgid "Home network"
-#~ msgstr "Tora malê"
-
-#~ msgid "searching"
-#~ msgstr "lê digere"
-
-#, fuzzy, c-format
-#~ msgid "Roaming network (%s)"
-#~ msgstr "Tora biqablo (%s)"
-
-#, fuzzy
-#~ msgid "Roaming network"
-#~ msgstr "Tora biqablo"
-
-#~ msgid "PIN code required"
-#~ msgstr "Koda PIN pêwîst e"
-
-#, fuzzy, c-format
-#~ msgid "Mobile broadband connection “%s” active: (%d%%%s%s)"
-#~ msgstr "Girêdana tora biqablo bi '%s' re (%d%%)"
-
-#, fuzzy
-#~ msgid "%s (default)"
-#~ msgstr "1 (Standard)"
-
-#, fuzzy
-#~ msgid "2:"
-#~ msgstr "2"
-
-#, fuzzy
-#~ msgid "3:"
-#~ msgstr "3"
-
-#, fuzzy
-#~ msgid "4:"
-#~ msgstr "4"
-
-#, fuzzy
-#~ msgid "Connection _priority for auto-activation:"
-#~ msgstr "_Agahiya girêdanê"
-
-#~ msgid "DSL"
-#~ msgstr "DSL"
-
-#, fuzzy
-#~ msgid "NetworkManager for GNOME"
-#~ msgstr "Sepanoka NetworkManager"
-
-#, fuzzy
-#~ msgid ""
-#~ "\n"
-#~ "The VPN connection '%s' disconnected."
-#~ msgstr "Girêdana torê qut bu."
-
-#~ msgid "_Disconnect VPN"
-#~ msgstr "Girêdana VPN _qut bike"
-
-#~ msgid "NetworkManager is not running..."
-#~ msgstr "NetworkManager naxebite..."
-
-#, fuzzy
-#~ msgid "_Connect to Hidden Wi-Fi Network..."
-#~ msgstr "Li tora bêqablo ya din girê bide..."
-
-#, fuzzy
-#~ msgid "Create _New Wi-Fi Network..."
-#~ msgstr "Tora bêqablo ya nû biafirîne..."
-
-#~ msgid " "
-#~ msgstr " "
-
-#, fuzzy
-#~ msgid "FirewallD is not running."
-#~ msgstr "NetworkManager naxebite..."
-
-#~ msgid "New..."
-#~ msgstr "Nû..."
-
-#~ msgid "You are now connected to the CDMA network."
-#~ msgstr "Niha bi tora CDMA re girêdayî yî."
-
-#~ msgid "CDMA network."
-#~ msgstr "Tora CDMA."
-
-#~ msgid "You are now connected to the GSM network."
-#~ msgstr "Niha bi tora GSM re girêdayî yî."
-
-#~ msgid "GSM network."
-#~ msgstr "Tora GSM"
-
-#~ msgid "Wireless Networks (%s)"
-#~ msgstr "Torên Bêqablo (%s)"
-
-#, fuzzy
-#~ msgid "Wireless Network (%s)"
-#~ msgstr "Tora bêqablo (%s)"
-
-#, fuzzy
-#~ msgid "Click on this icon to connect to a wireless network"
-#~ msgstr "Dema girêdana bi tora bêqablo re çewtî derket"
-
-#, fuzzy
-#~ msgid "Preparing wireless network connection '%s'..."
-#~ msgstr "Girêdana tora biqablo bi '%s' re (%d%%)"
-
-#, fuzzy
-#~ msgid "Requesting a wireless network address for '%s'..."
-#~ msgstr "Ji tora bêqablo '%s' navnîşana torê tê xwestin..."
-
-#, fuzzy
-#~ msgid "Wireless network connection '%s' active"
-#~ msgstr "Girêdana tora biqablo bi '%s' re (%d%%)"
-
-#, fuzzy
-#~ msgid "You are now connected to the WiMAX network."
-#~ msgstr "Niha bi tora biqablo re girêdayî yî."
-
-#, fuzzy
-#~ msgid "WiMAX (%s)"
-#~ msgstr "CDMA (%s)"
-
-#~ msgid "BSID:"
-#~ msgstr "BSID:"
-
-#~ msgid "_Help"
-#~ msgstr "_Alîkarî"
-
-#~ msgid "PI_N:"
-#~ msgstr "PI_N:"
-
-#~ msgid "Prefer 3G (UMTS/HSPA)"
-#~ msgstr "3G (UMTS/HSPA) tercîh bike"
-
-#~ msgid "_SSID:"
-#~ msgstr "_SSID:"
-
-#~ msgid "Automatic (PPP)"
-#~ msgstr "Bixweber (PPP)"
-
-#~ msgid "Wireless"
-#~ msgstr "Bêqablo"
-
-#~ msgid "Wireless connection %d"
-#~ msgstr "Girêdana bêqablo %d"
-
-#~ msgid "_Save..."
-#~ msgstr "_Tomar bike..."
-
-#~ msgid "Error saving connection"
-#~ msgstr "Nikarî girêdanê tomar bike"
-
-#, fuzzy
-#~ msgid "Could not edit imported connection"
-#~ msgstr "Girêdana torê tune"
-
-#~ msgid "_Edit..."
-#~ msgstr "_Sererastkirin..."
-
-#~ msgid "%s Network"
-#~ msgstr "Tora %s"
-
-#~ msgid "Error: %s"
-#~ msgstr "Çewtiya %s"
-
-#, fuzzy
-#~ msgid "failed to connect to the phone."
-#~ msgstr "Niha bi tora biqablo re girêdayî yî."
-
-#~ msgid "WiMAX"
-#~ msgstr "WiMAX"
-
-#~ msgid "Passphrase for wireless network %s"
-#~ msgstr "Şîfreya tora bêqablo (%s)"
-
-#~ msgid "Wireless Ethernet (%s)"
-#~ msgstr "Tora bêqablo (%s)"
-
-#~ msgid "VPN Login Failure"
-#~ msgstr "Têketina VPN biserneket"
-
-#~ msgid "Could not start the VPN connection '%s' due to a login failure."
-#~ msgstr ""
-#~ "Nikarî dest bi girêdana VPN ya '%s' bike ji ber ku têketin biserneket"
-
-#~ msgid "VPN Start Failure"
-#~ msgstr "Destpêkirina VPN biserneket"
-
-#~ msgid "Requesting a network address from the wired network..."
-#~ msgstr "Ji tora biqablo navnîşana torê tê xwestin..."
-
-#~ msgid "VPN connecting to '%s'"
-#~ msgstr "VPN bi '%s' re girê dide"
-
-#~ msgid "Connect to %s..."
-#~ msgstr "Bi %s re girê bide..."
-
-#~ msgid "Disconnect from %s..."
-#~ msgstr "Ji %s veqetîne..."
-
-#~ msgid "WEP 64/128-bit Hex"
-#~ msgstr "WEP a 64/128-bit Hex"
-
-#~ msgid "TTLS"
-#~ msgstr "TTLS"
-
-#~ msgid "WPA Enterprise"
-#~ msgstr "WPA Enterprise"
-
-#~ msgid " (invalid Unicode)"
-#~ msgstr " (Unicode a nederbasdar)"
-
-#~ msgid ""
-#~ "Open System\n"
-#~ "Shared Key"
-#~ msgstr ""
-#~ "Pergalê vekirî\n"
-#~ "Şîfreya parvekirî"
-
-#~ msgid "Other Wireless Network..."
-#~ msgstr "Tora bêqablo ya din..."
-
-#~ msgid "Passphrase:"
-#~ msgstr "Hevoka şîfre:"
-
-#~ msgid "Unable to load"
-#~ msgstr "Nikarî bar bike"
-
-#~ msgid "Create VPN Connection - 1 of 2"
-#~ msgstr "Girêdana VPN biafirîne - 1 ji 2"
-
-#~ msgid "Create VPN Connection - 2 of 2"
-#~ msgstr "Girêdana VPN biafirîne - 2 ji 2"
-
-#~ msgid "Finish Creating VPN Connection"
-#~ msgstr "Afirandina girêdana VPN bi dawî bîne"
-
-#~ msgid "40-bit WEP"
-#~ msgstr "WEP a 40 bit"
-
-#~ msgid "104-bit WEP"
-#~ msgstr "WEP a 104 bit"
-
-#~ msgid "WPA TKIP"
-#~ msgstr "WPA TKIP"
-
-#~ msgid "WPA CCMP"
-#~ msgstr "WPA CCMP"
-
-#~ msgid "WPA2 TKIP"
-#~ msgstr "WPA2 TKIP"
-
-#~ msgid "WPA2 CCMP"
-#~ msgstr "WPA2 CCMP"
-
-#~ msgid "WPA2 Automatic"
-#~ msgstr "WPA2 Otomatîk"
-
-#~ msgid "You are now connected to the Ad-Hoc wireless network '%s'."
-#~ msgstr "Niha bi tora bêqablo Ad-Hoc '%s' re girêdayî yî."
