@@ -14,7 +14,11 @@
 
 #include <string.h>
 #include <gck/gck.h>
+#if GCK_CHECK_VERSION(3,90,0)
 #include <gcr/gcr.h>
+#else
+#include <gcr/gcr-base.h>
+#endif
 
 #if !GCR_CHECK_VERSION(3,90,0)
 #define gck_slot_open_session_async(self, options, interaction, cancellable, callback, user_data) \
@@ -146,6 +150,7 @@ object_details (GObject *source_object, GAsyncResult *res, gpointer user_data)
 
 	switch (cka_class) {
 	case CKO_CERTIFICATE:
+	case CKO_PUBLIC_KEY:
 		store1 = priv->cert_store;
 		store2 = priv->key_store;
 		break;
@@ -228,7 +233,7 @@ next_object (GObject *obj, GAsyncResult *res, gpointer user_data)
 		                      NULL, object_details, self);
 	}
 
-	gck_list_unref_free (objects);
+	g_list_free_full (objects, g_object_unref);
 }
 
 static void

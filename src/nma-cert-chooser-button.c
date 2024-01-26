@@ -12,12 +12,10 @@
 #include "nma-cert-chooser-button.h"
 #include "utils.h"
 
-#if GTK_CHECK_VERSION(4,0,0) ? WITH_GCR_GTK4 : WITH_GCR
+#if WITH_GCR
 #include "nma-pkcs11-cert-chooser-dialog.h"
 #include <gck/gck.h>
-#include <gcr/gcr.h>	// FIXME: Only here to detect GCK version
-			// Remove once new GCK is released with version bumped
-#if !GCR_CHECK_VERSION(3,90,0)
+#if !GCK_CHECK_VERSION(3,90,0)
 #define gck_uri_data_parse gck_uri_parse
 #endif
 #endif
@@ -69,7 +67,7 @@ enum {
 static void
 update_title (NMACertChooserButton *button);
 
-#if GTK_CHECK_VERSION(4,0,0) ? WITH_GCR_GTK4 : WITH_GCR
+#if WITH_GCR
 static gboolean
 is_this_a_slot_nobody_loves (GckSlot *slot)
 {
@@ -158,8 +156,8 @@ modules_initialized (GObject *object, GAsyncResult *res, gpointer user_data)
 		gck_token_info_free (info);
 	}
 
-	gck_list_unref_free (slots);
-	gck_list_unref_free (modules);
+	g_list_free_full (slots, g_object_unref);
+	g_list_free_full (modules, g_object_unref);
 }
 
 static char *
@@ -365,6 +363,7 @@ changed (GtkComboBox *combo_box, gpointer user_data)
 	if (gtk_combo_box_get_active (combo_box) == 0)
 		return;
 
+	gtk_combo_box_popdown (combo_box);
 	g_signal_stop_emission_by_name (combo_box, "changed");
 	gtk_combo_box_get_active_iter (combo_box, &iter);
 

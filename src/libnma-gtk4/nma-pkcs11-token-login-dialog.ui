@@ -4,7 +4,6 @@
   <template class="NMAPkcs11TokenLoginDialog" parent="GtkDialog">
     <child internal-child="content_area">
       <object class="GtkBox">
-        <property name="visible">0</property>
         <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child>
@@ -40,32 +39,21 @@
       <action-widget response="-3">login</action-widget>
     </action-widgets>
     <child internal-child="action_area">
-      <object class="GtkButtonBox">
+      <object class="GtkBox">
         <property name="valign">center</property>
-        <property name="can_focus">False</property>
-        <property name="layout_style">end</property>
         <child>
           <object class="GtkButton" id="cancel">
+            <property name="hexpand">1</property>
             <property name="label" translatable="1">_Cancel</property>
             <property name="use_underline">1</property>
           </object>
-          <packing>
-            <property name="expand">True</property>
-            <property name="fill">True</property>
-            <property name="pack_type">end</property>
-            <property name="position">0</property>
-          </packing>
         </child>
         <child>
           <object class="GtkButton" id="login">
+            <property name="hexpand">1</property>
             <property name="label" translatable="1">_Login</property>
             <property name="use_underline">1</property>
           </object>
-          <packing>
-            <property name="expand">True</property>
-            <property name="fill">True</property>
-            <property name="position">1</property>
-          </packing>
         </child>
       </object>
     </child>

@@ -1,6 +1,6 @@
 project(
   'libnma', 'c',
-  version: '1.8.38',
+  version: '1.10.6',
   license: 'GPL2+',
   default_options: [
     'buildtype=debugoptimized',
@@ -133,9 +133,9 @@ if enable_iso_codes
   iso_3166 = iso_codes_dep.get_pkgconfig_variable('domains').contains('iso_3166')
   message('whether iso-codes has iso_3166 domain: ' + iso_3166.to_string())
 
-  config_h.set_quoted('ISO_CODES_PREFIX', iso_codes_dep.get_pkgconfig_variable('prefix'))
+  config_h.set_quoted('ISO_CODES_DATADIR', iso_codes_dep.get_pkgconfig_variable('prefix') + '/share')
 else
-  config_h.set_quoted('ISO_CODES_PREFIX', nma_prefix)
+  config_h.set_quoted('ISO_CODES_DATADIR', nma_datadir)
 endif
 
 # Check for mobile-broadband-provider-info for Mobile Broadband wizard
@@ -187,15 +187,12 @@ libnm_dep = declare_dependency(
 
 # GCR API is declared subject to change, do an extensive check of the prototypes
 gcr_api_check_src = '''
-  #ifndef GCR_API_SUBJECT_TO_CHANGE
-  # define GCR_API_SUBJECT_TO_CHANGE
-  #endif
-  #ifndef GCK_API_SUBJECT_TO_CHANGE
-  # define GCK_API_SUBJECT_TO_CHANGE
-  #endif
-
-  #include <gcr/gcr.h>
   #include <gck/gck.h>
+  #if GCK_CHECK_VERSION(3,90,0)
+  #include <gcr/gcr.h>
+  #else
+  #include <gcr/gcr-base.h>
+  #endif
 
   const GckAttribute *gck_attributes_find (GckAttributes *attrs, gulong attr_type);
   gboolean gck_attributes_find_string (GckAttributes *attrs, gulong attr_type, gchar **value);
@@ -209,7 +206,6 @@ gcr_api_check_src = '''
   void gck_enumerator_next_async (GckEnumerator *self, gint max_objects, GCancellable *cancellable,
                                   GAsyncReadyCallback callback, gpointer user_data);
   GList *gck_enumerator_next_finish (GckEnumerator *self, GAsyncResult *result, GError **error);
-  void gck_list_unref_free (GList *reflist);
   GList *gck_modules_get_slots (GList *modules, gboolean token_present);
   void gck_modules_initialize_registered_async (GCancellable *cancellable, GAsyncReadyCallback callback,
                                                 gpointer user_data);
@@ -246,50 +242,34 @@ gcr_api_check_src = '''
 # GCR for PKCS#11 enabled certificate chooser
 enable_gcr = get_option('gcr')
 if enable_gcr
-  deps = [
-    dependency('gcr-3', version: '>= 3.14'),
-    dependency('gck-1', version: '>= 3.14')
+  gcr4_deps = [
+    dependency('gcr-4', version: '>= 3.92', required: false),
+    dependency('gck-2', version: '>= 3.92', required: false)
   ]
-
-  cflags = [
+  gcr3_deps = [
+    dependency('gcr-base-3', version: '>= 3.14', required: false),
+    dependency('gck-1', version: '>= 3.14', required: false)
+  ]
+  gcr_cflags = [
     '-DGCR_API_SUBJECT_TO_CHANGE',
     '-DGCK_API_SUBJECT_TO_CHANGE'
   ]
 
-  # GCR API is declared subject to change, do an extensive check of the prototypes
-  assert(cc.compiles(gcr_api_check_src, dependencies: deps), 'gcr support was requested, but the gcr library is not available. Use -Dgcr=false to build without it.')
-
-  gcr_dep = declare_dependency(
-    dependencies: deps,
-    compile_args: cflags
-  )
+  if cc.compiles(gcr_api_check_src, dependencies: gcr4_deps, args: gcr_cflags)
+    gcr_dep = declare_dependency(
+      dependencies: gcr4_deps,
+      compile_args: gcr_cflags
+    )
+  else
+    assert(cc.compiles(gcr_api_check_src, dependencies: gcr3_deps, args: gcr_cflags),
+      'gcr support was requested, but the gcr library is not available. Use -Dgcr=false to build without it.')
+    gcr_dep = declare_dependency(
+      dependencies: gcr3_deps,
+      compile_args: gcr_cflags
+    )
+  endif
 endif
 config_h.set10('WITH_GCR', enable_gcr)
-
-# GCR for PKCS#11 enabled certificate chooser for libnma-gtk4
-enable_gcr_gtk4 = get_option('gcr_gtk4')
-if enable_gcr_gtk4
-  assert(enable_libnma_gtk4, 'gcr-gtk4 support was requested, but the libnma-gtk4 build was not enabled.')
-
-  deps = [
-    dependency('gcr-gtk4-3', version: '>= 3.90'),
-    dependency('gck-1', version: '>= 3.90')
-  ]
-
-  cflags = [
-    '-DGCR_API_SUBJECT_TO_CHANGE',
-    '-DGCK_API_SUBJECT_TO_CHANGE'
-  ]
-
-  # GCR API is declared subject to change, do an extensive check of the prototypes
-  assert(cc.compiles(gcr_api_check_src, dependencies: deps), 'gcr-gtk4 support was requested with -Dgcr_gtk4=true, but the gcr-gtk4 library is not available.')
-
-  gcr_gtk4_dep = declare_dependency(
-    dependencies: deps,
-    compile_args: cflags
-  )
-endif
-config_h.set10('WITH_GCR_GTK4', enable_gcr_gtk4)
 
 # introspection support
 enable_introspection = get_option('introspection')
@@ -392,14 +372,20 @@ endif
 schema_conf = configuration_data()
 schema_conf.set('GETTEXT_PACKAGE', 'libnma')
 
-schema = 'org.gnome.nm-applet.gschema.xml'
+foreach schema : [
+  'org.gnome.nm-applet.eap.gschema.xml',
 
-configure_file(
-  input: schema + '.in',
-  output: schema,
-  install_dir: join_paths(nma_datadir, 'glib-2.0', 'schemas'),
-  configuration: schema_conf,
-)
+  # This one belongs to nm-applet.
+  # Kept here for now to avoid breaking on upgrades.
+  'org.gnome.nm-applet.gschema.xml'
+]
+  configure_file(
+    input: schema + '.in',
+    output: schema,
+    install_dir: join_paths(nma_datadir, 'glib-2.0', 'schemas'),
+    configuration: schema_conf,
+  )
+endforeach
 
 config = 'config.h'
 

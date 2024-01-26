@@ -344,6 +344,7 @@ src_tests_mobile_wizard_CPPFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(GTK3_CFLAGS) \
 	$(LIBNM_CFLAGS) \
+	-DNMALOCALEDIR=\"$(datadir)/locale\" \
 	"-I$(srcdir)/shared/" \
 	"-I$(srcdir)/src" \
 	-Isrc
@@ -482,7 +483,7 @@ src_libnma_gtk4_la_SOURCES = \
 	$(libnma_h_priv_real) \
 	$(libnma_c_real)
 
-if WITH_GCR_GTK4
+if WITH_GCR
 src_libnma_gtk4_la_SOURCES += \
 	$(libnma_h_priv_gcr) \
 	$(libnma_c_gcr)
@@ -508,13 +509,13 @@ src_libnma_gtk4_la_CFLAGS = \
 	-Isrc \
 	$(GTK4_CFLAGS) \
 	$(LIBNM_CFLAGS) \
-	$(GCR_GTK4_CFLAGS)
+	$(GCR_CFLAGS)
 
 src_libnma_gtk4_la_LIBADD = \
 	src/utils/libutils-libnm-gtk4.la \
 	$(GTK4_LIBS) \
 	$(LIBNM_LIBS) \
-	$(GCR_GTK4_LIBS)
+	$(GCR_LIBS)
 
 EXTRA_src_libnma_gtk4_la_DEPENDENCIES = src/libnma.ver
 
@@ -534,7 +535,7 @@ src_NMA4_1_0_gir_LIBS = src/libnma-gtk4.la
 src_NMA4_1_0_gir_FILES = \
 	$(libnma_h_pub) \
 	$(libnma_c_real)
-if WITH_GCR_GTK4
+if WITH_GCR
 src_NMA4_1_0_gir_FILES += \
 	$(libnma_c_gcr)
 endif
@@ -559,6 +560,7 @@ src_tests_mobile_wizard_gtk4_CPPFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(GTK4_CFLAGS) \
 	$(LIBNM_CFLAGS) \
+	-DNMALOCALEDIR=\"$(datadir)/locale\" \
 	"-I$(srcdir)/shared/" \
 	"-I$(srcdir)/src" \
 	-Isrc
@@ -797,7 +799,11 @@ MKDB_OPTIONS = --ignore-files "$(IGNORE_HFILES) $(mkdb_ignore_c_files)"
 
 ###############################################################################
 
-gsettings_SCHEMAS = org.gnome.nm-applet.gschema.xml
+# org.gnome.nm-applet.gschema.xml belongs to nm-applet.
+# Kept here for now to avoid breaking on upgrades.
+gsettings_SCHEMAS = \
+	org.gnome.nm-applet.gschema.xml \
+	org.gnome.nm-applet.eap.gschema.xml
 @GSETTINGS_RULES@
 
 check_PROGRAMS += $(check_programs)
